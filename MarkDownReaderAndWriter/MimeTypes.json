@@ -1,0 +1,6381 @@
+﻿[
+  {
+    "Mime_ID": 1,
+    "MIME_Name": "In3D - 3DML",
+    "MIME_FileExtension": ".3dml",
+    "MIME_FileExtensionNoPoint": "3dml",
+    "MIME_Type": "text/vnd.in3d.3dml",
+    "MIME_Details": "IANA: In3D",
+    "MIME_IsTextFile": true,
+    "Mime_Category": "text"
+  },
+  {
+    "Mime_ID": 2,
+    "MIME_Name": "3GP2",
+    "MIME_FileExtension": ".3g2",
+    "MIME_FileExtensionNoPoint": "3g2",
+    "MIME_Type": "video/3gpp2",
+    "MIME_Details": "Wikipedia: 3G2",
+    "Mime_Category": "video"
+  },
+  {
+    "Mime_ID": 3,
+    "MIME_Name": "3GP",
+    "MIME_FileExtension": ".3gp",
+    "MIME_FileExtensionNoPoint": "3gp",
+    "MIME_Type": "video/3gpp",
+    "MIME_Details": "Wikipedia: 3GP",
+    "Mime_Category": "video"
+  },
+  {
+    "Mime_ID": 4,
+    "MIME_Name": "7-Zip",
+    "MIME_FileExtension": ".7z",
+    "MIME_FileExtensionNoPoint": "7z",
+    "MIME_Type": "application/x-7z-compressed",
+    "MIME_Details": "Wikipedia: 7-Zip",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 5,
+    "MIME_Name": "Adobe (Macropedia) Authorware - Binary File",
+    "MIME_FileExtension": ".aab",
+    "MIME_FileExtensionNoPoint": "aab",
+    "MIME_Type": "application/x-authorware-bin",
+    "MIME_Details": "Wikipedia: Authorware",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 6,
+    "MIME_Name": "Advanced Audio Coding (AAC)",
+    "MIME_FileExtension": ".aac",
+    "MIME_FileExtensionNoPoint": "aac",
+    "MIME_Type": "audio/x-aac",
+    "MIME_Details": "Wikipedia: AAC",
+    "Mime_Category": "audio"
+  },
+  {
+    "Mime_ID": 7,
+    "MIME_Name": "Adobe (Macropedia) Authorware - Map",
+    "MIME_FileExtension": ".aam",
+    "MIME_FileExtensionNoPoint": "aam",
+    "MIME_Type": "application/x-authorware-map",
+    "MIME_Details": "Wikipedia: Authorware",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 8,
+    "MIME_Name": "Adobe (Macropedia) Authorware - Segment File",
+    "MIME_FileExtension": ".aas",
+    "MIME_FileExtensionNoPoint": "aas",
+    "MIME_Type": "application/x-authorware-seg",
+    "MIME_Details": "Wikipedia: Authorware",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 9,
+    "MIME_Name": "AbiWord",
+    "MIME_FileExtension": ".abw",
+    "MIME_FileExtensionNoPoint": "abw",
+    "MIME_Type": "application/x-abiword",
+    "MIME_Details": "Wikipedia: AbiWord",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 10,
+    "MIME_Name": "Attribute Certificate",
+    "MIME_FileExtension": ".ac",
+    "MIME_FileExtensionNoPoint": "ac",
+    "MIME_Type": "application/pkix-attr-cert",
+    "MIME_Details": "RFC 5877",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 11,
+    "MIME_Name": "Active Content Compression",
+    "MIME_FileExtension": ".acc",
+    "MIME_FileExtensionNoPoint": "acc",
+    "MIME_Type": "application/vnd.americandynamics.acc",
+    "MIME_Details": "IANA: Active Content Compression",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 12,
+    "MIME_Name": "Ace Archive",
+    "MIME_FileExtension": ".ace",
+    "MIME_FileExtensionNoPoint": "ace",
+    "MIME_Type": "application/x-ace-compressed",
+    "MIME_Details": "Wikipedia: ACE",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 13,
+    "MIME_Name": "ACU Cobol",
+    "MIME_FileExtension": ".acu",
+    "MIME_FileExtensionNoPoint": "acu",
+    "MIME_Type": "application/vnd.acucobol",
+    "MIME_Details": "IANA: ACU Cobol",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 14,
+    "MIME_Name": "Adaptive differential pulse-code modulation",
+    "MIME_FileExtension": ".adp",
+    "MIME_FileExtensionNoPoint": "adp",
+    "MIME_Type": "audio/adpcm",
+    "MIME_Details": "Wikipedia: ADPCM",
+    "Mime_Category": "audio"
+  },
+  {
+    "Mime_ID": 15,
+    "MIME_Name": "Audiograph",
+    "MIME_FileExtension": ".aep",
+    "MIME_FileExtensionNoPoint": "aep",
+    "MIME_Type": "application/vnd.audiograph",
+    "MIME_Details": "IANA: Audiograph",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 16,
+    "MIME_Name": "MO:DCA-P",
+    "MIME_FileExtension": ".afp",
+    "MIME_FileExtensionNoPoint": "afp",
+    "MIME_Type": "application/vnd.ibm.modcap",
+    "MIME_Details": "IANA: MO:DCA-P",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 17,
+    "MIME_Name": "Ahead AIR Application",
+    "MIME_FileExtension": ".ahead",
+    "MIME_FileExtensionNoPoint": "ahead",
+    "MIME_Type": "application/vnd.ahead.space",
+    "MIME_Details": "IANA: Ahead AIR Application",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 18,
+    "MIME_Name": "PostScript",
+    "MIME_FileExtension": ".ai",
+    "MIME_FileExtensionNoPoint": "ai",
+    "MIME_Type": "application/postscript",
+    "MIME_Details": "Wikipedia: PostScript",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 19,
+    "MIME_Name": "Audio Interchange File Format",
+    "MIME_FileExtension": ".aif",
+    "MIME_FileExtensionNoPoint": "aif",
+    "MIME_Type": "audio/x-aiff",
+    "MIME_Details": "Wikipedia: Audio Interchange File Format",
+    "Mime_Category": "audio"
+  },
+  {
+    "Mime_ID": 20,
+    "MIME_Name": "Adobe AIR Application",
+    "MIME_FileExtension": ".air",
+    "MIME_FileExtensionNoPoint": "air",
+    "MIME_Type": "application/vnd.adobe.air-application-installer-package+zip",
+    "MIME_Details": "Building AIR Applications",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 21,
+    "MIME_Name": "Digital Video Broadcasting",
+    "MIME_FileExtension": ".ait",
+    "MIME_FileExtensionNoPoint": "ait",
+    "MIME_Type": "application/vnd.dvb.ait",
+    "MIME_Details": "IANA: Digital Video Broadcasting",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 22,
+    "MIME_Name": "AmigaDE",
+    "MIME_FileExtension": ".ami",
+    "MIME_FileExtensionNoPoint": "ami",
+    "MIME_Type": "application/vnd.amiga.ami",
+    "MIME_Details": "IANA: Amiga",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 23,
+    "MIME_Name": "Android Package Archive",
+    "MIME_FileExtension": ".apk",
+    "MIME_FileExtensionNoPoint": "apk",
+    "MIME_Type": "application/vnd.android.package-archive",
+    "MIME_Details": "Wikipedia: APK File Format",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 24,
+    "MIME_Name": "Microsoft ClickOnce",
+    "MIME_FileExtension": ".application",
+    "MIME_FileExtensionNoPoint": "application",
+    "MIME_Type": "application/x-ms-application",
+    "MIME_Details": "Wikipedia: ClickOnce",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 25,
+    "MIME_Name": "Lotus Approach",
+    "MIME_FileExtension": ".apr",
+    "MIME_FileExtensionNoPoint": "apr",
+    "MIME_Type": "application/vnd.lotus-approach",
+    "MIME_Details": "IANA: Lotus Approach",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 26,
+    "MIME_Name": "Microsoft Advanced Systems Format (ASF)",
+    "MIME_FileExtension": ".asf",
+    "MIME_FileExtensionNoPoint": "asf",
+    "MIME_Type": "video/x-ms-asf",
+    "MIME_Details": "Wikipedia: Advanced Systems Format (ASF)",
+    "Mime_Category": "video"
+  },
+  {
+    "Mime_ID": 27,
+    "MIME_Name": "Simply Accounting",
+    "MIME_FileExtension": ".aso",
+    "MIME_FileExtensionNoPoint": "aso",
+    "MIME_Type": "application/vnd.accpac.simply.aso",
+    "MIME_Details": "IANA: Simply Accounting",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 28,
+    "MIME_Name": "ACU Cobol",
+    "MIME_FileExtension": ".atc",
+    "MIME_FileExtensionNoPoint": "atc",
+    "MIME_Type": "application/vnd.acucorp",
+    "MIME_Details": "IANA: ACU Cobol",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 29,
+    "MIME_Name": "Atom Syndication Format",
+    "MIME_FileExtension": ".atom",
+    "MIME_FileExtensionNoPoint": "atom",
+    "MIME_Type": "application/atom+xml",
+    "MIME_Details": "RFC 4287",
+    "MIME_IsTextFile": true,
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 30,
+    "MIME_Name": "Atom Publishing Protocol",
+    "MIME_FileExtension": ".atomcat",
+    "MIME_FileExtensionNoPoint": "atomcat",
+    "MIME_Type": "application/atomcat+xml",
+    "MIME_Details": "RFC 5023",
+    "MIME_IsTextFile": true,
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 31,
+    "MIME_Name": "Atom Publishing Protocol Service Document",
+    "MIME_FileExtension": ".atomsvc",
+    "MIME_FileExtensionNoPoint": "atomsvc",
+    "MIME_Type": "application/atomsvc+xml",
+    "MIME_Details": "RFC 5023",
+    "MIME_IsTextFile": true,
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 32,
+    "MIME_Name": "Antix Game Player",
+    "MIME_FileExtension": ".atx",
+    "MIME_FileExtensionNoPoint": "atx",
+    "MIME_Type": "application/vnd.antix.game-component",
+    "MIME_Details": "IANA: Antix Game Component",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 33,
+    "MIME_Name": "Sun Audio - Au file format",
+    "MIME_FileExtension": ".au",
+    "MIME_FileExtensionNoPoint": "au",
+    "MIME_Type": "audio/basic",
+    "MIME_Details": "Wikipedia: Sun audio",
+    "Mime_Category": "audio"
+  },
+  {
+    "Mime_ID": 34,
+    "MIME_Name": "Audio Video Interleave (AVI)",
+    "MIME_FileExtension": ".avi",
+    "MIME_FileExtensionNoPoint": "avi",
+    "MIME_Type": "video/x-msvideo",
+    "MIME_Details": "Wikipedia: AVI",
+    "Mime_Category": "video"
+  },
+  {
+    "Mime_ID": 35,
+    "MIME_Name": "Applixware",
+    "MIME_FileExtension": ".aw",
+    "MIME_FileExtensionNoPoint": "aw",
+    "MIME_Type": "application/applixware",
+    "MIME_Details": "Vistasource",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 36,
+    "MIME_Name": "AirZip FileSECURE",
+    "MIME_FileExtension": ".azf",
+    "MIME_FileExtensionNoPoint": "azf",
+    "MIME_Type": "application/vnd.airzip.filesecure.azf",
+    "MIME_Details": "IANA: AirZip",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 37,
+    "MIME_Name": "AirZip FileSECURE",
+    "MIME_FileExtension": ".azs",
+    "MIME_FileExtensionNoPoint": "azs",
+    "MIME_Type": "application/vnd.airzip.filesecure.azs",
+    "MIME_Details": "IANA: AirZip",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 38,
+    "MIME_Name": "Amazon Kindle eBook format",
+    "MIME_FileExtension": ".azw",
+    "MIME_FileExtensionNoPoint": "azw",
+    "MIME_Type": "application/vnd.amazon.ebook",
+    "MIME_Details": "Kindle Direct Publishing",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 39,
+    "MIME_Name": "SQL-Server Backup File",
+    "MIME_FileExtension": ".bak",
+    "MIME_FileExtensionNoPoint": "bak",
+    "MIME_Type": "application/octet-stream",
+    "MIME_Details": "",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 40,
+    "MIME_Name": "Binary CPIO Archive",
+    "MIME_FileExtension": ".bcpio",
+    "MIME_FileExtensionNoPoint": "bcpio",
+    "MIME_Type": "application/x-bcpio",
+    "MIME_Details": "Wikipedia: cpio",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 41,
+    "MIME_Name": "Glyph Bitmap Distribution Format",
+    "MIME_FileExtension": ".bdf",
+    "MIME_FileExtensionNoPoint": "bdf",
+    "MIME_Type": "application/x-font-bdf",
+    "MIME_Details": "Wikipedia: Glyph Bitmap Distribution Format",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 42,
+    "MIME_Name": "SyncML - Device Management",
+    "MIME_FileExtension": ".bdm",
+    "MIME_FileExtensionNoPoint": "bdm",
+    "MIME_Type": "application/vnd.syncml.dm+wbxml",
+    "MIME_Details": "IANA: SyncML",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 43,
+    "MIME_Name": "RealVNC",
+    "MIME_FileExtension": ".bed",
+    "MIME_FileExtensionNoPoint": "bed",
+    "MIME_Type": "application/vnd.realvnc.bed",
+    "MIME_Details": "IANA: RealVNC",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 44,
+    "MIME_Name": "Fujitsu Oasys",
+    "MIME_FileExtension": ".bh2",
+    "MIME_FileExtensionNoPoint": "bh2",
+    "MIME_Type": "application/vnd.fujitsu.oasysprs",
+    "MIME_Details": "IANA: Fujitsu Oasys",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 45,
+    "MIME_Name": "Binary Data",
+    "MIME_FileExtension": ".bin",
+    "MIME_FileExtensionNoPoint": "bin",
+    "MIME_Type": "application/octet-stream",
+    "MIME_Details": "",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 46,
+    "MIME_Name": "BMI Drawing Data Interchange",
+    "MIME_FileExtension": ".bmi",
+    "MIME_FileExtensionNoPoint": "bmi",
+    "MIME_Type": "application/vnd.bmi",
+    "MIME_Details": "IANA: BMI",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 47,
+    "MIME_Name": "Bitmap Image File",
+    "MIME_FileExtension": ".bmp",
+    "MIME_FileExtensionNoPoint": "bmp",
+    "MIME_Type": "image/bmp",
+    "MIME_Details": "Wikipedia: BMP File Format",
+    "Mime_IsImage": true,
+    "Mime_Category": "image"
+  },
+  {
+    "Mime_ID": 48,
+    "MIME_Name": "Preview Systems ZipLock/VBox",
+    "MIME_FileExtension": ".box",
+    "MIME_FileExtensionNoPoint": "box",
+    "MIME_Type": "application/vnd.previewsystems.box",
+    "MIME_Details": "IANA: Preview Systems ZipLock/Vbox",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 49,
+    "MIME_Name": "BTIF",
+    "MIME_FileExtension": ".btif",
+    "MIME_FileExtensionNoPoint": "btif",
+    "MIME_Type": "image/prs.btif",
+    "MIME_Details": "IANA: BTIF",
+    "Mime_IsImage": true,
+    "Mime_Category": "image"
+  },
+  {
+    "Mime_ID": 50,
+    "MIME_Name": "Bzip Archive",
+    "MIME_FileExtension": ".bz",
+    "MIME_FileExtensionNoPoint": "bz",
+    "MIME_Type": "application/x-bzip",
+    "MIME_Details": "Wikipedia: Bzip",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 51,
+    "MIME_Name": "Bzip2 Archive",
+    "MIME_FileExtension": ".bz2",
+    "MIME_FileExtensionNoPoint": "bz2",
+    "MIME_Type": "application/x-bzip2",
+    "MIME_Details": "Wikipedia: Bzip",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 52,
+    "MIME_Name": "C Source File",
+    "MIME_FileExtension": ".c",
+    "MIME_FileExtensionNoPoint": "c",
+    "MIME_Type": "text/x-c",
+    "MIME_Details": "Wikipedia: C Programming Language",
+    "MIME_IsTextFile": true,
+    "Mime_Category": "text"
+  },
+  {
+    "Mime_ID": 53,
+    "MIME_Name": "ClueTrust CartoMobile - Config",
+    "MIME_FileExtension": ".c11amc",
+    "MIME_FileExtensionNoPoint": "c11amc",
+    "MIME_Type": "application/vnd.cluetrust.cartomobile-config",
+    "MIME_Details": "IANA: CartoMobile",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 54,
+    "MIME_Name": "ClueTrust CartoMobile - Config Package",
+    "MIME_FileExtension": ".c11amz",
+    "MIME_FileExtensionNoPoint": "c11amz",
+    "MIME_Type": "application/vnd.cluetrust.cartomobile-config-pkg",
+    "MIME_Details": "IANA: CartoMobile",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 55,
+    "MIME_Name": "Clonk Game",
+    "MIME_FileExtension": ".c4g",
+    "MIME_FileExtensionNoPoint": "c4g",
+    "MIME_Type": "application/vnd.clonk.c4group",
+    "MIME_Details": "IANA: Clonk",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 56,
+    "MIME_Name": "Microsoft Cabinet File",
+    "MIME_FileExtension": ".cab",
+    "MIME_FileExtensionNoPoint": "cab",
+    "MIME_Type": "application/vnd.ms-cab-compressed",
+    "MIME_Details": "IANA: MS Cabinet File",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 57,
+    "MIME_Name": "CURL Applet",
+    "MIME_FileExtension": ".car",
+    "MIME_FileExtensionNoPoint": "car",
+    "MIME_Type": "application/vnd.curl.car",
+    "MIME_Details": "IANA: CURL Applet",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 58,
+    "MIME_Name": "Microsoft Trust UI Provider - Security Catalog",
+    "MIME_FileExtension": ".cat",
+    "MIME_FileExtensionNoPoint": "cat",
+    "MIME_Type": "application/vnd.ms-pki.seccat",
+    "MIME_Details": "IANA: MS Trust UI Provider",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 59,
+    "MIME_Name": "Voice Browser Call Control",
+    "MIME_FileExtension": ".ccxml",
+    "MIME_FileExtensionNoPoint": "ccxml",
+    "MIME_Type": "application/ccxml+xml,",
+    "MIME_Details": "Voice Browser Call Control: CCXML Version 1.0",
+    "MIME_IsTextFile": true,
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 60,
+    "MIME_Name": "CIM Database",
+    "MIME_FileExtension": ".cdbcmsg",
+    "MIME_FileExtensionNoPoint": "cdbcmsg",
+    "MIME_Type": "application/vnd.contact.cmsg",
+    "MIME_Details": "IANA: CIM Database",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 61,
+    "MIME_Name": "MediaRemote",
+    "MIME_FileExtension": ".cdkey",
+    "MIME_FileExtensionNoPoint": "cdkey",
+    "MIME_Type": "application/vnd.mediastation.cdkey",
+    "MIME_Details": "IANA: MediaRemote",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 62,
+    "MIME_Name": "Cloud Data Management Interface (CDMI) - Capability",
+    "MIME_FileExtension": ".cdmia",
+    "MIME_FileExtensionNoPoint": "cdmia",
+    "MIME_Type": "application/cdmi-capability",
+    "MIME_Details": "RFC 6208",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 63,
+    "MIME_Name": "Cloud Data Management Interface (CDMI) - Contaimer",
+    "MIME_FileExtension": ".cdmic",
+    "MIME_FileExtensionNoPoint": "cdmic",
+    "MIME_Type": "application/cdmi-container",
+    "MIME_Details": "RFC 6209",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 64,
+    "MIME_Name": "Cloud Data Management Interface (CDMI) - Domain",
+    "MIME_FileExtension": ".cdmid",
+    "MIME_FileExtensionNoPoint": "cdmid",
+    "MIME_Type": "application/cdmi-domain",
+    "MIME_Details": "RFC 6210",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 65,
+    "MIME_Name": "Cloud Data Management Interface (CDMI) - Object",
+    "MIME_FileExtension": ".cdmio",
+    "MIME_FileExtensionNoPoint": "cdmio",
+    "MIME_Type": "application/cdmi-object",
+    "MIME_Details": "RFC 6211",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 66,
+    "MIME_Name": "Cloud Data Management Interface (CDMI) - Queue",
+    "MIME_FileExtension": ".cdmiq",
+    "MIME_FileExtensionNoPoint": "cdmiq",
+    "MIME_Type": "application/cdmi-queue",
+    "MIME_Details": "RFC 6212",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 67,
+    "MIME_Name": "ChemDraw eXchange file",
+    "MIME_FileExtension": ".cdx",
+    "MIME_FileExtensionNoPoint": "cdx",
+    "MIME_Type": "chemical/x-cdx",
+    "MIME_Details": "ChemDraw eXchange file",
+    "Mime_Category": "chemical"
+  },
+  {
+    "Mime_ID": 68,
+    "MIME_Name": "CambridgeSoft Chem Draw",
+    "MIME_FileExtension": ".cdxml",
+    "MIME_FileExtensionNoPoint": "cdxml",
+    "MIME_Type": "application/vnd.chemdraw+xml",
+    "MIME_Details": "IANA: Chem Draw",
+    "MIME_IsTextFile": true,
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 69,
+    "MIME_Name": "Interactive Geometry Software Cinderella",
+    "MIME_FileExtension": ".cdy",
+    "MIME_FileExtensionNoPoint": "cdy",
+    "MIME_Type": "application/vnd.cinderella",
+    "MIME_Details": "IANA: Cinderella",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 70,
+    "MIME_Name": "Internet Public Key Infrastructure - Certificate",
+    "MIME_FileExtension": ".cer",
+    "MIME_FileExtensionNoPoint": "cer",
+    "MIME_Type": "application/pkix-cert",
+    "MIME_Details": "RFC 2585",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 71,
+    "MIME_Name": "Computer Graphics Metafile",
+    "MIME_FileExtension": ".cgm",
+    "MIME_FileExtensionNoPoint": "cgm",
+    "MIME_Type": "image/cgm",
+    "MIME_Details": "Wikipedia: Computer Graphics Metafile",
+    "Mime_IsImage": true,
+    "Mime_Category": "image"
+  },
+  {
+    "Mime_ID": 72,
+    "MIME_Name": "pIRCh",
+    "MIME_FileExtension": ".chat",
+    "MIME_FileExtensionNoPoint": "chat",
+    "MIME_Type": "application/x-chat",
+    "MIME_Details": "Wikipedia: pIRCh",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 73,
+    "MIME_Name": "Microsoft Html Help File",
+    "MIME_FileExtension": ".chm",
+    "MIME_FileExtensionNoPoint": "chm",
+    "MIME_Type": "application/vnd.ms-htmlhelp",
+    "MIME_Details": "IANA:MS Html Help File",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 74,
+    "MIME_Name": "KDE KOffice Office Suite - KChart",
+    "MIME_FileExtension": ".chrt",
+    "MIME_FileExtensionNoPoint": "chrt",
+    "MIME_Type": "application/vnd.kde.kchart",
+    "MIME_Details": "IANA: KDE KOffice Office Suite",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 75,
+    "MIME_Name": "Crystallographic Interchange Format",
+    "MIME_FileExtension": ".cif",
+    "MIME_FileExtensionNoPoint": "cif",
+    "MIME_Type": "chemical/x-cif",
+    "MIME_Details": "Crystallographic Interchange Format",
+    "Mime_Category": "chemical"
+  },
+  {
+    "Mime_ID": 76,
+    "MIME_Name": "ANSER-WEB Terminal Client - Certificate Issue",
+    "MIME_FileExtension": ".cii",
+    "MIME_FileExtensionNoPoint": "cii",
+    "MIME_Type": "application/vnd.anser-web-certificate-issue-initiation",
+    "MIME_Details": "IANA: ANSWER-WEB",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 77,
+    "MIME_Name": "Microsoft Artgalry",
+    "MIME_FileExtension": ".cil",
+    "MIME_FileExtensionNoPoint": "cil",
+    "MIME_Type": "application/vnd.ms-artgalry",
+    "MIME_Details": "IANA: MS Artgalry",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 78,
+    "MIME_Name": "Claymore Data Files",
+    "MIME_FileExtension": ".cla",
+    "MIME_FileExtensionNoPoint": "cla",
+    "MIME_Type": "application/vnd.claymore",
+    "MIME_Details": "IANA: Claymore",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 79,
+    "MIME_Name": "Java Bytecode File",
+    "MIME_FileExtension": ".class",
+    "MIME_FileExtensionNoPoint": "class",
+    "MIME_Type": "application/java-vm",
+    "MIME_Details": "Wikipedia: Java Bytecode",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 80,
+    "MIME_Name": "CrickSoftware - Clicker - Keyboard",
+    "MIME_FileExtension": ".clkk",
+    "MIME_FileExtensionNoPoint": "clkk",
+    "MIME_Type": "application/vnd.crick.clicker.keyboard",
+    "MIME_Details": "IANA: Clicker",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 81,
+    "MIME_Name": "CrickSoftware - Clicker - Palette",
+    "MIME_FileExtension": ".clkp",
+    "MIME_FileExtensionNoPoint": "clkp",
+    "MIME_Type": "application/vnd.crick.clicker.palette",
+    "MIME_Details": "IANA: Clicker",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 82,
+    "MIME_Name": "CrickSoftware - Clicker - Template",
+    "MIME_FileExtension": ".clkt",
+    "MIME_FileExtensionNoPoint": "clkt",
+    "MIME_Type": "application/vnd.crick.clicker.template",
+    "MIME_Details": "IANA: Clicker",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 83,
+    "MIME_Name": "CrickSoftware - Clicker - Wordbank",
+    "MIME_FileExtension": ".clkw",
+    "MIME_FileExtensionNoPoint": "clkw",
+    "MIME_Type": "application/vnd.crick.clicker.wordbank",
+    "MIME_Details": "IANA: Clicker",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 84,
+    "MIME_Name": "CrickSoftware - Clicker",
+    "MIME_FileExtension": ".clkx",
+    "MIME_FileExtensionNoPoint": "clkx",
+    "MIME_Type": "application/vnd.crick.clicker",
+    "MIME_Details": "IANA: Clicker",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 85,
+    "MIME_Name": "Microsoft Clipboard Clip",
+    "MIME_FileExtension": ".clp",
+    "MIME_FileExtensionNoPoint": "clp",
+    "MIME_Type": "application/x-msclip",
+    "MIME_Details": "Wikipedia: Clipboard",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 86,
+    "MIME_Name": "CosmoCaller",
+    "MIME_FileExtension": ".cmc",
+    "MIME_FileExtensionNoPoint": "cmc",
+    "MIME_Type": "application/vnd.cosmocaller",
+    "MIME_Details": "IANA: CosmoCaller",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 87,
+    "MIME_Name": "CrystalMaker Data Format",
+    "MIME_FileExtension": ".cmdf",
+    "MIME_FileExtensionNoPoint": "cmdf",
+    "MIME_Type": "chemical/x-cmdf",
+    "MIME_Details": "CrystalMaker Data Format",
+    "Mime_Category": "chemical"
+  },
+  {
+    "Mime_ID": 88,
+    "MIME_Name": "Chemical Markup Language",
+    "MIME_FileExtension": ".cml",
+    "MIME_FileExtensionNoPoint": "cml",
+    "MIME_Type": "chemical/x-cml",
+    "MIME_Details": "Wikipedia: Chemical Markup Language",
+    "Mime_Category": "chemical"
+  },
+  {
+    "Mime_ID": 89,
+    "MIME_Name": "CustomMenu",
+    "MIME_FileExtension": ".cmp",
+    "MIME_FileExtensionNoPoint": "cmp",
+    "MIME_Type": "application/vnd.yellowriver-custom-menu",
+    "MIME_Details": "IANA: CustomMenu",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 90,
+    "MIME_Name": "Corel Metafile Exchange (CMX)",
+    "MIME_FileExtension": ".cmx",
+    "MIME_FileExtensionNoPoint": "cmx",
+    "MIME_Type": "image/x-cmx",
+    "MIME_Details": "Wikipedia: CorelDRAW",
+    "Mime_IsImage": true,
+    "Mime_Category": "image"
+  },
+  {
+    "Mime_ID": 91,
+    "MIME_Name": "Blackberry COD File",
+    "MIME_FileExtension": ".cod",
+    "MIME_FileExtensionNoPoint": "cod",
+    "MIME_Type": "application/vnd.rim.cod",
+    "MIME_Details": "",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 92,
+    "MIME_Name": "CPIO Archive",
+    "MIME_FileExtension": ".cpio",
+    "MIME_FileExtensionNoPoint": "cpio",
+    "MIME_Type": "application/x-cpio",
+    "MIME_Details": "Wikipedia: cpio",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 93,
+    "MIME_Name": "Compact Pro",
+    "MIME_FileExtension": ".cpt",
+    "MIME_FileExtensionNoPoint": "cpt",
+    "MIME_Type": "application/mac-compactpro",
+    "MIME_Details": "Compact Pro",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 94,
+    "MIME_Name": "Microsoft Information Card",
+    "MIME_FileExtension": ".crd",
+    "MIME_FileExtensionNoPoint": "crd",
+    "MIME_Type": "application/x-mscardfile",
+    "MIME_Details": "Wikipedia: Information Card",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 95,
+    "MIME_Name": "Internet Public Key Infrastructure - Certificate Revocation Lists",
+    "MIME_FileExtension": ".crl",
+    "MIME_FileExtensionNoPoint": "crl",
+    "MIME_Type": "application/pkix-crl",
+    "MIME_Details": "RFC 2585",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 96,
+    "MIME_Name": "CryptoNote",
+    "MIME_FileExtension": ".cryptonote",
+    "MIME_FileExtensionNoPoint": "cryptonote",
+    "MIME_Type": "application/vnd.rig.cryptonote",
+    "MIME_Details": "IANA: CryptoNote",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 97,
+    "MIME_Name": "C Shell Script",
+    "MIME_FileExtension": ".csh",
+    "MIME_FileExtensionNoPoint": "csh",
+    "MIME_Type": "application/x-csh",
+    "MIME_Details": "Wikipedia: C Shell",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 98,
+    "MIME_Name": "Chemical Style Markup Language",
+    "MIME_FileExtension": ".csml",
+    "MIME_FileExtensionNoPoint": "csml",
+    "MIME_Type": "chemical/x-csml",
+    "MIME_Details": "Wikipedia: Chemical Style Markup Language",
+    "Mime_Category": "chemical"
+  },
+  {
+    "Mime_ID": 99,
+    "MIME_Name": "Sixth Floor Media - CommonSpace",
+    "MIME_FileExtension": ".csp",
+    "MIME_FileExtensionNoPoint": "csp",
+    "MIME_Type": "application/vnd.commonspace",
+    "MIME_Details": "IANA: CommonSpace",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 100,
+    "MIME_Name": "Cascading Style Sheets (CSS)",
+    "MIME_FileExtension": ".css",
+    "MIME_FileExtensionNoPoint": "css",
+    "MIME_Type": "text/css",
+    "MIME_Details": "Wikipedia: CSS",
+    "MIME_IsTextFile": true,
+    "Mime_Category": "text"
+  },
+  {
+    "Mime_ID": 101,
+    "MIME_Name": "Comma-Seperated Values",
+    "MIME_FileExtension": ".csv",
+    "MIME_FileExtensionNoPoint": "csv",
+    "MIME_Type": "text/csv",
+    "MIME_Details": "Wikipedia: CSV",
+    "MIME_IsAllowed": true,
+    "MIME_IsTextFile": true,
+    "Mime_Category": "text"
+  },
+  {
+    "Mime_ID": 102,
+    "MIME_Name": "CU-SeeMe",
+    "MIME_FileExtension": ".cu",
+    "MIME_FileExtensionNoPoint": "cu",
+    "MIME_Type": "application/cu-seeme",
+    "MIME_Details": "White Pine",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 103,
+    "MIME_Name": "Curl - Applet",
+    "MIME_FileExtension": ".curl",
+    "MIME_FileExtensionNoPoint": "curl",
+    "MIME_Type": "text/vnd.curl",
+    "MIME_Details": "Curl Applet",
+    "MIME_IsTextFile": true,
+    "Mime_Category": "text"
+  },
+  {
+    "Mime_ID": 104,
+    "MIME_Name": "CU-Writer",
+    "MIME_FileExtension": ".cww",
+    "MIME_FileExtensionNoPoint": "cww",
+    "MIME_Type": "application/prs.cww",
+    "MIME_Details": "",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 105,
+    "MIME_Name": "COLLADA",
+    "MIME_FileExtension": ".dae",
+    "MIME_FileExtensionNoPoint": "dae",
+    "MIME_Type": "model/vnd.collada+xml",
+    "MIME_Details": "IANA: COLLADA",
+    "MIME_IsTextFile": true,
+    "Mime_Category": "model"
+  },
+  {
+    "Mime_ID": 106,
+    "MIME_Name": "Mobius Management Systems - UniversalArchive",
+    "MIME_FileExtension": ".daf",
+    "MIME_FileExtensionNoPoint": "daf",
+    "MIME_Type": "application/vnd.mobius.daf",
+    "MIME_Details": "IANA: Mobius Management Systems",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 107,
+    "MIME_Name": "Web Distributed Authoring and Versioning",
+    "MIME_FileExtension": ".davmount",
+    "MIME_FileExtensionNoPoint": "davmount",
+    "MIME_Type": "application/davmount+xml",
+    "MIME_Details": "RFC 4918",
+    "MIME_IsTextFile": true,
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 108,
+    "MIME_Name": "Curl - Detached Applet",
+    "MIME_FileExtension": ".dcurl",
+    "MIME_FileExtensionNoPoint": "dcurl",
+    "MIME_Type": "text/vnd.curl.dcurl",
+    "MIME_Details": "Curl Detached Applet",
+    "MIME_IsTextFile": true,
+    "Mime_Category": "text"
+  },
+  {
+    "Mime_ID": 109,
+    "MIME_Name": "OMA Download Agents",
+    "MIME_FileExtension": ".dd2",
+    "MIME_FileExtensionNoPoint": "dd2",
+    "MIME_Type": "application/vnd.oma.dd2+xml",
+    "MIME_Details": "IANA: OMA Download Agents",
+    "MIME_IsTextFile": true,
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 110,
+    "MIME_Name": "Fujitsu - Xerox 2D CAD Data",
+    "MIME_FileExtension": ".ddd",
+    "MIME_FileExtensionNoPoint": "ddd",
+    "MIME_Type": "application/vnd.fujixerox.ddd",
+    "MIME_Details": "IANA: Fujitsu DDD",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 111,
+    "MIME_Name": "Debian Package",
+    "MIME_FileExtension": ".deb",
+    "MIME_FileExtensionNoPoint": "deb",
+    "MIME_Type": "application/x-debian-package",
+    "MIME_Details": "Wikipedia: Debian Package",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 112,
+    "MIME_Name": "X.509 Certificate",
+    "MIME_FileExtension": ".der",
+    "MIME_FileExtensionNoPoint": "der",
+    "MIME_Type": "application/x-x509-ca-cert",
+    "MIME_Details": "Wikipedia: X.509",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 113,
+    "MIME_Name": "DreamFactory",
+    "MIME_FileExtension": ".dfac",
+    "MIME_FileExtensionNoPoint": "dfac",
+    "MIME_Type": "application/vnd.dreamfactory",
+    "MIME_Details": "IANA: DreamFactory",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 114,
+    "MIME_Name": "Adobe Shockwave Player",
+    "MIME_FileExtension": ".dir",
+    "MIME_FileExtensionNoPoint": "dir",
+    "MIME_Type": "application/x-director",
+    "MIME_Details": "Wikipedia: Adobe Shockwave Player",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 115,
+    "MIME_Name": "Mobius Management Systems - Distribution Database",
+    "MIME_FileExtension": ".dis",
+    "MIME_FileExtensionNoPoint": "dis",
+    "MIME_Type": "application/vnd.mobius.dis",
+    "MIME_Details": "IANA: Mobius Management Systems",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 116,
+    "MIME_Name": "DjVu",
+    "MIME_FileExtension": ".djvu",
+    "MIME_FileExtensionNoPoint": "djvu",
+    "MIME_Type": "image/vnd.djvu",
+    "MIME_Details": "Wikipedia: DjVu",
+    "Mime_IsImage": true,
+    "Mime_Category": "image"
+  },
+  {
+    "Mime_ID": 117,
+    "MIME_Name": "New Moon Liftoff/DNA",
+    "MIME_FileExtension": ".dna",
+    "MIME_FileExtensionNoPoint": "dna",
+    "MIME_Type": "application/vnd.dna",
+    "MIME_Details": "IANA: New Moon Liftoff/DNA",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 118,
+    "MIME_Name": "Microsoft Word",
+    "MIME_FileExtension": ".doc",
+    "MIME_FileExtensionNoPoint": "doc",
+    "MIME_Type": "application/msword",
+    "MIME_Details": "Wikipedia: Microsoft Word",
+    "MIME_IsAllowed": true,
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 119,
+    "MIME_Name": "Micosoft Word - Macro-Enabled Document",
+    "MIME_FileExtension": ".docm",
+    "MIME_FileExtensionNoPoint": "docm",
+    "MIME_Type": "application/vnd.ms-word.document.macroenabled.12",
+    "MIME_Details": "IANA: MS Word",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 120,
+    "MIME_Name": "Microsoft Office - OOXML - Word Document",
+    "MIME_FileExtension": ".docx",
+    "MIME_FileExtensionNoPoint": "docx",
+    "MIME_Type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "MIME_Details": "IANA: OOXML - Word Document",
+    "MIME_IsAllowed": true,
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 121,
+    "MIME_Name": "Micosoft Word - Macro-Enabled Template",
+    "MIME_FileExtension": ".dotm",
+    "MIME_FileExtensionNoPoint": "dotm",
+    "MIME_Type": "application/vnd.ms-word.template.macroenabled.12",
+    "MIME_Details": "IANA: MS Word",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 122,
+    "MIME_Name": "Microsoft Office - OOXML - Word Document Template",
+    "MIME_FileExtension": ".dotx",
+    "MIME_FileExtensionNoPoint": "dotx",
+    "MIME_Type": "application/vnd.openxmlformats-officedocument.wordprocessingml.template",
+    "MIME_Details": "IANA: OOXML - Word Document Template",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 123,
+    "MIME_Name": "OSGi Deployment Package",
+    "MIME_FileExtension": ".dp",
+    "MIME_FileExtensionNoPoint": "dp",
+    "MIME_Type": "application/vnd.osgi.dp",
+    "MIME_Details": "IANA: OSGi Deployment Package",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 124,
+    "MIME_Name": "DPGraph",
+    "MIME_FileExtension": ".dpg",
+    "MIME_FileExtensionNoPoint": "dpg",
+    "MIME_Type": "application/vnd.dpgraph",
+    "MIME_Details": "IANA: DPGraph",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 125,
+    "MIME_Name": "DRA Audio",
+    "MIME_FileExtension": ".dra",
+    "MIME_FileExtensionNoPoint": "dra",
+    "MIME_Type": "audio/vnd.dra",
+    "MIME_Details": "IANA: DRA",
+    "Mime_Category": "audio"
+  },
+  {
+    "Mime_ID": 126,
+    "MIME_Name": "PRS Lines Tag",
+    "MIME_FileExtension": ".dsc",
+    "MIME_FileExtensionNoPoint": "dsc",
+    "MIME_Type": "text/prs.lines.tag",
+    "MIME_Details": "IANA: PRS Lines Tag",
+    "MIME_IsTextFile": true,
+    "Mime_Category": "text"
+  },
+  {
+    "Mime_ID": 127,
+    "MIME_Name": "Data Structure for the Security Suitability of Cryptographic Algorithms",
+    "MIME_FileExtension": ".dssc",
+    "MIME_FileExtensionNoPoint": "dssc",
+    "MIME_Type": "application/dssc+der",
+    "MIME_Details": "RFC 5698",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 128,
+    "MIME_Name": "Digital Talking Book",
+    "MIME_FileExtension": ".dtb",
+    "MIME_FileExtensionNoPoint": "dtb",
+    "MIME_Type": "application/x-dtbook+xml",
+    "MIME_Details": "Wikipedia: EPUB",
+    "MIME_IsTextFile": true,
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 129,
+    "MIME_Name": "Document Type Definition",
+    "MIME_FileExtension": ".dtd",
+    "MIME_FileExtensionNoPoint": "dtd",
+    "MIME_Type": "application/xml-dtd",
+    "MIME_Details": "W3C DTD",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 130,
+    "MIME_Name": "DTS Audio",
+    "MIME_FileExtension": ".dts",
+    "MIME_FileExtensionNoPoint": "dts",
+    "MIME_Type": "audio/vnd.dts",
+    "MIME_Details": "IANA: DTS",
+    "Mime_Category": "audio"
+  },
+  {
+    "Mime_ID": 131,
+    "MIME_Name": "DTS High Definition Audio",
+    "MIME_FileExtension": ".dtshd",
+    "MIME_FileExtensionNoPoint": "dtshd",
+    "MIME_Type": "audio/vnd.dts.hd",
+    "MIME_Details": "IANA: DTS HD",
+    "Mime_Category": "audio"
+  },
+  {
+    "Mime_ID": 132,
+    "MIME_Name": "Device Independent File Format (DVI)",
+    "MIME_FileExtension": ".dvi",
+    "MIME_FileExtensionNoPoint": "dvi",
+    "MIME_Type": "application/x-dvi",
+    "MIME_Details": "Wikipedia: DVI",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 133,
+    "MIME_Name": "Autodesk Design Web Format (DWF)",
+    "MIME_FileExtension": ".dwf",
+    "MIME_FileExtensionNoPoint": "dwf",
+    "MIME_Type": "model/vnd.dwf",
+    "MIME_Details": "Wikipedia: Design Web Format",
+    "Mime_Category": "model"
+  },
+  {
+    "Mime_ID": 134,
+    "MIME_Name": "DWG Drawing",
+    "MIME_FileExtension": ".dwg",
+    "MIME_FileExtensionNoPoint": "dwg",
+    "MIME_Type": "image/vnd.dwg",
+    "MIME_Details": "Wikipedia: DWG",
+    "MIME_IsAllowed": true,
+    "Mime_Category": "image"
+  },
+  {
+    "Mime_ID": 135,
+    "MIME_Name": "AutoCAD DXF",
+    "MIME_FileExtension": ".dxf",
+    "MIME_FileExtensionNoPoint": "dxf",
+    "MIME_Type": "image/vnd.dxf",
+    "MIME_Details": "Wikipedia: AutoCAD DXF",
+    "MIME_IsTextFile": true,
+    "Mime_Category": "image"
+  },
+  {
+    "Mime_ID": 136,
+    "MIME_Name": "TIBCO Spotfire",
+    "MIME_FileExtension": ".dxp",
+    "MIME_FileExtensionNoPoint": "dxp",
+    "MIME_Type": "application/vnd.spotfire.dxp",
+    "MIME_Details": "IANA: TIBCO Spotfire",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 137,
+    "MIME_Name": "Nuera ECELP 4800",
+    "MIME_FileExtension": ".ecelp4800",
+    "MIME_FileExtensionNoPoint": "ecelp4800",
+    "MIME_Type": "audio/vnd.nuera.ecelp4800",
+    "MIME_Details": "IANA: ECELP 4800",
+    "Mime_Category": "audio"
+  },
+  {
+    "Mime_ID": 138,
+    "MIME_Name": "Nuera ECELP 7470",
+    "MIME_FileExtension": ".ecelp7470",
+    "MIME_FileExtensionNoPoint": "ecelp7470",
+    "MIME_Type": "audio/vnd.nuera.ecelp7470",
+    "MIME_Details": "IANA: ECELP 7470",
+    "Mime_Category": "audio"
+  },
+  {
+    "Mime_ID": 139,
+    "MIME_Name": "Nuera ECELP 9600",
+    "MIME_FileExtension": ".ecelp9600",
+    "MIME_FileExtensionNoPoint": "ecelp9600",
+    "MIME_Type": "audio/vnd.nuera.ecelp9600",
+    "MIME_Details": "IANA: ECELP 9600",
+    "Mime_Category": "audio"
+  },
+  {
+    "Mime_ID": 140,
+    "MIME_Name": "Novadigm's RADIA and EDM products",
+    "MIME_FileExtension": ".edm",
+    "MIME_FileExtensionNoPoint": "edm",
+    "MIME_Type": "application/vnd.novadigm.edm",
+    "MIME_Details": "IANA: Novadigm's RADIA and EDM products",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 141,
+    "MIME_Name": "Novadigm's RADIA and EDM products",
+    "MIME_FileExtension": ".edx",
+    "MIME_FileExtensionNoPoint": "edx",
+    "MIME_Type": "application/vnd.novadigm.edx",
+    "MIME_Details": "IANA: Novadigm's RADIA and EDM products",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 142,
+    "MIME_Name": "Pcsel eFIF File",
+    "MIME_FileExtension": ".efif",
+    "MIME_FileExtensionNoPoint": "efif",
+    "MIME_Type": "application/vnd.picsel",
+    "MIME_Details": "IANA: Picsel eFIF File",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 143,
+    "MIME_Name": "Proprietary P&G Standard Reporting System",
+    "MIME_FileExtension": ".ei6",
+    "MIME_FileExtensionNoPoint": "ei6",
+    "MIME_Type": "application/vnd.pg.osasli",
+    "MIME_Details": "IANA: Proprietary P&G Standard Reporting System",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 144,
+    "MIME_Name": "Email Message",
+    "MIME_FileExtension": ".eml",
+    "MIME_FileExtensionNoPoint": "eml",
+    "MIME_Type": "message/rfc822",
+    "MIME_Details": "RFC 2822",
+    "Mime_Category": "message"
+  },
+  {
+    "Mime_ID": 145,
+    "MIME_Name": "Extensible MultiModal Annotation",
+    "MIME_FileExtension": ".emma",
+    "MIME_FileExtensionNoPoint": "emma",
+    "MIME_Type": "application/emma+xml",
+    "MIME_Details": "EMMA: Extensible MultiModal Annotation markup language",
+    "MIME_IsTextFile": true,
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 146,
+    "MIME_Name": "Digital Winds Music",
+    "MIME_FileExtension": ".eol",
+    "MIME_FileExtensionNoPoint": "eol",
+    "MIME_Type": "audio/vnd.digital-winds",
+    "MIME_Details": "IANA: Digital Winds",
+    "Mime_Category": "audio"
+  },
+  {
+    "Mime_ID": 147,
+    "MIME_Name": "Microsoft Embedded OpenType",
+    "MIME_FileExtension": ".eot",
+    "MIME_FileExtensionNoPoint": "eot",
+    "MIME_Type": "application/vnd.ms-fontobject",
+    "MIME_Details": "IANA: MS Embedded OpenType",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 148,
+    "MIME_Name": "Electronic Publication",
+    "MIME_FileExtension": ".epub",
+    "MIME_FileExtensionNoPoint": "epub",
+    "MIME_Type": "application/epub+zip",
+    "MIME_Details": "Wikipedia: EPUB",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 149,
+    "MIME_Name": "ECMAScript",
+    "MIME_FileExtension": ".es",
+    "MIME_FileExtensionNoPoint": "es",
+    "MIME_Type": "application/ecmascript",
+    "MIME_Details": "ECMA-357",
+    "MIME_IsTextFile": true,
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 150,
+    "MIME_Name": "MICROSEC e-Szign¢",
+    "MIME_FileExtension": ".es3",
+    "MIME_FileExtensionNoPoint": "es3",
+    "MIME_Type": "application/vnd.eszigno3+xml",
+    "MIME_Details": "IANA: MICROSEC e-Szign¢",
+    "MIME_IsTextFile": true,
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 151,
+    "MIME_Name": "QUASS Stream Player",
+    "MIME_FileExtension": ".esf",
+    "MIME_FileExtensionNoPoint": "esf",
+    "MIME_Type": "application/vnd.epson.esf",
+    "MIME_Details": "IANA: QUASS Stream Player",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 152,
+    "MIME_Name": "Setext",
+    "MIME_FileExtension": ".etx",
+    "MIME_FileExtensionNoPoint": "etx",
+    "MIME_Type": "text/x-setext",
+    "MIME_Details": "Wikipedia: Setext",
+    "MIME_IsTextFile": true,
+    "Mime_Category": "text"
+  },
+  {
+    "Mime_ID": 153,
+    "MIME_Name": "Microsoft Application",
+    "MIME_FileExtension": ".exe",
+    "MIME_FileExtensionNoPoint": "exe",
+    "MIME_Type": "application/x-msdownload",
+    "MIME_Details": "Wikipedia: EXE",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 154,
+    "MIME_Name": "Efficient XML Interchange",
+    "MIME_FileExtension": ".exi",
+    "MIME_FileExtensionNoPoint": "exi",
+    "MIME_Type": "application/exi",
+    "MIME_Details": "Efficient XML Interchange (EXI) Best Practices",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 155,
+    "MIME_Name": "Novadigm's RADIA and EDM products",
+    "MIME_FileExtension": ".ext",
+    "MIME_FileExtensionNoPoint": "ext",
+    "MIME_Type": "application/vnd.novadigm.ext",
+    "MIME_Details": "IANA: Novadigm's RADIA and EDM products",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 156,
+    "MIME_Name": "EZPix Secure Photo Album",
+    "MIME_FileExtension": ".ez2",
+    "MIME_FileExtensionNoPoint": "ez2",
+    "MIME_Type": "application/vnd.ezpix-album",
+    "MIME_Details": "IANA: EZPix Secure Photo Album",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 157,
+    "MIME_Name": "EZPix Secure Photo Album",
+    "MIME_FileExtension": ".ez3",
+    "MIME_FileExtensionNoPoint": "ez3",
+    "MIME_Type": "application/vnd.ezpix-package",
+    "MIME_Details": "IANA: EZPix Secure Photo Album",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 158,
+    "MIME_Name": "Fortran Source File",
+    "MIME_FileExtension": ".f",
+    "MIME_FileExtensionNoPoint": "f",
+    "MIME_Type": "text/x-fortran",
+    "MIME_Details": "Wikipedia: Fortran",
+    "MIME_IsTextFile": true,
+    "Mime_Category": "text"
+  },
+  {
+    "Mime_ID": 159,
+    "MIME_Name": "Flash Video",
+    "MIME_FileExtension": ".f4v",
+    "MIME_FileExtensionNoPoint": "f4v",
+    "MIME_Type": "video/x-f4v",
+    "MIME_Details": "Wikipedia: Flash Video",
+    "Mime_Category": "video"
+  },
+  {
+    "Mime_ID": 160,
+    "MIME_Name": "FastBid Sheet",
+    "MIME_FileExtension": ".fbs",
+    "MIME_FileExtensionNoPoint": "fbs",
+    "MIME_Type": "image/vnd.fastbidsheet",
+    "MIME_Details": "IANA: FastBid Sheet",
+    "Mime_IsImage": true,
+    "Mime_Category": "image"
+  },
+  {
+    "Mime_ID": 161,
+    "MIME_Name": "International Society for Advancement of Cytometry",
+    "MIME_FileExtension": ".fcs",
+    "MIME_FileExtensionNoPoint": "fcs",
+    "MIME_Type": "application/vnd.isac.fcs",
+    "MIME_Details": "IANA: International Society for Advancement of Cytometry",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 162,
+    "MIME_Name": "Forms Data Format",
+    "MIME_FileExtension": ".fdf",
+    "MIME_FileExtensionNoPoint": "fdf",
+    "MIME_Type": "application/vnd.fdf",
+    "MIME_Details": "IANA: Forms Data Format",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 163,
+    "MIME_Name": "FCS Express Layout Link",
+    "MIME_FileExtension": ".fe_launch",
+    "MIME_FileExtensionNoPoint": "fe_launch",
+    "MIME_Type": "application/vnd.denovo.fcselayout-link",
+    "MIME_Details": "IANA: FCS Express Layout Link",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 164,
+    "MIME_Name": "Fujitsu Oasys",
+    "MIME_FileExtension": ".fg5",
+    "MIME_FileExtensionNoPoint": "fg5",
+    "MIME_Type": "application/vnd.fujitsu.oasysgp",
+    "MIME_Details": "IANA: Fujitsu Oasys",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 165,
+    "MIME_Name": "FreeHand MX",
+    "MIME_FileExtension": ".fh",
+    "MIME_FileExtensionNoPoint": "fh",
+    "MIME_Type": "image/x-freehand",
+    "MIME_Details": "Wikipedia: Macromedia Freehand",
+    "Mime_IsImage": true,
+    "Mime_Category": "image"
+  },
+  {
+    "Mime_ID": 166,
+    "MIME_Name": "Xfig",
+    "MIME_FileExtension": ".fig",
+    "MIME_FileExtensionNoPoint": "fig",
+    "MIME_Type": "application/x-xfig",
+    "MIME_Details": "Wikipedia: Xfig",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 167,
+    "MIME_Name": "FLI/FLC Animation Format",
+    "MIME_FileExtension": ".fli",
+    "MIME_FileExtensionNoPoint": "fli",
+    "MIME_Type": "video/x-fli",
+    "MIME_Details": "FLI/FLC Animation Format",
+    "Mime_Category": "video"
+  },
+  {
+    "Mime_ID": 168,
+    "MIME_Name": "Micrografx",
+    "MIME_FileExtension": ".flo",
+    "MIME_FileExtensionNoPoint": "flo",
+    "MIME_Type": "application/vnd.micrografx.flo",
+    "MIME_Details": "IANA: Micrografx",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 169,
+    "MIME_Name": "Flash Video",
+    "MIME_FileExtension": ".flv",
+    "MIME_FileExtensionNoPoint": "flv",
+    "MIME_Type": "video/x-flv",
+    "MIME_Details": "Wikipedia: Flash Video",
+    "Mime_Category": "video"
+  },
+  {
+    "Mime_ID": 170,
+    "MIME_Name": "KDE KOffice Office Suite - Kivio",
+    "MIME_FileExtension": ".flw",
+    "MIME_FileExtensionNoPoint": "flw",
+    "MIME_Type": "application/vnd.kde.kivio",
+    "MIME_Details": "IANA: KDE KOffice Office Suite",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 171,
+    "MIME_Name": "FLEXSTOR",
+    "MIME_FileExtension": ".flx",
+    "MIME_FileExtensionNoPoint": "flx",
+    "MIME_Type": "text/vnd.fmi.flexstor",
+    "MIME_Details": "IANA: FLEXSTOR",
+    "MIME_IsTextFile": true,
+    "Mime_Category": "text"
+  },
+  {
+    "Mime_ID": 172,
+    "MIME_Name": "mod_fly / fly.cgi",
+    "MIME_FileExtension": ".fly",
+    "MIME_FileExtensionNoPoint": "fly",
+    "MIME_Type": "text/vnd.fly",
+    "MIME_Details": "IANA: Fly",
+    "MIME_IsTextFile": true,
+    "Mime_Category": "text"
+  },
+  {
+    "Mime_ID": 173,
+    "MIME_Name": "FrameMaker Normal Format",
+    "MIME_FileExtension": ".fm",
+    "MIME_FileExtensionNoPoint": "fm",
+    "MIME_Type": "application/vnd.framemaker",
+    "MIME_Details": "IANA: FrameMaker",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 174,
+    "MIME_Name": "Frogans Player",
+    "MIME_FileExtension": ".fnc",
+    "MIME_FileExtensionNoPoint": "fnc",
+    "MIME_Type": "application/vnd.frogans.fnc",
+    "MIME_Details": "IANA: Frogans Player",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 175,
+    "MIME_Name": "FlashPix",
+    "MIME_FileExtension": ".fpx",
+    "MIME_FileExtensionNoPoint": "fpx",
+    "MIME_Type": "image/vnd.fpx",
+    "MIME_Details": "IANA: FPX",
+    "Mime_IsImage": true,
+    "Mime_Category": "image"
+  },
+  {
+    "Mime_ID": 176,
+    "MIME_Name": "Friendly Software Corporation",
+    "MIME_FileExtension": ".fsc",
+    "MIME_FileExtensionNoPoint": "fsc",
+    "MIME_Type": "application/vnd.fsc.weblaunch",
+    "MIME_Details": "IANA: Friendly Software Corporation",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 177,
+    "MIME_Name": "FAST Search & Transfer ASA",
+    "MIME_FileExtension": ".fst",
+    "MIME_FileExtensionNoPoint": "fst",
+    "MIME_Type": "image/vnd.fst",
+    "MIME_Details": "IANA: FAST Search & Transfer ASA",
+    "Mime_IsImage": true,
+    "Mime_Category": "image"
+  },
+  {
+    "Mime_ID": 178,
+    "MIME_Name": "FluxTime Clip",
+    "MIME_FileExtension": ".ftc",
+    "MIME_FileExtensionNoPoint": "ftc",
+    "MIME_Type": "application/vnd.fluxtime.clip",
+    "MIME_Details": "IANA: FluxTime Clip",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 179,
+    "MIME_Name": "ANSER-WEB Terminal Client - Web Funds Transfer",
+    "MIME_FileExtension": ".fti",
+    "MIME_FileExtensionNoPoint": "fti",
+    "MIME_Type": "application/vnd.anser-web-funds-transfer-initiation",
+    "MIME_Details": "IANA: ANSWER-WEB",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 180,
+    "MIME_Name": "FAST Search & Transfer ASA",
+    "MIME_FileExtension": ".fvt",
+    "MIME_FileExtensionNoPoint": "fvt",
+    "MIME_Type": "video/vnd.fvt",
+    "MIME_Details": "IANA: FVT",
+    "Mime_Category": "video"
+  },
+  {
+    "Mime_ID": 181,
+    "MIME_Name": "Adobe Flex Project",
+    "MIME_FileExtension": ".fxp",
+    "MIME_FileExtensionNoPoint": "fxp",
+    "MIME_Type": "application/vnd.adobe.fxp",
+    "MIME_Details": "IANA: Adobe Flex Project",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 182,
+    "MIME_Name": "FuzzySheet",
+    "MIME_FileExtension": ".fzs",
+    "MIME_FileExtensionNoPoint": "fzs",
+    "MIME_Type": "application/vnd.fuzzysheet",
+    "MIME_Details": "IANA: FuzySheet",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 183,
+    "MIME_Name": "GeoplanW",
+    "MIME_FileExtension": ".g2w",
+    "MIME_FileExtensionNoPoint": "g2w",
+    "MIME_Type": "application/vnd.geoplan",
+    "MIME_Details": "IANA: GeoplanW",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 184,
+    "MIME_Name": "G3 Fax Image",
+    "MIME_FileExtension": ".g3",
+    "MIME_FileExtensionNoPoint": "g3",
+    "MIME_Type": "image/g3fax",
+    "MIME_Details": "Wikipedia: G3 Fax Image",
+    "Mime_IsImage": true,
+    "Mime_Category": "image"
+  },
+  {
+    "Mime_ID": 185,
+    "MIME_Name": "GeospacW",
+    "MIME_FileExtension": ".g3w",
+    "MIME_FileExtensionNoPoint": "g3w",
+    "MIME_Type": "application/vnd.geospace",
+    "MIME_Details": "IANA: GeospacW",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 186,
+    "MIME_Name": "Groove - Account",
+    "MIME_FileExtension": ".gac",
+    "MIME_FileExtensionNoPoint": "gac",
+    "MIME_Type": "application/vnd.groove-account",
+    "MIME_Details": "IANA: Groove",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 187,
+    "MIME_Name": "Geometric Description Language (GDL)",
+    "MIME_FileExtension": ".gdl",
+    "MIME_FileExtensionNoPoint": "gdl",
+    "MIME_Type": "model/vnd.gdl",
+    "MIME_Details": "IANA: GDL",
+    "Mime_Category": "model"
+  },
+  {
+    "Mime_ID": 188,
+    "MIME_Name": "DynaGeo",
+    "MIME_FileExtension": ".geo",
+    "MIME_FileExtensionNoPoint": "geo",
+    "MIME_Type": "application/vnd.dynageo",
+    "MIME_Details": "IANA: DynaGeo",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 189,
+    "MIME_Name": "GeoMetry Explorer",
+    "MIME_FileExtension": ".gex",
+    "MIME_FileExtensionNoPoint": "gex",
+    "MIME_Type": "application/vnd.geometry-explorer",
+    "MIME_Details": "IANA: GeoMetry Explorer",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 190,
+    "MIME_Name": "GeoGebra",
+    "MIME_FileExtension": ".ggb",
+    "MIME_FileExtensionNoPoint": "ggb",
+    "MIME_Type": "application/vnd.geogebra.file",
+    "MIME_Details": "IANA: GeoGebra",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 191,
+    "MIME_Name": "GeoGebra",
+    "MIME_FileExtension": ".ggt",
+    "MIME_FileExtensionNoPoint": "ggt",
+    "MIME_Type": "application/vnd.geogebra.tool",
+    "MIME_Details": "IANA: GeoGebra",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 192,
+    "MIME_Name": "Groove - Help",
+    "MIME_FileExtension": ".ghf",
+    "MIME_FileExtensionNoPoint": "ghf",
+    "MIME_Type": "application/vnd.groove-help",
+    "MIME_Details": "IANA: Groove",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 193,
+    "MIME_Name": "Graphics Interchange Format",
+    "MIME_FileExtension": ".gif",
+    "MIME_FileExtensionNoPoint": "gif",
+    "MIME_Type": "image/gif",
+    "MIME_Details": "Wikipedia: Graphics Interchange Format",
+    "Mime_IsImage": true,
+    "Mime_Category": "image"
+  },
+  {
+    "Mime_ID": 194,
+    "MIME_Name": "Groove - Identity Message",
+    "MIME_FileExtension": ".gim",
+    "MIME_FileExtensionNoPoint": "gim",
+    "MIME_Type": "application/vnd.groove-identity-message",
+    "MIME_Details": "IANA: Groove",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 195,
+    "MIME_Name": "GameMaker ActiveX",
+    "MIME_FileExtension": ".gmx",
+    "MIME_FileExtensionNoPoint": "gmx",
+    "MIME_Type": "application/vnd.gmx",
+    "MIME_Details": "IANA: GameMaker ActiveX",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 196,
+    "MIME_Name": "Gnumeric",
+    "MIME_FileExtension": ".gnumeric",
+    "MIME_FileExtensionNoPoint": "gnumeric",
+    "MIME_Type": "application/x-gnumeric",
+    "MIME_Details": "Wikipedia: Gnumeric",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 197,
+    "MIME_Name": "NpGraphIt",
+    "MIME_FileExtension": ".gph",
+    "MIME_FileExtensionNoPoint": "gph",
+    "MIME_Type": "application/vnd.flographit",
+    "MIME_Details": "IANA: FloGraphIt",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 198,
+    "MIME_Name": "GrafEq",
+    "MIME_FileExtension": ".gqf",
+    "MIME_FileExtensionNoPoint": "gqf",
+    "MIME_Type": "application/vnd.grafeq",
+    "MIME_Details": "IANA: GrafEq",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 199,
+    "MIME_Name": "Speech Recognition Grammar Specification",
+    "MIME_FileExtension": ".gram",
+    "MIME_FileExtensionNoPoint": "gram",
+    "MIME_Type": "application/srgs",
+    "MIME_Details": "W3C Speech Grammar",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 200,
+    "MIME_Name": "Groove - Injector",
+    "MIME_FileExtension": ".grv",
+    "MIME_FileExtensionNoPoint": "grv",
+    "MIME_Type": "application/vnd.groove-injector",
+    "MIME_Details": "IANA: Groove",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 201,
+    "MIME_Name": "Speech Recognition Grammar Specification - XML",
+    "MIME_FileExtension": ".grxml",
+    "MIME_FileExtensionNoPoint": "grxml",
+    "MIME_Type": "application/srgs+xml",
+    "MIME_Details": "W3C Speech Grammar",
+    "MIME_IsTextFile": true,
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 202,
+    "MIME_Name": "Ghostscript Font",
+    "MIME_FileExtension": ".gsf",
+    "MIME_FileExtensionNoPoint": "gsf",
+    "MIME_Type": "application/x-font-ghostscript",
+    "MIME_Details": "Wikipedia: Ghostscript",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 203,
+    "MIME_Name": "GNU Tar Files",
+    "MIME_FileExtension": ".gtar",
+    "MIME_FileExtensionNoPoint": "gtar",
+    "MIME_Type": "application/x-gtar",
+    "MIME_Details": "GNU Tar",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 204,
+    "MIME_Name": "Groove - Tool Message",
+    "MIME_FileExtension": ".gtm",
+    "MIME_FileExtensionNoPoint": "gtm",
+    "MIME_Type": "application/vnd.groove-tool-message",
+    "MIME_Details": "IANA: Groove",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 205,
+    "MIME_Name": "Gen-Trix Studio",
+    "MIME_FileExtension": ".gtw",
+    "MIME_FileExtensionNoPoint": "gtw",
+    "MIME_Type": "model/vnd.gtw",
+    "MIME_Details": "IANA: GTW",
+    "Mime_Category": "model"
+  },
+  {
+    "Mime_ID": 206,
+    "MIME_Name": "Graphviz",
+    "MIME_FileExtension": ".gv",
+    "MIME_FileExtensionNoPoint": "gv",
+    "MIME_Type": "text/vnd.graphviz",
+    "MIME_Details": "IANA: Graphviz",
+    "MIME_IsTextFile": true,
+    "Mime_Category": "text"
+  },
+  {
+    "Mime_ID": 207,
+    "MIME_Name": "GEONExT and JSXGraph",
+    "MIME_FileExtension": ".gxt",
+    "MIME_FileExtensionNoPoint": "gxt",
+    "MIME_Type": "application/vnd.geonext",
+    "MIME_Details": "IANA: GEONExT and JSXGraph",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 208,
+    "MIME_Name": "H.261",
+    "MIME_FileExtension": ".h261",
+    "MIME_FileExtensionNoPoint": "h261",
+    "MIME_Type": "video/h261",
+    "MIME_Details": "Wikipedia: H.261",
+    "Mime_Category": "video"
+  },
+  {
+    "Mime_ID": 209,
+    "MIME_Name": "H.263",
+    "MIME_FileExtension": ".h263",
+    "MIME_FileExtensionNoPoint": "h263",
+    "MIME_Type": "video/h263",
+    "MIME_Details": "Wikipedia: H.263",
+    "Mime_Category": "video"
+  },
+  {
+    "Mime_ID": 210,
+    "MIME_Name": "H.264",
+    "MIME_FileExtension": ".h264",
+    "MIME_FileExtensionNoPoint": "h264",
+    "MIME_Type": "video/h264",
+    "MIME_Details": "Wikipedia: H.264",
+    "Mime_Category": "video"
+  },
+  {
+    "Mime_ID": 211,
+    "MIME_Name": "Hypertext Application Language",
+    "MIME_FileExtension": ".hal",
+    "MIME_FileExtensionNoPoint": "hal",
+    "MIME_Type": "application/vnd.hal+xml",
+    "MIME_Details": "IANA: HAL",
+    "MIME_IsTextFile": true,
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 212,
+    "MIME_Name": "Homebanking Computer Interface (HBCI)",
+    "MIME_FileExtension": ".hbci",
+    "MIME_FileExtensionNoPoint": "hbci",
+    "MIME_Type": "application/vnd.hbci",
+    "MIME_Details": "IANA: HBCI",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 213,
+    "MIME_Name": "Hierarchical Data Format",
+    "MIME_FileExtension": ".hdf",
+    "MIME_FileExtensionNoPoint": "hdf",
+    "MIME_Type": "application/x-hdf",
+    "MIME_Details": "Wikipedia: Hierarchical Data Format",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 214,
+    "MIME_Name": "WinHelp",
+    "MIME_FileExtension": ".hlp",
+    "MIME_FileExtensionNoPoint": "hlp",
+    "MIME_Type": "application/winhlp",
+    "MIME_Details": "Wikipedia: WinHelp",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 215,
+    "MIME_Name": "HP-GL/2 and HP RTL",
+    "MIME_FileExtension": ".hpgl",
+    "MIME_FileExtensionNoPoint": "hpgl",
+    "MIME_Type": "application/vnd.hp-hpgl",
+    "MIME_Details": "IANA: HP-GL/2 and HP RTL",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 216,
+    "MIME_Name": "Hewlett Packard Instant Delivery",
+    "MIME_FileExtension": ".hpid",
+    "MIME_FileExtensionNoPoint": "hpid",
+    "MIME_Type": "application/vnd.hp-hpid",
+    "MIME_Details": "IANA: Hewlett Packard Instant Delivery",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 217,
+    "MIME_Name": "Hewlett-Packard's WebPrintSmart",
+    "MIME_FileExtension": ".hps",
+    "MIME_FileExtensionNoPoint": "hps",
+    "MIME_Type": "application/vnd.hp-hps",
+    "MIME_Details": "IANA: Hewlett-Packard's WebPrintSmart",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 218,
+    "MIME_Name": "Macintosh BinHex 4.0",
+    "MIME_FileExtension": ".hqx",
+    "MIME_FileExtensionNoPoint": "hqx",
+    "MIME_Type": "application/mac-binhex40",
+    "MIME_Details": "MacMIME",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 219,
+    "MIME_Name": "Kenamea App",
+    "MIME_FileExtension": ".htke",
+    "MIME_FileExtensionNoPoint": "htke",
+    "MIME_Type": "application/vnd.kenameaapp",
+    "MIME_Details": "IANA: Kenamea App",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 220,
+    "MIME_Name": "HyperText Markup Language (HTML)",
+    "MIME_FileExtension": ".htm",
+    "MIME_FileExtensionNoPoint": "htm",
+    "MIME_Type": "text/html",
+    "MIME_Details": "Wikipedia: HTML",
+    "MIME_IsAllowed": true,
+    "MIME_IsTextFile": true,
+    "Mime_Category": "text"
+  },
+  {
+    "Mime_ID": 221,
+    "MIME_Name": "HyperText Markup Language (HTML)",
+    "MIME_FileExtension": ".html",
+    "MIME_FileExtensionNoPoint": "html",
+    "MIME_Type": "text/html",
+    "MIME_Details": "Wikipedia: HTML",
+    "MIME_IsAllowed": true,
+    "MIME_IsTextFile": true,
+    "Mime_Category": "text"
+  },
+  {
+    "Mime_ID": 222,
+    "MIME_Name": "HV Voice Dictionary",
+    "MIME_FileExtension": ".hvd",
+    "MIME_FileExtensionNoPoint": "hvd",
+    "MIME_Type": "application/vnd.yamaha.hv-dic",
+    "MIME_Details": "IANA: HV Voice Dictionary",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 223,
+    "MIME_Name": "HV Voice Parameter",
+    "MIME_FileExtension": ".hvp",
+    "MIME_FileExtensionNoPoint": "hvp",
+    "MIME_Type": "application/vnd.yamaha.hv-voice",
+    "MIME_Details": "IANA: HV Voice Parameter",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 224,
+    "MIME_Name": "HV Script",
+    "MIME_FileExtension": ".hvs",
+    "MIME_FileExtensionNoPoint": "hvs",
+    "MIME_Type": "application/vnd.yamaha.hv-script",
+    "MIME_Details": "IANA: HV Script",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 225,
+    "MIME_Name": "Interactive Geometry Software",
+    "MIME_FileExtension": ".i2g",
+    "MIME_FileExtensionNoPoint": "i2g",
+    "MIME_Type": "application/vnd.intergeo",
+    "MIME_Details": "IANA: Interactive Geometry Software",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 226,
+    "MIME_Name": "ICC profile",
+    "MIME_FileExtension": ".icc",
+    "MIME_FileExtensionNoPoint": "icc",
+    "MIME_Type": "application/vnd.iccprofile",
+    "MIME_Details": "IANA: ICC profile",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 227,
+    "MIME_Name": "CoolTalk",
+    "MIME_FileExtension": ".ice",
+    "MIME_FileExtensionNoPoint": "ice",
+    "MIME_Type": "x-conference/x-cooltalk",
+    "MIME_Details": "Wikipedia: CoolTalk",
+    "Mime_Category": "x-conference"
+  },
+  {
+    "Mime_ID": 228,
+    "MIME_Name": "Icon Image",
+    "MIME_FileExtension": ".ico",
+    "MIME_FileExtensionNoPoint": "ico",
+    "MIME_Type": "image/x-icon",
+    "MIME_Details": "Wikipedia: ICO File Format",
+    "Mime_IsImage": true,
+    "Mime_Category": "image"
+  },
+  {
+    "Mime_ID": 229,
+    "MIME_Name": "iCalendar",
+    "MIME_FileExtension": ".ics",
+    "MIME_FileExtensionNoPoint": "ics",
+    "MIME_Type": "text/calendar",
+    "MIME_Details": "Wikipedia: iCalendar",
+    "MIME_IsTextFile": true,
+    "Mime_Category": "text"
+  },
+  {
+    "Mime_ID": 230,
+    "MIME_Name": "Image Exchange Format",
+    "MIME_FileExtension": ".ief",
+    "MIME_FileExtensionNoPoint": "ief",
+    "MIME_Type": "image/ief",
+    "MIME_Details": "RFC 1314",
+    "Mime_IsImage": true,
+    "Mime_Category": "image"
+  },
+  {
+    "Mime_ID": 231,
+    "MIME_Name": "Shana Informed Filler",
+    "MIME_FileExtension": ".ifm",
+    "MIME_FileExtensionNoPoint": "ifm",
+    "MIME_Type": "application/vnd.shana.informed.formdata",
+    "MIME_Details": "IANA: Shana Informed Filler",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 232,
+    "MIME_Name": "igLoader",
+    "MIME_FileExtension": ".igl",
+    "MIME_FileExtensionNoPoint": "igl",
+    "MIME_Type": "application/vnd.igloader",
+    "MIME_Details": "IANA: igLoader",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 233,
+    "MIME_Name": "IOCOM Visimeet",
+    "MIME_FileExtension": ".igm",
+    "MIME_FileExtensionNoPoint": "igm",
+    "MIME_Type": "application/vnd.insors.igm",
+    "MIME_Details": "IANA: IOCOM Visimeet",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 234,
+    "MIME_Name": "Initial Graphics Exchange Specification (IGES)",
+    "MIME_FileExtension": ".igs",
+    "MIME_FileExtensionNoPoint": "igs",
+    "MIME_Type": "model/iges",
+    "MIME_Details": "Wikipedia: IGES",
+    "Mime_Category": "model"
+  },
+  {
+    "Mime_ID": 235,
+    "MIME_Name": "Micrografx iGrafx Professional",
+    "MIME_FileExtension": ".igx",
+    "MIME_FileExtensionNoPoint": "igx",
+    "MIME_Type": "application/vnd.micrografx.igx",
+    "MIME_Details": "IANA: Micrografx",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 236,
+    "MIME_Name": "Shana Informed Filler",
+    "MIME_FileExtension": ".iif",
+    "MIME_FileExtensionNoPoint": "iif",
+    "MIME_Type": "application/vnd.shana.informed.interchange",
+    "MIME_Details": "IANA: Shana Informed Filler",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 237,
+    "MIME_Name": "Simply Accounting - Data Import",
+    "MIME_FileExtension": ".imp",
+    "MIME_FileExtensionNoPoint": "imp",
+    "MIME_Type": "application/vnd.accpac.simply.imp",
+    "MIME_Details": "IANA: Simply Accounting",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 238,
+    "MIME_Name": "Microsoft Class Server",
+    "MIME_FileExtension": ".ims",
+    "MIME_FileExtensionNoPoint": "ims",
+    "MIME_Type": "application/vnd.ms-ims",
+    "MIME_Details": "IANA: MS Class Server",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 239,
+    "MIME_Name": "Internet Protocol Flow Information Export",
+    "MIME_FileExtension": ".ipfix",
+    "MIME_FileExtensionNoPoint": "ipfix",
+    "MIME_Type": "application/ipfix",
+    "MIME_Details": "RFC 3917",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 240,
+    "MIME_Name": "Shana Informed Filler",
+    "MIME_FileExtension": ".ipk",
+    "MIME_FileExtensionNoPoint": "ipk",
+    "MIME_Type": "application/vnd.shana.informed.package",
+    "MIME_Details": "IANA: Shana Informed Filler",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 241,
+    "MIME_Name": "IBM DB2 Rights Manager",
+    "MIME_FileExtension": ".irm",
+    "MIME_FileExtensionNoPoint": "irm",
+    "MIME_Type": "application/vnd.ibm.rights-management",
+    "MIME_Details": "IANA: IBM DB2 Rights Manager",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 242,
+    "MIME_Name": "iRepository / Lucidoc Editor",
+    "MIME_FileExtension": ".irp",
+    "MIME_FileExtensionNoPoint": "irp",
+    "MIME_Type": "application/vnd.irepository.package+xml",
+    "MIME_Details": "IANA: iRepository / Lucidoc Editor",
+    "MIME_IsTextFile": true,
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 243,
+    "MIME_Name": "Shana Informed Filler",
+    "MIME_FileExtension": ".itp",
+    "MIME_FileExtensionNoPoint": "itp",
+    "MIME_Type": "application/vnd.shana.informed.formtemplate",
+    "MIME_Details": "IANA: Shana Informed Filler",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 244,
+    "MIME_Name": "ImmerVision PURE Players",
+    "MIME_FileExtension": ".ivp",
+    "MIME_FileExtensionNoPoint": "ivp",
+    "MIME_Type": "application/vnd.immervision-ivp",
+    "MIME_Details": "IANA: ImmerVision PURE Players",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 245,
+    "MIME_Name": "ImmerVision PURE Players",
+    "MIME_FileExtension": ".ivu",
+    "MIME_FileExtensionNoPoint": "ivu",
+    "MIME_Type": "application/vnd.immervision-ivu",
+    "MIME_Details": "IANA: ImmerVision PURE Players",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 246,
+    "MIME_Name": "J2ME App Descriptor",
+    "MIME_FileExtension": ".jad",
+    "MIME_FileExtensionNoPoint": "jad",
+    "MIME_Type": "text/vnd.sun.j2me.app-descriptor",
+    "MIME_Details": "IANA: J2ME App Descriptor",
+    "MIME_IsTextFile": true,
+    "Mime_Category": "text"
+  },
+  {
+    "Mime_ID": 247,
+    "MIME_Name": "Lightspeed Audio Lab",
+    "MIME_FileExtension": ".jam",
+    "MIME_FileExtensionNoPoint": "jam",
+    "MIME_Type": "application/vnd.jam",
+    "MIME_Details": "IANA: Lightspeed Audio Lab",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 248,
+    "MIME_Name": "Java Archive",
+    "MIME_FileExtension": ".jar",
+    "MIME_FileExtensionNoPoint": "jar",
+    "MIME_Type": "application/java-archive",
+    "MIME_Details": "Wikipedia: JAR file format",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 249,
+    "MIME_Name": "Java Source File",
+    "MIME_FileExtension": ".java",
+    "MIME_FileExtensionNoPoint": "java",
+    "MIME_Type": "text/x-java-source,java",
+    "MIME_Details": "Wikipedia: Java",
+    "MIME_IsTextFile": true,
+    "Mime_Category": "text"
+  },
+  {
+    "Mime_ID": 250,
+    "MIME_Name": "RhymBox",
+    "MIME_FileExtension": ".jisp",
+    "MIME_FileExtensionNoPoint": "jisp",
+    "MIME_Type": "application/vnd.jisp",
+    "MIME_Details": "IANA: RhymBox",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 251,
+    "MIME_Name": "HP Indigo Digital Press - Job Layout Languate",
+    "MIME_FileExtension": ".jlt",
+    "MIME_FileExtensionNoPoint": "jlt",
+    "MIME_Type": "application/vnd.hp-jlyt",
+    "MIME_Details": "IANA: HP Job Layout Language",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 252,
+    "MIME_Name": "Java Network Launching Protocol",
+    "MIME_FileExtension": ".jnlp",
+    "MIME_FileExtensionNoPoint": "jnlp",
+    "MIME_Type": "application/x-java-jnlp-file",
+    "MIME_Details": "Wikipedia: Java Web Start",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 253,
+    "MIME_Name": "Joda Archive",
+    "MIME_FileExtension": ".joda",
+    "MIME_FileExtensionNoPoint": "joda",
+    "MIME_Type": "application/vnd.joost.joda-archive",
+    "MIME_Details": "IANA: Joda Archive",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 254,
+    "MIME_Name": "JPEG Image",
+    "MIME_FileExtension": ".jpeg",
+    "MIME_FileExtensionNoPoint": "jpeg",
+    "MIME_Type": "image/jpeg",
+    "MIME_Details": "RFC 1314",
+    "MIME_IsAllowed": true,
+    "Mime_IsImage": true,
+    "Mime_Category": "image"
+  },
+  {
+    "Mime_ID": 255,
+    "MIME_Name": "JPEG Image",
+    "MIME_FileExtension": ".jpg",
+    "MIME_FileExtensionNoPoint": "jpg",
+    "MIME_Type": "image/jpeg",
+    "MIME_Details": "RFC 1314",
+    "MIME_IsAllowed": true,
+    "Mime_IsImage": true,
+    "Mime_Category": "image"
+  },
+  {
+    "Mime_ID": 256,
+    "MIME_Name": "JPGVideo",
+    "MIME_FileExtension": ".jpgv",
+    "MIME_FileExtensionNoPoint": "jpgv",
+    "MIME_Type": "video/jpeg",
+    "MIME_Details": "RFC 3555",
+    "Mime_Category": "video"
+  },
+  {
+    "Mime_ID": 257,
+    "MIME_Name": "JPEG 2000 Compound Image File Format",
+    "MIME_FileExtension": ".jpm",
+    "MIME_FileExtensionNoPoint": "jpm",
+    "MIME_Type": "video/jpm",
+    "MIME_Details": "IANA: JPM",
+    "Mime_Category": "video"
+  },
+  {
+    "Mime_ID": 258,
+    "MIME_Name": "JavaScript",
+    "MIME_FileExtension": ".js",
+    "MIME_FileExtensionNoPoint": "js",
+    "MIME_Type": "application/javascript",
+    "MIME_Details": "JavaScript",
+    "MIME_IsTextFile": true,
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 259,
+    "MIME_Name": "JavaScript Object Notation (JSON)",
+    "MIME_FileExtension": ".json",
+    "MIME_FileExtensionNoPoint": "json",
+    "MIME_Type": "application/json",
+    "MIME_Details": "Wikipedia: JSON",
+    "MIME_IsTextFile": true,
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 260,
+    "MIME_Name": "KDE KOffice Office Suite - Karbon",
+    "MIME_FileExtension": ".karbon",
+    "MIME_FileExtensionNoPoint": "karbon",
+    "MIME_Type": "application/vnd.kde.karbon",
+    "MIME_Details": "IANA: KDE KOffice Office Suite",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 261,
+    "MIME_Name": "KDE KOffice Office Suite - Kformula",
+    "MIME_FileExtension": ".kfo",
+    "MIME_FileExtensionNoPoint": "kfo",
+    "MIME_Type": "application/vnd.kde.kformula",
+    "MIME_Details": "IANA: KDE KOffice Office Suite",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 262,
+    "MIME_Name": "Kidspiration",
+    "MIME_FileExtension": ".kia",
+    "MIME_FileExtensionNoPoint": "kia",
+    "MIME_Type": "application/vnd.kidspiration",
+    "MIME_Details": "IANA: Kidspiration",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 263,
+    "MIME_Name": "Google Earth - KML",
+    "MIME_FileExtension": ".kml",
+    "MIME_FileExtensionNoPoint": "kml",
+    "MIME_Type": "application/vnd.google-earth.kml+xml",
+    "MIME_Details": "IANA: Google Earth",
+    "MIME_IsTextFile": true,
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 264,
+    "MIME_Name": "Google Earth - Zipped KML",
+    "MIME_FileExtension": ".kmz",
+    "MIME_FileExtensionNoPoint": "kmz",
+    "MIME_Type": "application/vnd.google-earth.kmz",
+    "MIME_Details": "IANA: Google Earth",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 265,
+    "MIME_Name": "Kinar Applications",
+    "MIME_FileExtension": ".kne",
+    "MIME_FileExtensionNoPoint": "kne",
+    "MIME_Type": "application/vnd.kinar",
+    "MIME_Details": "IANA: Kina Applications",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 266,
+    "MIME_Name": "KDE KOffice Office Suite - Kontour",
+    "MIME_FileExtension": ".kon",
+    "MIME_FileExtensionNoPoint": "kon",
+    "MIME_Type": "application/vnd.kde.kontour",
+    "MIME_Details": "IANA: KDE KOffice Office Suite",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 267,
+    "MIME_Name": "KDE KOffice Office Suite - Kpresenter",
+    "MIME_FileExtension": ".kpr",
+    "MIME_FileExtensionNoPoint": "kpr",
+    "MIME_Type": "application/vnd.kde.kpresenter",
+    "MIME_Details": "IANA: KDE KOffice Office Suite",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 268,
+    "MIME_Name": "KDE KOffice Office Suite - Kspread",
+    "MIME_FileExtension": ".ksp",
+    "MIME_FileExtensionNoPoint": "ksp",
+    "MIME_Type": "application/vnd.kde.kspread",
+    "MIME_Details": "IANA: KDE KOffice Office Suite",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 269,
+    "MIME_Name": "OpenGL Textures (KTX)",
+    "MIME_FileExtension": ".ktx",
+    "MIME_FileExtensionNoPoint": "ktx",
+    "MIME_Type": "image/ktx",
+    "MIME_Details": "KTX File Format",
+    "Mime_IsImage": true,
+    "Mime_Category": "image"
+  },
+  {
+    "Mime_ID": 270,
+    "MIME_Name": "Kahootz",
+    "MIME_FileExtension": ".ktz",
+    "MIME_FileExtensionNoPoint": "ktz",
+    "MIME_Type": "application/vnd.kahootz",
+    "MIME_Details": "IANA: Kahootz",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 271,
+    "MIME_Name": "KDE KOffice Office Suite - Kword",
+    "MIME_FileExtension": ".kwd",
+    "MIME_FileExtensionNoPoint": "kwd",
+    "MIME_Type": "application/vnd.kde.kword",
+    "MIME_Details": "IANA: KDE KOffice Office Suite",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 272,
+    "MIME_Name": "Laser App Enterprise",
+    "MIME_FileExtension": ".lasxml",
+    "MIME_FileExtensionNoPoint": "lasxml",
+    "MIME_Type": "application/vnd.las.las+xml",
+    "MIME_Details": "IANA: Laser App Enterprise",
+    "MIME_IsTextFile": true,
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 273,
+    "MIME_Name": "LaTeX",
+    "MIME_FileExtension": ".latex",
+    "MIME_FileExtensionNoPoint": "latex",
+    "MIME_Type": "application/x-latex",
+    "MIME_Details": "Wikipedia: LaTeX",
+    "MIME_IsTextFile": true,
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 274,
+    "MIME_Name": "Life Balance - Desktop Edition",
+    "MIME_FileExtension": ".lbd",
+    "MIME_FileExtensionNoPoint": "lbd",
+    "MIME_Type": "application/vnd.llamagraphics.life-balance.desktop",
+    "MIME_Details": "IANA: Life Balance",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 275,
+    "MIME_Name": "Life Balance - Exchange Format",
+    "MIME_FileExtension": ".lbe",
+    "MIME_FileExtensionNoPoint": "lbe",
+    "MIME_Type": "application/vnd.llamagraphics.life-balance.exchange+xml",
+    "MIME_Details": "IANA: Life Balance",
+    "MIME_IsTextFile": true,
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 276,
+    "MIME_Name": "Archipelago Lesson Player",
+    "MIME_FileExtension": ".les",
+    "MIME_FileExtensionNoPoint": "les",
+    "MIME_Type": "application/vnd.hhe.lesson-player",
+    "MIME_Details": "IANA: Archipelago Lesson Player",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 277,
+    "MIME_Name": "ROUTE 66 Location Based Services",
+    "MIME_FileExtension": ".link66",
+    "MIME_FileExtensionNoPoint": "link66",
+    "MIME_Type": "application/vnd.route66.link66+xml",
+    "MIME_Details": "IANA: ROUTE 66",
+    "MIME_IsTextFile": true,
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 278,
+    "MIME_Name": "Microsoft Learning Resource Module",
+    "MIME_FileExtension": ".lrm",
+    "MIME_FileExtensionNoPoint": "lrm",
+    "MIME_Type": "application/vnd.ms-lrm",
+    "MIME_Details": "IANA: MS Learning Resource Module",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 279,
+    "MIME_Name": "Frogans Player",
+    "MIME_FileExtension": ".ltf",
+    "MIME_FileExtensionNoPoint": "ltf",
+    "MIME_Type": "application/vnd.frogans.ltf",
+    "MIME_Details": "IANA: Frogans Player",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 280,
+    "MIME_Name": "Lucent Voice",
+    "MIME_FileExtension": ".lvp",
+    "MIME_FileExtensionNoPoint": "lvp",
+    "MIME_Type": "audio/vnd.lucent.voice",
+    "MIME_Details": "IANA: Lucent Voice",
+    "Mime_Category": "audio"
+  },
+  {
+    "Mime_ID": 281,
+    "MIME_Name": "Lotus Wordpro",
+    "MIME_FileExtension": ".lwp",
+    "MIME_FileExtensionNoPoint": "lwp",
+    "MIME_Type": "application/vnd.lotus-wordpro",
+    "MIME_Details": "IANA: Lotus Wordpro",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 282,
+    "MIME_Name": "MPEG-21",
+    "MIME_FileExtension": ".m21",
+    "MIME_FileExtensionNoPoint": "m21",
+    "MIME_Type": "application/mp21",
+    "MIME_Details": "Wikipedia: MPEG-21",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 283,
+    "MIME_Name": "M3U (Multimedia Playlist)",
+    "MIME_FileExtension": ".m3u",
+    "MIME_FileExtensionNoPoint": "m3u",
+    "MIME_Type": "audio/x-mpegurl",
+    "MIME_Details": "Wikipedia: M3U",
+    "Mime_Category": "audio"
+  },
+  {
+    "Mime_ID": 284,
+    "MIME_Name": "Multimedia Playlist Unicode",
+    "MIME_FileExtension": ".m3u8",
+    "MIME_FileExtensionNoPoint": "m3u8",
+    "MIME_Type": "application/vnd.apple.mpegurl",
+    "MIME_Details": "Wikipedia: M3U",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 285,
+    "MIME_Name": "M4v",
+    "MIME_FileExtension": ".m4v",
+    "MIME_FileExtensionNoPoint": "m4v",
+    "MIME_Type": "video/x-m4v",
+    "MIME_Details": "Wikipedia: M4v",
+    "Mime_Category": "video"
+  },
+  {
+    "Mime_ID": 286,
+    "MIME_Name": "Mathematica Notebooks",
+    "MIME_FileExtension": ".ma",
+    "MIME_FileExtensionNoPoint": "ma",
+    "MIME_Type": "application/mathematica",
+    "MIME_Details": "IANA - Mathematica",
+    "MIME_IsTextFile": true,
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 287,
+    "MIME_Name": "Metadata Authority Description Schema",
+    "MIME_FileExtension": ".mads",
+    "MIME_FileExtensionNoPoint": "mads",
+    "MIME_Type": "application/mads+xml",
+    "MIME_Details": "RFC 6207",
+    "MIME_IsTextFile": true,
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 288,
+    "MIME_Name": "EcoWin Chart",
+    "MIME_FileExtension": ".mag",
+    "MIME_FileExtensionNoPoint": "mag",
+    "MIME_Type": "application/vnd.ecowin.chart",
+    "MIME_Details": "IANA: EcoWin Chart",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 289,
+    "MIME_Name": "Mathematical Markup Language",
+    "MIME_FileExtension": ".mathml",
+    "MIME_FileExtensionNoPoint": "mathml",
+    "MIME_Type": "application/mathml+xml",
+    "MIME_Details": "W3C Math Home",
+    "MIME_IsTextFile": true,
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 290,
+    "MIME_Name": "Mobius Management Systems - Basket file",
+    "MIME_FileExtension": ".mbk",
+    "MIME_FileExtensionNoPoint": "mbk",
+    "MIME_Type": "application/vnd.mobius.mbk",
+    "MIME_Details": "IANA: Mobius Management Systems",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 291,
+    "MIME_Name": "Mbox database files",
+    "MIME_FileExtension": ".mbox",
+    "MIME_FileExtensionNoPoint": "mbox",
+    "MIME_Type": "application/mbox",
+    "MIME_Details": "RFC 4155",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 292,
+    "MIME_Name": "MedCalc",
+    "MIME_FileExtension": ".mc1",
+    "MIME_FileExtensionNoPoint": "mc1",
+    "MIME_Type": "application/vnd.medcalcdata",
+    "MIME_Details": "IANA: MedCalc",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 293,
+    "MIME_Name": "Micro CADAM Helix D&D",
+    "MIME_FileExtension": ".mcd",
+    "MIME_FileExtensionNoPoint": "mcd",
+    "MIME_Type": "application/vnd.mcd",
+    "MIME_Details": "IANA: Micro CADAM Helix D&D",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 294,
+    "MIME_Name": "Curl - Manifest File",
+    "MIME_FileExtension": ".mcurl",
+    "MIME_FileExtensionNoPoint": "mcurl",
+    "MIME_Type": "text/vnd.curl.mcurl",
+    "MIME_Details": "Curl Manifest File",
+    "MIME_IsTextFile": true,
+    "Mime_Category": "text"
+  },
+  {
+    "Mime_ID": 295,
+    "MIME_Name": "Microsoft Access",
+    "MIME_FileExtension": ".mdb",
+    "MIME_FileExtensionNoPoint": "mdb",
+    "MIME_Type": "application/x-msaccess",
+    "MIME_Details": "Wikipedia: Microsoft Access",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 296,
+    "MIME_Name": "Microsoft Document Imaging Format",
+    "MIME_FileExtension": ".mdi",
+    "MIME_FileExtensionNoPoint": "mdi",
+    "MIME_Type": "image/vnd.ms-modi",
+    "MIME_Details": "Wikipedia: Microsoft Document Image Format",
+    "Mime_IsImage": true,
+    "Mime_Category": "image"
+  },
+  {
+    "Mime_ID": 297,
+    "MIME_Name": "Metalink",
+    "MIME_FileExtension": ".meta4",
+    "MIME_FileExtensionNoPoint": "meta4",
+    "MIME_Type": "application/metalink4+xml",
+    "MIME_Details": "Wikipedia: Metalink",
+    "MIME_IsTextFile": true,
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 298,
+    "MIME_Name": "Metadata Encoding and Transmission Standard",
+    "MIME_FileExtension": ".mets",
+    "MIME_FileExtensionNoPoint": "mets",
+    "MIME_Type": "application/mets+xml",
+    "MIME_Details": "RFC 6207",
+    "MIME_IsTextFile": true,
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 299,
+    "MIME_Name": "Melody Format for Mobile Platform",
+    "MIME_FileExtension": ".mfm",
+    "MIME_FileExtensionNoPoint": "mfm",
+    "MIME_Type": "application/vnd.mfmp",
+    "MIME_Details": "IANA: Melody Format for Mobile Platform",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 300,
+    "MIME_Name": "MapGuide DBXML",
+    "MIME_FileExtension": ".mgp",
+    "MIME_FileExtensionNoPoint": "mgp",
+    "MIME_Type": "application/vnd.osgeo.mapguide.package",
+    "MIME_Details": "IANA: MapGuide DBXML",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 301,
+    "MIME_Name": "EFI Proteus",
+    "MIME_FileExtension": ".mgz",
+    "MIME_FileExtensionNoPoint": "mgz",
+    "MIME_Type": "application/vnd.proteus.magazine",
+    "MIME_Details": "IANA: EFI Proteus",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 302,
+    "MIME_Name": "MIDI - Musical Instrument Digital Interface",
+    "MIME_FileExtension": ".mid",
+    "MIME_FileExtensionNoPoint": "mid",
+    "MIME_Type": "audio/midi",
+    "MIME_Details": "Wikipedia: MIDI",
+    "Mime_Category": "audio"
+  },
+  {
+    "Mime_ID": 303,
+    "MIME_Name": "FrameMaker Interchange Format",
+    "MIME_FileExtension": ".mif",
+    "MIME_FileExtensionNoPoint": "mif",
+    "MIME_Type": "application/vnd.mif",
+    "MIME_Details": "IANA: FrameMaker Interchange Format",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 304,
+    "MIME_Name": "Motion JPEG 2000",
+    "MIME_FileExtension": ".mj2",
+    "MIME_FileExtensionNoPoint": "mj2",
+    "MIME_Type": "video/mj2",
+    "MIME_Details": "IANA: MJ2",
+    "Mime_Category": "video"
+  },
+  {
+    "Mime_ID": 305,
+    "MIME_Name": "Dolby Meridian Lossless Packing",
+    "MIME_FileExtension": ".mlp",
+    "MIME_FileExtensionNoPoint": "mlp",
+    "MIME_Type": "application/vnd.dolby.mlp",
+    "MIME_Details": "IANA: Dolby Meridian Lossless Packing",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 306,
+    "MIME_Name": "Karaoke on Chipnuts Chipsets",
+    "MIME_FileExtension": ".mmd",
+    "MIME_FileExtensionNoPoint": "mmd",
+    "MIME_Type": "application/vnd.chipnuts.karaoke-mmd",
+    "MIME_Details": "IANA: Chipnuts Karaoke",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 307,
+    "MIME_Name": "SMAF File",
+    "MIME_FileExtension": ".mmf",
+    "MIME_FileExtensionNoPoint": "mmf",
+    "MIME_Type": "application/vnd.smaf",
+    "MIME_Details": "IANA: SMAF File",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 308,
+    "MIME_Name": "EDMICS 2000",
+    "MIME_FileExtension": ".mmr",
+    "MIME_FileExtensionNoPoint": "mmr",
+    "MIME_Type": "image/vnd.fujixerox.edmics-mmr",
+    "MIME_Details": "IANA: EDMICS 2000",
+    "Mime_IsImage": true,
+    "Mime_Category": "image"
+  },
+  {
+    "Mime_ID": 309,
+    "MIME_Name": "Microsoft Money",
+    "MIME_FileExtension": ".mny",
+    "MIME_FileExtensionNoPoint": "mny",
+    "MIME_Type": "application/x-msmoney",
+    "MIME_Details": "Wikipedia: Microsoft Money",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 310,
+    "MIME_Name": "Metadata Object Description Schema",
+    "MIME_FileExtension": ".mods",
+    "MIME_FileExtensionNoPoint": "mods",
+    "MIME_Type": "application/mods+xml",
+    "MIME_Details": "RFC 6207",
+    "MIME_IsTextFile": true,
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 311,
+    "MIME_Name": "SGI Movie",
+    "MIME_FileExtension": ".movie",
+    "MIME_FileExtensionNoPoint": "movie",
+    "MIME_Type": "video/x-sgi-movie",
+    "MIME_Details": "SGI Facts",
+    "Mime_Category": "video"
+  },
+  {
+    "Mime_ID": 312,
+    "MIME_Name": "MPEG4",
+    "MIME_FileExtension": ".mp4",
+    "MIME_FileExtensionNoPoint": "mp4",
+    "MIME_Type": "application/mp4",
+    "MIME_Details": "RFC 4337",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 313,
+    "MIME_Name": "MPEG-4 Video",
+    "MIME_FileExtension": ".mp4",
+    "MIME_FileExtensionNoPoint": "mp4",
+    "MIME_Type": "video/mp4",
+    "MIME_Details": "Wikipedia: MP4",
+    "Mime_Category": "video"
+  },
+  {
+    "Mime_ID": 314,
+    "MIME_Name": "MPEG-4 Audio",
+    "MIME_FileExtension": ".mp4a",
+    "MIME_FileExtensionNoPoint": "mp4a",
+    "MIME_Type": "audio/mp4",
+    "MIME_Details": "Wikipedia: MP4A",
+    "Mime_Category": "audio"
+  },
+  {
+    "Mime_ID": 315,
+    "MIME_Name": "Mophun Certificate",
+    "MIME_FileExtension": ".mpc",
+    "MIME_FileExtensionNoPoint": "mpc",
+    "MIME_Type": "application/vnd.mophun.certificate",
+    "MIME_Details": "IANA: Mophun Certificate",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 316,
+    "MIME_Name": "MPEG Video",
+    "MIME_FileExtension": ".mpeg",
+    "MIME_FileExtensionNoPoint": "mpeg",
+    "MIME_Type": "video/mpeg",
+    "MIME_Details": "Wikipedia: MPEG",
+    "Mime_Category": "video"
+  },
+  {
+    "Mime_ID": 317,
+    "MIME_Name": "MPEG Audio",
+    "MIME_FileExtension": ".mpga",
+    "MIME_FileExtensionNoPoint": "mpga",
+    "MIME_Type": "audio/mpeg",
+    "MIME_Details": "Wikipedia: MPGA",
+    "Mime_Category": "audio"
+  },
+  {
+    "Mime_ID": 318,
+    "MIME_Name": "Apple Installer Package",
+    "MIME_FileExtension": ".mpkg",
+    "MIME_FileExtensionNoPoint": "mpkg",
+    "MIME_Type": "application/vnd.apple.installer+xml",
+    "MIME_Details": "IANA: Apple Installer",
+    "MIME_IsTextFile": true,
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 319,
+    "MIME_Name": "Blueice Research Multipass",
+    "MIME_FileExtension": ".mpm",
+    "MIME_FileExtensionNoPoint": "mpm",
+    "MIME_Type": "application/vnd.blueice.multipass",
+    "MIME_Details": "IANA: Multipass",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 320,
+    "MIME_Name": "Mophun VM",
+    "MIME_FileExtension": ".mpn",
+    "MIME_FileExtensionNoPoint": "mpn",
+    "MIME_Type": "application/vnd.mophun.application",
+    "MIME_Details": "IANA: Mophun VM",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 321,
+    "MIME_Name": "Microsoft Project",
+    "MIME_FileExtension": ".mpp",
+    "MIME_FileExtensionNoPoint": "mpp",
+    "MIME_Type": "application/vnd.ms-project",
+    "MIME_Details": "IANA: MS PowerPoint",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 322,
+    "MIME_Name": "MiniPay",
+    "MIME_FileExtension": ".mpy",
+    "MIME_FileExtensionNoPoint": "mpy",
+    "MIME_Type": "application/vnd.ibm.minipay",
+    "MIME_Details": "IANA: MiniPay",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 323,
+    "MIME_Name": "Mobius Management Systems - Query File",
+    "MIME_FileExtension": ".mqy",
+    "MIME_FileExtensionNoPoint": "mqy",
+    "MIME_Type": "application/vnd.mobius.mqy",
+    "MIME_Details": "IANA: Mobius Management Systems",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 324,
+    "MIME_Name": "MARC Formats",
+    "MIME_FileExtension": ".mrc",
+    "MIME_FileExtensionNoPoint": "mrc",
+    "MIME_Type": "application/marc",
+    "MIME_Details": "RFC 2220",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 325,
+    "MIME_Name": "MARC21 XML Schema",
+    "MIME_FileExtension": ".mrcx",
+    "MIME_FileExtensionNoPoint": "mrcx",
+    "MIME_Type": "application/marcxml+xml",
+    "MIME_Details": "RFC 6207",
+    "MIME_IsTextFile": true,
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 326,
+    "MIME_Name": "Media Server Control Markup Language",
+    "MIME_FileExtension": ".mscml",
+    "MIME_FileExtensionNoPoint": "mscml",
+    "MIME_Type": "application/mediaservercontrol+xml",
+    "MIME_Details": "RFC 5022",
+    "MIME_IsTextFile": true,
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 327,
+    "MIME_Name": "3GPP MSEQ File",
+    "MIME_FileExtension": ".mseq",
+    "MIME_FileExtensionNoPoint": "mseq",
+    "MIME_Type": "application/vnd.mseq",
+    "MIME_Details": "IANA: 3GPP MSEQ File",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 328,
+    "MIME_Name": "QUASS Stream Player",
+    "MIME_FileExtension": ".msf",
+    "MIME_FileExtensionNoPoint": "msf",
+    "MIME_Type": "application/vnd.epson.msf",
+    "MIME_Details": "IANA: QUASS Stream Player",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 329,
+    "MIME_Name": "Mesh Data Type",
+    "MIME_FileExtension": ".msh",
+    "MIME_FileExtensionNoPoint": "msh",
+    "MIME_Type": "model/mesh",
+    "MIME_Details": "RFC 2077",
+    "Mime_Category": "model"
+  },
+  {
+    "Mime_ID": 330,
+    "MIME_Name": "Mobius Management Systems - Script Language",
+    "MIME_FileExtension": ".msl",
+    "MIME_FileExtensionNoPoint": "msl",
+    "MIME_Type": "application/vnd.mobius.msl",
+    "MIME_Details": "IANA: Mobius Management Systems",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 331,
+    "MIME_Name": "Muvee Automatic Video Editing",
+    "MIME_FileExtension": ".msty",
+    "MIME_FileExtensionNoPoint": "msty",
+    "MIME_Type": "application/vnd.muvee.style",
+    "MIME_Details": "IANA: Muvee",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 332,
+    "MIME_Name": "Virtue MTS",
+    "MIME_FileExtension": ".mts",
+    "MIME_FileExtensionNoPoint": "mts",
+    "MIME_Type": "model/vnd.mts",
+    "MIME_Details": "IANA: MTS",
+    "Mime_Category": "model"
+  },
+  {
+    "Mime_ID": 333,
+    "MIME_Name": "MUsical Score Interpreted Code Invented for the ASCII designation of Notation",
+    "MIME_FileExtension": ".mus",
+    "MIME_FileExtensionNoPoint": "mus",
+    "MIME_Type": "application/vnd.musician",
+    "MIME_Details": "IANA: MUSICIAN",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 334,
+    "MIME_Name": "Recordare Applications",
+    "MIME_FileExtension": ".musicxml",
+    "MIME_FileExtensionNoPoint": "musicxml",
+    "MIME_Type": "application/vnd.recordare.musicxml+xml",
+    "MIME_Details": "IANA: Recordare Apps",
+    "MIME_IsTextFile": true,
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 335,
+    "MIME_Name": "Microsoft MediaView",
+    "MIME_FileExtension": ".mvb",
+    "MIME_FileExtensionNoPoint": "mvb",
+    "MIME_Type": "application/x-msmediaview",
+    "MIME_Details": "Windows Help",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 336,
+    "MIME_Name": "Medical Waveform Encoding Format",
+    "MIME_FileExtension": ".mwf",
+    "MIME_FileExtensionNoPoint": "mwf",
+    "MIME_Type": "application/vnd.mfer",
+    "MIME_Details": "IANA: Medical Waveform Encoding Format",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 337,
+    "MIME_Name": "Material Exchange Format",
+    "MIME_FileExtension": ".mxf",
+    "MIME_FileExtensionNoPoint": "mxf",
+    "MIME_Type": "application/mxf",
+    "MIME_Details": "RFC 4539",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 338,
+    "MIME_Name": "Recordare Applications",
+    "MIME_FileExtension": ".mxl",
+    "MIME_FileExtensionNoPoint": "mxl",
+    "MIME_Type": "application/vnd.recordare.musicxml",
+    "MIME_Details": "IANA: Recordare Apps",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 339,
+    "MIME_Name": "MXML",
+    "MIME_FileExtension": ".mxml",
+    "MIME_FileExtensionNoPoint": "mxml",
+    "MIME_Type": "application/xv+xml",
+    "MIME_Details": "Wikipedia: MXML",
+    "MIME_IsTextFile": true,
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 340,
+    "MIME_Name": "Triscape Map Explorer",
+    "MIME_FileExtension": ".mxs",
+    "MIME_FileExtensionNoPoint": "mxs",
+    "MIME_Type": "application/vnd.triscape.mxs",
+    "MIME_Details": "IANA: Triscape Map Explorer",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 341,
+    "MIME_Name": "MPEG Url",
+    "MIME_FileExtension": ".mxu",
+    "MIME_FileExtensionNoPoint": "mxu",
+    "MIME_Type": "video/vnd.mpegurl",
+    "MIME_Details": "IANA: MPEG Url",
+    "Mime_Category": "video"
+  },
+  {
+    "Mime_ID": 342,
+    "MIME_Name": "Notation3",
+    "MIME_FileExtension": ".n3",
+    "MIME_FileExtensionNoPoint": "n3",
+    "MIME_Type": "text/n3",
+    "MIME_Details": "Wikipedia: Notation3",
+    "MIME_IsTextFile": true,
+    "Mime_Category": "text"
+  },
+  {
+    "Mime_ID": 343,
+    "MIME_Name": "Mathematica Notebook Player",
+    "MIME_FileExtension": ".nbp",
+    "MIME_FileExtensionNoPoint": "nbp",
+    "MIME_Type": "application/vnd.wolfram.player",
+    "MIME_Details": "IANA: Mathematica Notebook Player",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 344,
+    "MIME_Name": "Network Common Data Form (NetCDF)",
+    "MIME_FileExtension": ".nc",
+    "MIME_FileExtensionNoPoint": "nc",
+    "MIME_Type": "application/x-netcdf",
+    "MIME_Details": "Wikipedia: NetCDF",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 345,
+    "MIME_Name": "Navigation Control file for XML (for ePub)",
+    "MIME_FileExtension": ".ncx",
+    "MIME_FileExtensionNoPoint": "ncx",
+    "MIME_Type": "application/x-dtbncx+xml",
+    "MIME_Details": "Wikipedia: EPUB",
+    "MIME_IsTextFile": true,
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 346,
+    "MIME_Name": "N-Gage Game Installer",
+    "MIME_FileExtension": ".n-gage",
+    "MIME_FileExtensionNoPoint": "n-gage",
+    "MIME_Type": "application/vnd.nokia.n-gage.symbian.install",
+    "MIME_Details": "IANA: N-Gage Game Installer",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 347,
+    "MIME_Name": "N-Gage Game Data",
+    "MIME_FileExtension": ".ngdat",
+    "MIME_FileExtensionNoPoint": "ngdat",
+    "MIME_Type": "application/vnd.nokia.n-gage.data",
+    "MIME_Details": "IANA: N-Gage Game Data",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 348,
+    "MIME_Name": "neuroLanguage",
+    "MIME_FileExtension": ".nlu",
+    "MIME_FileExtensionNoPoint": "nlu",
+    "MIME_Type": "application/vnd.neurolanguage.nlu",
+    "MIME_Details": "IANA: neuroLanguage",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 349,
+    "MIME_Name": "Enliven Viewer",
+    "MIME_FileExtension": ".nml",
+    "MIME_FileExtensionNoPoint": "nml",
+    "MIME_Type": "application/vnd.enliven",
+    "MIME_Details": "IANA: Enliven Viewer",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 350,
+    "MIME_Name": "NobleNet Directory",
+    "MIME_FileExtension": ".nnd",
+    "MIME_FileExtensionNoPoint": "nnd",
+    "MIME_Type": "application/vnd.noblenet-directory",
+    "MIME_Details": "IANA: NobleNet Directory",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 351,
+    "MIME_Name": "NobleNet Sealer",
+    "MIME_FileExtension": ".nns",
+    "MIME_FileExtensionNoPoint": "nns",
+    "MIME_Type": "application/vnd.noblenet-sealer",
+    "MIME_Details": "IANA: NobleNet Sealer",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 352,
+    "MIME_Name": "NobleNet Web",
+    "MIME_FileExtension": ".nnw",
+    "MIME_FileExtensionNoPoint": "nnw",
+    "MIME_Type": "application/vnd.noblenet-web",
+    "MIME_Details": "IANA: NobleNet Web",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 353,
+    "MIME_Name": "FlashPix",
+    "MIME_FileExtension": ".npx",
+    "MIME_FileExtensionNoPoint": "npx",
+    "MIME_Type": "image/vnd.net-fpx",
+    "MIME_Details": "IANA: FPX",
+    "Mime_IsImage": true,
+    "Mime_Category": "image"
+  },
+  {
+    "Mime_ID": 354,
+    "MIME_Name": "Lotus Notes",
+    "MIME_FileExtension": ".nsf",
+    "MIME_FileExtensionNoPoint": "nsf",
+    "MIME_Type": "application/vnd.lotus-notes",
+    "MIME_Details": "IANA: Lotus Notes",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 355,
+    "MIME_Name": "Fujitsu Oasys",
+    "MIME_FileExtension": ".oa2",
+    "MIME_FileExtensionNoPoint": "oa2",
+    "MIME_Type": "application/vnd.fujitsu.oasys2",
+    "MIME_Details": "IANA: Fujitsu Oasys",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 356,
+    "MIME_Name": "Fujitsu Oasys",
+    "MIME_FileExtension": ".oa3",
+    "MIME_FileExtensionNoPoint": "oa3",
+    "MIME_Type": "application/vnd.fujitsu.oasys3",
+    "MIME_Details": "IANA: Fujitsu Oasys",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 357,
+    "MIME_Name": "Fujitsu Oasys",
+    "MIME_FileExtension": ".oas",
+    "MIME_FileExtensionNoPoint": "oas",
+    "MIME_Type": "application/vnd.fujitsu.oasys",
+    "MIME_Details": "IANA: Fujitsu Oasys",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 358,
+    "MIME_Name": "Microsoft Office Binder",
+    "MIME_FileExtension": ".obd",
+    "MIME_FileExtensionNoPoint": "obd",
+    "MIME_Type": "application/x-msbinder",
+    "MIME_Details": "Wikipedia: Microsoft Shared Tools",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 359,
+    "MIME_Name": "Office Document Architecture",
+    "MIME_FileExtension": ".oda",
+    "MIME_FileExtensionNoPoint": "oda",
+    "MIME_Type": "application/oda",
+    "MIME_Details": "RFC 2161",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 360,
+    "MIME_Name": "OpenDocument Database",
+    "MIME_FileExtension": ".odb",
+    "MIME_FileExtensionNoPoint": "odb",
+    "MIME_Type": "application/vnd.oasis.opendocument.database",
+    "MIME_Details": "IANA: OpenDocument Database",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 361,
+    "MIME_Name": "OpenDocument Chart",
+    "MIME_FileExtension": ".odc",
+    "MIME_FileExtensionNoPoint": "odc",
+    "MIME_Type": "application/vnd.oasis.opendocument.chart",
+    "MIME_Details": "IANA: OpenDocument Chart",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 362,
+    "MIME_Name": "OpenDocument Formula",
+    "MIME_FileExtension": ".odf",
+    "MIME_FileExtensionNoPoint": "odf",
+    "MIME_Type": "application/vnd.oasis.opendocument.formula",
+    "MIME_Details": "IANA: OpenDocument Formula",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 363,
+    "MIME_Name": "OpenDocument Formula Template",
+    "MIME_FileExtension": ".odft",
+    "MIME_FileExtensionNoPoint": "odft",
+    "MIME_Type": "application/vnd.oasis.opendocument.formula-template",
+    "MIME_Details": "IANA: OpenDocument Formula Template",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 364,
+    "MIME_Name": "OpenDocument Graphics",
+    "MIME_FileExtension": ".odg",
+    "MIME_FileExtensionNoPoint": "odg",
+    "MIME_Type": "application/vnd.oasis.opendocument.graphics",
+    "MIME_Details": "IANA: OpenDocument Graphics",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 365,
+    "MIME_Name": "OpenDocument Image",
+    "MIME_FileExtension": ".odi",
+    "MIME_FileExtensionNoPoint": "odi",
+    "MIME_Type": "application/vnd.oasis.opendocument.image",
+    "MIME_Details": "IANA: OpenDocument Image",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 366,
+    "MIME_Name": "OpenDocument Text Master",
+    "MIME_FileExtension": ".odm",
+    "MIME_FileExtensionNoPoint": "odm",
+    "MIME_Type": "application/vnd.oasis.opendocument.text-master",
+    "MIME_Details": "IANA: OpenDocument Text Master",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 367,
+    "MIME_Name": "OpenDocument Presentation",
+    "MIME_FileExtension": ".odp",
+    "MIME_FileExtensionNoPoint": "odp",
+    "MIME_Type": "application/vnd.oasis.opendocument.presentation",
+    "MIME_Details": "IANA: OpenDocument Presentation",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 368,
+    "MIME_Name": "OpenDocument Spreadsheet",
+    "MIME_FileExtension": ".ods",
+    "MIME_FileExtensionNoPoint": "ods",
+    "MIME_Type": "application/vnd.oasis.opendocument.spreadsheet",
+    "MIME_Details": "IANA: OpenDocument Spreadsheet",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 369,
+    "MIME_Name": "OpenDocument Text",
+    "MIME_FileExtension": ".odt",
+    "MIME_FileExtensionNoPoint": "odt",
+    "MIME_Type": "application/vnd.oasis.opendocument.text",
+    "MIME_Details": "IANA: OpenDocument Text",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 370,
+    "MIME_Name": "Ogg Audio",
+    "MIME_FileExtension": ".oga",
+    "MIME_FileExtensionNoPoint": "oga",
+    "MIME_Type": "audio/ogg",
+    "MIME_Details": "Wikipedia: Ogg",
+    "Mime_Category": "audio"
+  },
+  {
+    "Mime_ID": 371,
+    "MIME_Name": "Ogg Video",
+    "MIME_FileExtension": ".ogv",
+    "MIME_FileExtensionNoPoint": "ogv",
+    "MIME_Type": "video/ogg",
+    "MIME_Details": "Wikipedia: Ogg",
+    "Mime_Category": "video"
+  },
+  {
+    "Mime_ID": 372,
+    "MIME_Name": "Ogg",
+    "MIME_FileExtension": ".ogx",
+    "MIME_FileExtensionNoPoint": "ogx",
+    "MIME_Type": "application/ogg",
+    "MIME_Details": "Wikipedia: Ogg",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 373,
+    "MIME_Name": "Microsoft OneNote",
+    "MIME_FileExtension": ".onetoc",
+    "MIME_FileExtensionNoPoint": "onetoc",
+    "MIME_Type": "application/onenote",
+    "MIME_Details": "MS OneNote 2010",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 374,
+    "MIME_Name": "Open eBook Publication Structure",
+    "MIME_FileExtension": ".opf",
+    "MIME_FileExtensionNoPoint": "opf",
+    "MIME_Type": "application/oebps-package+xml",
+    "MIME_Details": "Wikipedia: Open eBook",
+    "MIME_IsTextFile": true,
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 375,
+    "MIME_Name": "Lotus Organizer",
+    "MIME_FileExtension": ".org",
+    "MIME_FileExtensionNoPoint": "org",
+    "MIME_Type": "application/vnd.lotus-organizer",
+    "MIME_Details": "IANA: Lotus Organizer",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 376,
+    "MIME_Name": "Open Score Format",
+    "MIME_FileExtension": ".osf",
+    "MIME_FileExtensionNoPoint": "osf",
+    "MIME_Type": "application/vnd.yamaha.openscoreformat",
+    "MIME_Details": "IANA: Open Score Format",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 377,
+    "MIME_Name": "OSFPVG",
+    "MIME_FileExtension": ".osfpvg",
+    "MIME_FileExtensionNoPoint": "osfpvg",
+    "MIME_Type": "application/vnd.yamaha.openscoreformat.osfpvg+xml",
+    "MIME_Details": "IANA: OSFPVG",
+    "MIME_IsTextFile": true,
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 378,
+    "MIME_Name": "OpenDocument Chart Template",
+    "MIME_FileExtension": ".otc",
+    "MIME_FileExtensionNoPoint": "otc",
+    "MIME_Type": "application/vnd.oasis.opendocument.chart-template",
+    "MIME_Details": "IANA: OpenDocument Chart Template",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 379,
+    "MIME_Name": "OpenType Font File",
+    "MIME_FileExtension": ".otf",
+    "MIME_FileExtensionNoPoint": "otf",
+    "MIME_Type": "application/x-font-otf",
+    "MIME_Details": "OpenType Font File",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 380,
+    "MIME_Name": "OpenDocument Graphics Template",
+    "MIME_FileExtension": ".otg",
+    "MIME_FileExtensionNoPoint": "otg",
+    "MIME_Type": "application/vnd.oasis.opendocument.graphics-template",
+    "MIME_Details": "IANA: OpenDocument Graphics Template",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 381,
+    "MIME_Name": "Open Document Text Web",
+    "MIME_FileExtension": ".oth",
+    "MIME_FileExtensionNoPoint": "oth",
+    "MIME_Type": "application/vnd.oasis.opendocument.text-web",
+    "MIME_Details": "IANA: OpenDocument Text Web",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 382,
+    "MIME_Name": "OpenDocument Image Template",
+    "MIME_FileExtension": ".oti",
+    "MIME_FileExtensionNoPoint": "oti",
+    "MIME_Type": "application/vnd.oasis.opendocument.image-template",
+    "MIME_Details": "IANA: OpenDocument Image Template",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 383,
+    "MIME_Name": "OpenDocument Presentation Template",
+    "MIME_FileExtension": ".otp",
+    "MIME_FileExtensionNoPoint": "otp",
+    "MIME_Type": "application/vnd.oasis.opendocument.presentation-template",
+    "MIME_Details": "IANA: OpenDocument Presentation Template",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 384,
+    "MIME_Name": "OpenDocument Spreadsheet Template",
+    "MIME_FileExtension": ".ots",
+    "MIME_FileExtensionNoPoint": "ots",
+    "MIME_Type": "application/vnd.oasis.opendocument.spreadsheet-template",
+    "MIME_Details": "IANA: OpenDocument Spreadsheet Template",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 385,
+    "MIME_Name": "OpenDocument Text Template",
+    "MIME_FileExtension": ".ott",
+    "MIME_FileExtensionNoPoint": "ott",
+    "MIME_Type": "application/vnd.oasis.opendocument.text-template",
+    "MIME_Details": "IANA: OpenDocument Text Template",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 386,
+    "MIME_Name": "Open Office Extension",
+    "MIME_FileExtension": ".oxt",
+    "MIME_FileExtensionNoPoint": "oxt",
+    "MIME_Type": "application/vnd.openofficeorg.extension",
+    "MIME_Details": "IANA: Open Office Extension",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 387,
+    "MIME_Name": "Pascal Source File",
+    "MIME_FileExtension": ".p",
+    "MIME_FileExtensionNoPoint": "p",
+    "MIME_Type": "text/x-pascal",
+    "MIME_Details": "Wikipedia: Pascal",
+    "MIME_IsTextFile": true,
+    "Mime_Category": "text"
+  },
+  {
+    "Mime_ID": 388,
+    "MIME_Name": "PKCS #10 - Certification Request Standard",
+    "MIME_FileExtension": ".p10",
+    "MIME_FileExtensionNoPoint": "p10",
+    "MIME_Type": "application/pkcs10",
+    "MIME_Details": "RFC 2986",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 389,
+    "MIME_Name": "PKCS #12 - Personal Information Exchange Syntax Standard",
+    "MIME_FileExtension": ".p12",
+    "MIME_FileExtensionNoPoint": "p12",
+    "MIME_Type": "application/x-pkcs12",
+    "MIME_Details": "RFC 2986",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 390,
+    "MIME_Name": "PKCS #7 - Cryptographic Message Syntax Standard (Certificates)",
+    "MIME_FileExtension": ".p7b",
+    "MIME_FileExtensionNoPoint": "p7b",
+    "MIME_Type": "application/x-pkcs7-certificates",
+    "MIME_Details": "RFC 2986",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 391,
+    "MIME_Name": "PKCS #7 - Cryptographic Message Syntax Standard",
+    "MIME_FileExtension": ".p7m",
+    "MIME_FileExtensionNoPoint": "p7m",
+    "MIME_Type": "application/pkcs7-mime",
+    "MIME_Details": "RFC 2315",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 392,
+    "MIME_Name": "PKCS #7 - Cryptographic Message Syntax Standard (Certificate Request Response)",
+    "MIME_FileExtension": ".p7r",
+    "MIME_FileExtensionNoPoint": "p7r",
+    "MIME_Type": "application/x-pkcs7-certreqresp",
+    "MIME_Details": "RFC 2986",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 393,
+    "MIME_Name": "PKCS #7 - Cryptographic Message Syntax Standard",
+    "MIME_FileExtension": ".p7s",
+    "MIME_FileExtensionNoPoint": "p7s",
+    "MIME_Type": "application/pkcs7-signature",
+    "MIME_Details": "RFC 2315",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 394,
+    "MIME_Name": "PKCS #8 - Private-Key Information Syntax Standard",
+    "MIME_FileExtension": ".p8",
+    "MIME_FileExtensionNoPoint": "p8",
+    "MIME_Type": "application/pkcs8",
+    "MIME_Details": "RFC 5208",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 395,
+    "MIME_Name": "BAS Partitur Format",
+    "MIME_FileExtension": ".par",
+    "MIME_FileExtensionNoPoint": "par",
+    "MIME_Type": "text/plain-bas",
+    "MIME_Details": "Phonetik BAS",
+    "MIME_IsTextFile": true,
+    "Mime_Category": "text"
+  },
+  {
+    "Mime_ID": 396,
+    "MIME_Name": "PawaaFILE",
+    "MIME_FileExtension": ".paw",
+    "MIME_FileExtensionNoPoint": "paw",
+    "MIME_Type": "application/vnd.pawaafile",
+    "MIME_Details": "IANA: PawaaFILE",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 397,
+    "MIME_Name": "PowerBuilder",
+    "MIME_FileExtension": ".pbd",
+    "MIME_FileExtensionNoPoint": "pbd",
+    "MIME_Type": "application/vnd.powerbuilder6",
+    "MIME_Details": "IANA: PowerBuilder",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 398,
+    "MIME_Name": "Portable Bitmap Format",
+    "MIME_FileExtension": ".pbm",
+    "MIME_FileExtensionNoPoint": "pbm",
+    "MIME_Type": "image/x-portable-bitmap",
+    "MIME_Details": "Wikipedia: Netpbm Format",
+    "Mime_IsImage": true,
+    "Mime_Category": "image"
+  },
+  {
+    "Mime_ID": 399,
+    "MIME_Name": "Portable Compiled Format",
+    "MIME_FileExtension": ".pcf",
+    "MIME_FileExtensionNoPoint": "pcf",
+    "MIME_Type": "application/x-font-pcf",
+    "MIME_Details": "Wikipedia: Portable Compiled Format",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 400,
+    "MIME_Name": "HP Printer Command Language",
+    "MIME_FileExtension": ".pcl",
+    "MIME_FileExtensionNoPoint": "pcl",
+    "MIME_Type": "application/vnd.hp-pcl",
+    "MIME_Details": "IANA: HP Printer Command Language",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 401,
+    "MIME_Name": "PCL 6 Enhanced (Formely PCL XL)",
+    "MIME_FileExtension": ".pclxl",
+    "MIME_FileExtensionNoPoint": "pclxl",
+    "MIME_Type": "application/vnd.hp-pclxl",
+    "MIME_Details": "IANA: HP PCL XL",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 402,
+    "MIME_Name": "CURL Applet",
+    "MIME_FileExtension": ".pcurl",
+    "MIME_FileExtensionNoPoint": "pcurl",
+    "MIME_Type": "application/vnd.curl.pcurl",
+    "MIME_Details": "IANA: CURL Applet",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 403,
+    "MIME_Name": "PCX Image",
+    "MIME_FileExtension": ".pcx",
+    "MIME_FileExtensionNoPoint": "pcx",
+    "MIME_Type": "image/x-pcx",
+    "MIME_Details": "Wikipedia: PCX",
+    "Mime_IsImage": true,
+    "Mime_Category": "image"
+  },
+  {
+    "Mime_ID": 404,
+    "MIME_Name": "PalmOS Data",
+    "MIME_FileExtension": ".pdb",
+    "MIME_FileExtensionNoPoint": "pdb",
+    "MIME_Type": "application/vnd.palm",
+    "MIME_Details": "IANA: PalmOS Data",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 405,
+    "MIME_Name": "Adobe Portable Document Format",
+    "MIME_FileExtension": ".pdf",
+    "MIME_FileExtensionNoPoint": "pdf",
+    "MIME_Type": "application/pdf",
+    "MIME_Details": "Adobe PDF",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 406,
+    "MIME_Name": "PostScript Fonts",
+    "MIME_FileExtension": ".pfa",
+    "MIME_FileExtensionNoPoint": "pfa",
+    "MIME_Type": "application/x-font-type1",
+    "MIME_Details": "Wikipedia: PostScript Fonts",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 407,
+    "MIME_Name": "Portable Font Resource",
+    "MIME_FileExtension": ".pfr",
+    "MIME_FileExtensionNoPoint": "pfr",
+    "MIME_Type": "application/font-tdpfr",
+    "MIME_Details": "RFC 3073",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 408,
+    "MIME_Name": "Portable Graymap Format",
+    "MIME_FileExtension": ".pgm",
+    "MIME_FileExtensionNoPoint": "pgm",
+    "MIME_Type": "image/x-portable-graymap",
+    "MIME_Details": "Wikipedia: Netpbm Format",
+    "Mime_IsImage": true,
+    "Mime_Category": "image"
+  },
+  {
+    "Mime_ID": 409,
+    "MIME_Name": "Portable Game Notation (Chess Games)",
+    "MIME_FileExtension": ".pgn",
+    "MIME_FileExtensionNoPoint": "pgn",
+    "MIME_Type": "application/x-chess-pgn",
+    "MIME_Details": "Wikipedia: Portable Game Notationb",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 410,
+    "MIME_Name": "Pretty Good Privacy - Signature",
+    "MIME_FileExtension": ".pgp",
+    "MIME_FileExtensionNoPoint": "pgp",
+    "MIME_Type": "application/pgp-signature",
+    "MIME_Details": "RFC 2015",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 411,
+    "MIME_Name": "Pretty Good Privacy",
+    "MIME_FileExtension": ".pgpe",
+    "MIME_FileExtensionNoPoint": "pgpe",
+    "MIME_Type": "application/pgp-encrypted",
+    "MIME_Details": "RFC 2015",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 412,
+    "MIME_Name": "PICT Image",
+    "MIME_FileExtension": ".pic",
+    "MIME_FileExtensionNoPoint": "pic",
+    "MIME_Type": "image/x-pict",
+    "MIME_Details": "Wikipedia: PICT",
+    "Mime_IsImage": true,
+    "Mime_Category": "image"
+  },
+  {
+    "Mime_ID": 413,
+    "MIME_Name": "Internet Public Key Infrastructure - Certificate Management Protocole",
+    "MIME_FileExtension": ".pki",
+    "MIME_FileExtensionNoPoint": "pki",
+    "MIME_Type": "application/pkixcmp",
+    "MIME_Details": "RFC 2585",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 414,
+    "MIME_Name": "Internet Public Key Infrastructure - Certification Path",
+    "MIME_FileExtension": ".pkipath",
+    "MIME_FileExtensionNoPoint": "pkipath",
+    "MIME_Type": "application/pkix-pkipath",
+    "MIME_Details": "RFC 2585",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 415,
+    "MIME_Name": "3rd Generation Partnership Project - Pic Large",
+    "MIME_FileExtension": ".plb",
+    "MIME_FileExtensionNoPoint": "plb",
+    "MIME_Type": "application/vnd.3gpp.pic-bw-large",
+    "MIME_Details": "3GPP",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 416,
+    "MIME_Name": "Mobius Management Systems - Policy Definition Language File",
+    "MIME_FileExtension": ".plc",
+    "MIME_FileExtensionNoPoint": "plc",
+    "MIME_Type": "application/vnd.mobius.plc",
+    "MIME_Details": "IANA: Mobius Management Systems",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 417,
+    "MIME_Name": "PocketLearn Viewers",
+    "MIME_FileExtension": ".plf",
+    "MIME_FileExtensionNoPoint": "plf",
+    "MIME_Type": "application/vnd.pocketlearn",
+    "MIME_Details": "IANA: PocketLearn Viewers",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 418,
+    "MIME_Name": "Pronunciation Lexicon Specification",
+    "MIME_FileExtension": ".pls",
+    "MIME_FileExtensionNoPoint": "pls",
+    "MIME_Type": "application/pls+xml",
+    "MIME_Details": "RFC 4267",
+    "MIME_IsTextFile": true,
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 419,
+    "MIME_Name": "PosML",
+    "MIME_FileExtension": ".pml",
+    "MIME_FileExtensionNoPoint": "pml",
+    "MIME_Type": "application/vnd.ctc-posml",
+    "MIME_Details": "IANA: PosML",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 420,
+    "MIME_Name": "Portable Network Graphics (PNG)",
+    "MIME_FileExtension": ".png",
+    "MIME_FileExtensionNoPoint": "png",
+    "MIME_Type": "image/png",
+    "MIME_Details": "RFC 2083",
+    "MIME_IsAllowed": true,
+    "Mime_IsImage": true,
+    "Mime_Category": "image"
+  },
+  {
+    "Mime_ID": 421,
+    "MIME_Name": "Portable Anymap Image",
+    "MIME_FileExtension": ".pnm",
+    "MIME_FileExtensionNoPoint": "pnm",
+    "MIME_Type": "image/x-portable-anymap",
+    "MIME_Details": "Wikipedia: Netpbm Format",
+    "Mime_IsImage": true,
+    "Mime_Category": "image"
+  },
+  {
+    "Mime_ID": 422,
+    "MIME_Name": "MacPorts Port System",
+    "MIME_FileExtension": ".portpkg",
+    "MIME_FileExtensionNoPoint": "portpkg",
+    "MIME_Type": "application/vnd.macports.portpkg",
+    "MIME_Details": "IANA: MacPorts Port System",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 423,
+    "MIME_Name": "Micosoft PowerPoint - Macro-Enabled Template File",
+    "MIME_FileExtension": ".potm",
+    "MIME_FileExtensionNoPoint": "potm",
+    "MIME_Type": "application/vnd.ms-powerpoint.template.macroenabled.12",
+    "MIME_Details": "IANA: MS PowerPoint",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 424,
+    "MIME_Name": "Microsoft Office - OOXML - Presentation Template",
+    "MIME_FileExtension": ".potx",
+    "MIME_FileExtensionNoPoint": "potx",
+    "MIME_Type": "application/vnd.openxmlformats-officedocument.presentationml.template",
+    "MIME_Details": "IANA: OOXML - Presentation Template",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 425,
+    "MIME_Name": "Microsoft PowerPoint - Add-in file",
+    "MIME_FileExtension": ".ppam",
+    "MIME_FileExtensionNoPoint": "ppam",
+    "MIME_Type": "application/vnd.ms-powerpoint.addin.macroenabled.12",
+    "MIME_Details": "IANA: MS PowerPoint",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 426,
+    "MIME_Name": "Adobe PostScript Printer Description File Format",
+    "MIME_FileExtension": ".ppd",
+    "MIME_FileExtensionNoPoint": "ppd",
+    "MIME_Type": "application/vnd.cups-ppd",
+    "MIME_Details": "IANA: Cups",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 427,
+    "MIME_Name": "Portable Pixmap Format",
+    "MIME_FileExtension": ".ppm",
+    "MIME_FileExtensionNoPoint": "ppm",
+    "MIME_Type": "image/x-portable-pixmap",
+    "MIME_Details": "Wikipedia: Netpbm Format",
+    "Mime_IsImage": true,
+    "Mime_Category": "image"
+  },
+  {
+    "Mime_ID": 428,
+    "MIME_Name": "Microsoft PowerPoint - Macro-Enabled Slide Show File",
+    "MIME_FileExtension": ".ppsm",
+    "MIME_FileExtensionNoPoint": "ppsm",
+    "MIME_Type": "application/vnd.ms-powerpoint.slideshow.macroenabled.12",
+    "MIME_Details": "IANA: MS PowerPoint",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 429,
+    "MIME_Name": "Microsoft Office - OOXML - Presentation (Slideshow)",
+    "MIME_FileExtension": ".ppsx",
+    "MIME_FileExtensionNoPoint": "ppsx",
+    "MIME_Type": "application/vnd.openxmlformats-officedocument.presentationml.slideshow",
+    "MIME_Details": "IANA: OOXML - Presentation",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 430,
+    "MIME_Name": "Microsoft PowerPoint",
+    "MIME_FileExtension": ".ppt",
+    "MIME_FileExtensionNoPoint": "ppt",
+    "MIME_Type": "application/vnd.ms-powerpoint",
+    "MIME_Details": "IANA: MS PowerPoint",
+    "MIME_IsAllowed": true,
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 431,
+    "MIME_Name": "Microsoft PowerPoint - Macro-Enabled Presentation File",
+    "MIME_FileExtension": ".pptm",
+    "MIME_FileExtensionNoPoint": "pptm",
+    "MIME_Type": "application/vnd.ms-powerpoint.presentation.macroenabled.12",
+    "MIME_Details": "IANA: MS PowerPoint",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 432,
+    "MIME_Name": "Microsoft Office - OOXML - Presentation",
+    "MIME_FileExtension": ".pptx",
+    "MIME_FileExtensionNoPoint": "pptx",
+    "MIME_Type": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+    "MIME_Details": "IANA: OOXML - Presentation",
+    "MIME_IsAllowed": true,
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 433,
+    "MIME_Name": "Mobipocket",
+    "MIME_FileExtension": ".prc",
+    "MIME_FileExtensionNoPoint": "prc",
+    "MIME_Type": "application/x-mobipocket-ebook",
+    "MIME_Details": "Wikipedia: Mobipocket",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 434,
+    "MIME_Name": "Lotus Freelance",
+    "MIME_FileExtension": ".pre",
+    "MIME_FileExtensionNoPoint": "pre",
+    "MIME_Type": "application/vnd.lotus-freelance",
+    "MIME_Details": "IANA: Lotus Freelance",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 435,
+    "MIME_Name": "PICSRules",
+    "MIME_FileExtension": ".prf",
+    "MIME_FileExtensionNoPoint": "prf",
+    "MIME_Type": "application/pics-rules",
+    "MIME_Details": "W3C PICSRules",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 436,
+    "MIME_Name": "3rd Generation Partnership Project - Pic Small",
+    "MIME_FileExtension": ".psb",
+    "MIME_FileExtensionNoPoint": "psb",
+    "MIME_Type": "application/vnd.3gpp.pic-bw-small",
+    "MIME_Details": "3GPP",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 437,
+    "MIME_Name": "Photoshop Document",
+    "MIME_FileExtension": ".psd",
+    "MIME_FileExtensionNoPoint": "psd",
+    "MIME_Type": "image/vnd.adobe.photoshop",
+    "MIME_Details": "Wikipedia: Photoshop Document",
+    "Mime_IsImage": true,
+    "Mime_Category": "image"
+  },
+  {
+    "Mime_ID": 438,
+    "MIME_Name": "PSF Fonts",
+    "MIME_FileExtension": ".psf",
+    "MIME_FileExtensionNoPoint": "psf",
+    "MIME_Type": "application/x-font-linux-psf",
+    "MIME_Details": "PSF Fonts",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 439,
+    "MIME_Name": "Portable Symmetric Key Container",
+    "MIME_FileExtension": ".pskcxml",
+    "MIME_FileExtensionNoPoint": "pskcxml",
+    "MIME_Type": "application/pskc+xml",
+    "MIME_Details": "RFC 6030",
+    "MIME_IsTextFile": true,
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 440,
+    "MIME_Name": "Princeton Video Image",
+    "MIME_FileExtension": ".ptid",
+    "MIME_FileExtensionNoPoint": "ptid",
+    "MIME_Type": "application/vnd.pvi.ptid1",
+    "MIME_Details": "IANA: Princeton Video Image",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 441,
+    "MIME_Name": "Microsoft Publisher",
+    "MIME_FileExtension": ".pub",
+    "MIME_FileExtensionNoPoint": "pub",
+    "MIME_Type": "application/x-mspublisher",
+    "MIME_Details": "Wikipedia: Microsoft Publisher",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 442,
+    "MIME_Name": "3rd Generation Partnership Project - Pic Var",
+    "MIME_FileExtension": ".pvb",
+    "MIME_FileExtensionNoPoint": "pvb",
+    "MIME_Type": "application/vnd.3gpp.pic-bw-var",
+    "MIME_Details": "3GPP",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 443,
+    "MIME_Name": "3M Post It Notes",
+    "MIME_FileExtension": ".pwn",
+    "MIME_FileExtensionNoPoint": "pwn",
+    "MIME_Type": "application/vnd.3m.post-it-notes",
+    "MIME_Details": "IANA: 3M Post It Notes",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 444,
+    "MIME_Name": "Microsoft PlayReady Ecosystem",
+    "MIME_FileExtension": ".pya",
+    "MIME_FileExtensionNoPoint": "pya",
+    "MIME_Type": "audio/vnd.ms-playready.media.pya",
+    "MIME_Details": "IANA: Microsoft PlayReady Ecosystem",
+    "Mime_Category": "audio"
+  },
+  {
+    "Mime_ID": 445,
+    "MIME_Name": "Microsoft PlayReady Ecosystem Video",
+    "MIME_FileExtension": ".pyv",
+    "MIME_FileExtensionNoPoint": "pyv",
+    "MIME_Type": "video/vnd.ms-playready.media.pyv",
+    "MIME_Details": "IANA: Microsoft PlayReady Ecosystem",
+    "Mime_Category": "video"
+  },
+  {
+    "Mime_ID": 446,
+    "MIME_Name": "QuickAnime Player",
+    "MIME_FileExtension": ".qam",
+    "MIME_FileExtensionNoPoint": "qam",
+    "MIME_Type": "application/vnd.epson.quickanime",
+    "MIME_Details": "IANA: QuickAnime Player",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 447,
+    "MIME_Name": "Open Financial Exchange",
+    "MIME_FileExtension": ".qbo",
+    "MIME_FileExtensionNoPoint": "qbo",
+    "MIME_Type": "application/vnd.intu.qbo",
+    "MIME_Details": "IANA: Open Financial Exchange",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 448,
+    "MIME_Name": "Quicken",
+    "MIME_FileExtension": ".qfx",
+    "MIME_FileExtensionNoPoint": "qfx",
+    "MIME_Type": "application/vnd.intu.qfx",
+    "MIME_Details": "IANA: Quicken",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 449,
+    "MIME_Name": "PubliShare Objects",
+    "MIME_FileExtension": ".qps",
+    "MIME_FileExtensionNoPoint": "qps",
+    "MIME_Type": "application/vnd.publishare-delta-tree",
+    "MIME_Details": "IANA: PubliShare Objects",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 450,
+    "MIME_Name": "Quicktime Video",
+    "MIME_FileExtension": ".qt",
+    "MIME_FileExtensionNoPoint": "qt",
+    "MIME_Type": "video/quicktime",
+    "MIME_Details": "Wikipedia: Quicktime",
+    "Mime_Category": "video"
+  },
+  {
+    "Mime_ID": 451,
+    "MIME_Name": "QuarkXpress",
+    "MIME_FileExtension": ".qxd",
+    "MIME_FileExtensionNoPoint": "qxd",
+    "MIME_Type": "application/vnd.quark.quarkxpress",
+    "MIME_Details": "IANA: QuarkXPress",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 452,
+    "MIME_Name": "Real Audio Sound",
+    "MIME_FileExtension": ".ram",
+    "MIME_FileExtensionNoPoint": "ram",
+    "MIME_Type": "audio/x-pn-realaudio",
+    "MIME_Details": "Wikipedia: RealPlayer",
+    "Mime_Category": "audio"
+  },
+  {
+    "Mime_ID": 453,
+    "MIME_Name": "RAR Archive",
+    "MIME_FileExtension": ".rar",
+    "MIME_FileExtensionNoPoint": "rar",
+    "MIME_Type": "application/x-rar-compressed",
+    "MIME_Details": "Wikipedia: RAR",
+    "MIME_IsAllowed": true,
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 454,
+    "MIME_Name": "CMU Image",
+    "MIME_FileExtension": ".ras",
+    "MIME_FileExtensionNoPoint": "ras",
+    "MIME_Type": "image/x-cmu-raster",
+    "MIME_Details": "",
+    "Mime_IsImage": true,
+    "Mime_Category": "image"
+  },
+  {
+    "Mime_ID": 455,
+    "MIME_Name": "IP Unplugged Roaming Client",
+    "MIME_FileExtension": ".rcprofile",
+    "MIME_FileExtensionNoPoint": "rcprofile",
+    "MIME_Type": "application/vnd.ipunplugged.rcprofile",
+    "MIME_Details": "IANA: IP Unplugged Roaming Client",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 456,
+    "MIME_Name": "Resource Description Framework",
+    "MIME_FileExtension": ".rdf",
+    "MIME_FileExtensionNoPoint": "rdf",
+    "MIME_Type": "application/rdf+xml",
+    "MIME_Details": "RFC 3870",
+    "MIME_IsTextFile": true,
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 457,
+    "MIME_Name": "RemoteDocs R-Viewer",
+    "MIME_FileExtension": ".rdz",
+    "MIME_FileExtensionNoPoint": "rdz",
+    "MIME_Type": "application/vnd.data-vision.rdz",
+    "MIME_Details": "IANA: Data-Vision",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 458,
+    "MIME_Name": "BusinessObjects",
+    "MIME_FileExtension": ".rep",
+    "MIME_FileExtensionNoPoint": "rep",
+    "MIME_Type": "application/vnd.businessobjects",
+    "MIME_Details": "IANA: BusinessObjects",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 459,
+    "MIME_Name": "Digital Talking Book - Resource File",
+    "MIME_FileExtension": ".res",
+    "MIME_FileExtensionNoPoint": "res",
+    "MIME_Type": "application/x-dtbresource+xml",
+    "MIME_Details": "Digital Talking Book",
+    "MIME_IsTextFile": true,
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 460,
+    "MIME_Name": "Silicon Graphics RGB Bitmap",
+    "MIME_FileExtension": ".rgb",
+    "MIME_FileExtensionNoPoint": "rgb",
+    "MIME_Type": "image/x-rgb",
+    "MIME_Details": "RGB Image Format",
+    "Mime_IsImage": true,
+    "Mime_Category": "image"
+  },
+  {
+    "Mime_ID": 461,
+    "MIME_Name": "IMS Networks",
+    "MIME_FileExtension": ".rif",
+    "MIME_FileExtensionNoPoint": "rif",
+    "MIME_Type": "application/reginfo+xml",
+    "MIME_Details": "",
+    "MIME_IsTextFile": true,
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 462,
+    "MIME_Name": "Hit'n'Mix",
+    "MIME_FileExtension": ".rip",
+    "MIME_FileExtensionNoPoint": "rip",
+    "MIME_Type": "audio/vnd.rip",
+    "MIME_Details": "IANA: Hit'n'Mix",
+    "Mime_Category": "audio"
+  },
+  {
+    "Mime_ID": 463,
+    "MIME_Name": "XML Resource Lists",
+    "MIME_FileExtension": ".rl",
+    "MIME_FileExtensionNoPoint": "rl",
+    "MIME_Type": "application/resource-lists+xml",
+    "MIME_Details": "RFC 4826",
+    "MIME_IsTextFile": true,
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 464,
+    "MIME_Name": "EDMICS 2000",
+    "MIME_FileExtension": ".rlc",
+    "MIME_FileExtensionNoPoint": "rlc",
+    "MIME_Type": "image/vnd.fujixerox.edmics-rlc",
+    "MIME_Details": "IANA: EDMICS 2000",
+    "Mime_IsImage": true,
+    "Mime_Category": "image"
+  },
+  {
+    "Mime_ID": 465,
+    "MIME_Name": "XML Resource Lists Diff",
+    "MIME_FileExtension": ".rld",
+    "MIME_FileExtensionNoPoint": "rld",
+    "MIME_Type": "application/resource-lists-diff+xml",
+    "MIME_Details": "RFC 4826",
+    "MIME_IsTextFile": true,
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 466,
+    "MIME_Name": "RealMedia",
+    "MIME_FileExtension": ".rm",
+    "MIME_FileExtensionNoPoint": "rm",
+    "MIME_Type": "application/vnd.rn-realmedia",
+    "MIME_Details": "",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 467,
+    "MIME_Name": "Real Audio Sound",
+    "MIME_FileExtension": ".rmp",
+    "MIME_FileExtensionNoPoint": "rmp",
+    "MIME_Type": "audio/x-pn-realaudio-plugin",
+    "MIME_Details": "Wikipedia: RealPlayer",
+    "Mime_Category": "audio"
+  },
+  {
+    "Mime_ID": 468,
+    "MIME_Name": "Mobile Information Device Profile",
+    "MIME_FileExtension": ".rms",
+    "MIME_FileExtensionNoPoint": "rms",
+    "MIME_Type": "application/vnd.jcp.javame.midlet-rms",
+    "MIME_Details": "IANA: Mobile Information Device Profile",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 469,
+    "MIME_Name": "Relax NG Compact Syntax",
+    "MIME_FileExtension": ".rnc",
+    "MIME_FileExtensionNoPoint": "rnc",
+    "MIME_Type": "application/relax-ng-compact-syntax",
+    "MIME_Details": "Relax NG",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 470,
+    "MIME_Name": "RetroPlatform Player",
+    "MIME_FileExtension": ".rp9",
+    "MIME_FileExtensionNoPoint": "rp9",
+    "MIME_Type": "application/vnd.cloanto.rp9",
+    "MIME_Details": "IANA: RetroPlatform Player",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 471,
+    "MIME_Name": "Nokia Radio Application - Preset",
+    "MIME_FileExtension": ".rpss",
+    "MIME_FileExtensionNoPoint": "rpss",
+    "MIME_Type": "application/vnd.nokia.radio-presets",
+    "MIME_Details": "IANA: Nokia Radio Application",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 472,
+    "MIME_Name": "Nokia Radio Application - Preset",
+    "MIME_FileExtension": ".rpst",
+    "MIME_FileExtensionNoPoint": "rpst",
+    "MIME_Type": "application/vnd.nokia.radio-preset",
+    "MIME_Details": "IANA: Nokia Radio Application",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 473,
+    "MIME_Name": "SPARQL - Query",
+    "MIME_FileExtension": ".rq",
+    "MIME_FileExtensionNoPoint": "rq",
+    "MIME_Type": "application/sparql-query",
+    "MIME_Details": "W3C SPARQL",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 474,
+    "MIME_Name": "XML Resource Lists",
+    "MIME_FileExtension": ".rs",
+    "MIME_FileExtensionNoPoint": "rs",
+    "MIME_Type": "application/rls-services+xml",
+    "MIME_Details": "RFC 4826",
+    "MIME_IsTextFile": true,
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 475,
+    "MIME_Name": "Really Simple Discovery",
+    "MIME_FileExtension": ".rsd",
+    "MIME_FileExtensionNoPoint": "rsd",
+    "MIME_Type": "application/rsd+xml",
+    "MIME_Details": "Wikipedia: Really Simple Discovery",
+    "MIME_IsTextFile": true,
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 476,
+    "MIME_Name": "RSS - Really Simple Syndication",
+    "MIME_FileExtension": ".rss",
+    "MIME_FileExtensionNoPoint": "rss",
+    "MIME_Type": "application/rss+xml",
+    "MIME_Details": "Wikipedia: RSS",
+    "MIME_IsTextFile": true,
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 477,
+    "MIME_Name": "Rich Text Format",
+    "MIME_FileExtension": ".rtf",
+    "MIME_FileExtensionNoPoint": "rtf",
+    "MIME_Type": "application/rtf",
+    "MIME_Details": "Wikipedia: Rich Text Format",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 478,
+    "MIME_Name": "Rich Text Format (RTF)",
+    "MIME_FileExtension": ".rtx",
+    "MIME_FileExtensionNoPoint": "rtx",
+    "MIME_Type": "text/richtext",
+    "MIME_Details": "Wikipedia: Rich Text Format",
+    "MIME_IsTextFile": true,
+    "Mime_Category": "text"
+  },
+  {
+    "Mime_ID": 479,
+    "MIME_Name": "Assembler Source File",
+    "MIME_FileExtension": ".s",
+    "MIME_FileExtensionNoPoint": "s",
+    "MIME_Type": "text/x-asm",
+    "MIME_Details": "Wikipedia: Assembly",
+    "MIME_IsTextFile": true,
+    "Mime_Category": "text"
+  },
+  {
+    "Mime_ID": 480,
+    "MIME_Name": "SMAF Audio",
+    "MIME_FileExtension": ".saf",
+    "MIME_FileExtensionNoPoint": "saf",
+    "MIME_Type": "application/vnd.yamaha.smaf-audio",
+    "MIME_Details": "IANA: SMAF Audio",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 481,
+    "MIME_Name": "Systems Biology Markup Language",
+    "MIME_FileExtension": ".sbml",
+    "MIME_FileExtensionNoPoint": "sbml",
+    "MIME_Type": "application/sbml+xml",
+    "MIME_Details": "RFC 3823",
+    "MIME_IsTextFile": true,
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 482,
+    "MIME_Name": "IBM Electronic Media Management System - Secure Container",
+    "MIME_FileExtension": ".sc",
+    "MIME_FileExtensionNoPoint": "sc",
+    "MIME_Type": "application/vnd.ibm.secure-container",
+    "MIME_Details": "IANA: EMMS",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 483,
+    "MIME_Name": "Microsoft Schedule+",
+    "MIME_FileExtension": ".scd",
+    "MIME_FileExtensionNoPoint": "scd",
+    "MIME_Type": "application/x-msschedule",
+    "MIME_Details": "Wikipedia: Microsoft Schedule Plus",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 484,
+    "MIME_Name": "Lotus Screencam",
+    "MIME_FileExtension": ".scm",
+    "MIME_FileExtensionNoPoint": "scm",
+    "MIME_Type": "application/vnd.lotus-screencam",
+    "MIME_Details": "IANA: Lotus Screencam",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 485,
+    "MIME_Name": "Server-Based Certificate Validation Protocol - Validation Request",
+    "MIME_FileExtension": ".scq",
+    "MIME_FileExtensionNoPoint": "scq",
+    "MIME_Type": "application/scvp-cv-request",
+    "MIME_Details": "RFC 5055",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 486,
+    "MIME_Name": "Server-Based Certificate Validation Protocol - Validation Response",
+    "MIME_FileExtension": ".scs",
+    "MIME_FileExtensionNoPoint": "scs",
+    "MIME_Type": "application/scvp-cv-response",
+    "MIME_Details": "RFC 5055",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 487,
+    "MIME_Name": "Curl - Source Code",
+    "MIME_FileExtension": ".scurl",
+    "MIME_FileExtensionNoPoint": "scurl",
+    "MIME_Type": "text/vnd.curl.scurl",
+    "MIME_Details": "Curl Source Code",
+    "MIME_IsTextFile": true,
+    "Mime_Category": "text"
+  },
+  {
+    "Mime_ID": 488,
+    "MIME_Name": "StarOffice - Draw",
+    "MIME_FileExtension": ".sda",
+    "MIME_FileExtensionNoPoint": "sda",
+    "MIME_Type": "application/vnd.stardivision.draw",
+    "MIME_Details": "",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 489,
+    "MIME_Name": "StarOffice - Calc",
+    "MIME_FileExtension": ".sdc",
+    "MIME_FileExtensionNoPoint": "sdc",
+    "MIME_Type": "application/vnd.stardivision.calc",
+    "MIME_Details": "",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 490,
+    "MIME_Name": "StarOffice - Impress",
+    "MIME_FileExtension": ".sdd",
+    "MIME_FileExtensionNoPoint": "sdd",
+    "MIME_Type": "application/vnd.stardivision.impress",
+    "MIME_Details": "",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 491,
+    "MIME_Name": "SudokuMagic",
+    "MIME_FileExtension": ".sdkm",
+    "MIME_FileExtensionNoPoint": "sdkm",
+    "MIME_Type": "application/vnd.solent.sdkm+xml",
+    "MIME_Details": "IANA: SudokuMagic",
+    "MIME_IsTextFile": true,
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 492,
+    "MIME_Name": "Session Description Protocol",
+    "MIME_FileExtension": ".sdp",
+    "MIME_FileExtensionNoPoint": "sdp",
+    "MIME_Type": "application/sdp",
+    "MIME_Details": "RFC 2327",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 493,
+    "MIME_Name": "StarOffice - Writer",
+    "MIME_FileExtension": ".sdw",
+    "MIME_FileExtensionNoPoint": "sdw",
+    "MIME_Type": "application/vnd.stardivision.writer",
+    "MIME_Details": "",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 494,
+    "MIME_Name": "SeeMail",
+    "MIME_FileExtension": ".see",
+    "MIME_FileExtensionNoPoint": "see",
+    "MIME_Type": "application/vnd.seemail",
+    "MIME_Details": "IANA: SeeMail",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 495,
+    "MIME_Name": "Digital Siesmograph Networks - SEED Datafiles",
+    "MIME_FileExtension": ".seed",
+    "MIME_FileExtensionNoPoint": "seed",
+    "MIME_Type": "application/vnd.fdsn.seed",
+    "MIME_Details": "IANA: SEED",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 496,
+    "MIME_Name": "Secured eMail",
+    "MIME_FileExtension": ".sema",
+    "MIME_FileExtensionNoPoint": "sema",
+    "MIME_Type": "application/vnd.sema",
+    "MIME_Details": "IANA: Secured eMail",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 497,
+    "MIME_Name": "Secured eMail",
+    "MIME_FileExtension": ".semd",
+    "MIME_FileExtensionNoPoint": "semd",
+    "MIME_Type": "application/vnd.semd",
+    "MIME_Details": "IANA: Secured eMail",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 498,
+    "MIME_Name": "Secured eMail",
+    "MIME_FileExtension": ".semf",
+    "MIME_FileExtensionNoPoint": "semf",
+    "MIME_Type": "application/vnd.semf",
+    "MIME_Details": "IANA: Secured eMail",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 499,
+    "MIME_Name": "Java Serialized Object",
+    "MIME_FileExtension": ".ser",
+    "MIME_FileExtensionNoPoint": "ser",
+    "MIME_Type": "application/java-serialized-object",
+    "MIME_Details": "Java Serialization API",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 500,
+    "MIME_Name": "Secure Electronic Transaction - Payment",
+    "MIME_FileExtension": ".setpay",
+    "MIME_FileExtensionNoPoint": "setpay",
+    "MIME_Type": "application/set-payment-initiation",
+    "MIME_Details": "IANA: SET Payment",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 501,
+    "MIME_Name": "Secure Electronic Transaction - Registration",
+    "MIME_FileExtension": ".setreg",
+    "MIME_FileExtensionNoPoint": "setreg",
+    "MIME_Type": "application/set-registration-initiation",
+    "MIME_Details": "IANA: SET Registration",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 502,
+    "MIME_Name": "Hydrostatix Master Suite",
+    "MIME_FileExtension": ".sfd-hdstx",
+    "MIME_FileExtensionNoPoint": "sfd-hdstx",
+    "MIME_Type": "application/vnd.hydrostatix.sof-data",
+    "MIME_Details": "IANA: Hydrostatix Master Suite",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 503,
+    "MIME_Name": "TIBCO Spotfire",
+    "MIME_FileExtension": ".sfs",
+    "MIME_FileExtensionNoPoint": "sfs",
+    "MIME_Type": "application/vnd.spotfire.sfs",
+    "MIME_Details": "IANA: TIBCO Spotfire",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 504,
+    "MIME_Name": "StarOffice - Writer (Global)",
+    "MIME_FileExtension": ".sgl",
+    "MIME_FileExtensionNoPoint": "sgl",
+    "MIME_Type": "application/vnd.stardivision.writer-global",
+    "MIME_Details": "",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 505,
+    "MIME_Name": "Standard Generalized Markup Language (SGML)",
+    "MIME_FileExtension": ".sgml",
+    "MIME_FileExtensionNoPoint": "sgml",
+    "MIME_Type": "text/sgml",
+    "MIME_Details": "Wikipedia: SGML",
+    "MIME_IsTextFile": true,
+    "Mime_Category": "text"
+  },
+  {
+    "Mime_ID": 506,
+    "MIME_Name": "Bourne Shell Script",
+    "MIME_FileExtension": ".sh",
+    "MIME_FileExtensionNoPoint": "sh",
+    "MIME_Type": "application/x-sh",
+    "MIME_Details": "Wikipedia: Bourne Shell",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 507,
+    "MIME_Name": "Shell Archive",
+    "MIME_FileExtension": ".shar",
+    "MIME_FileExtensionNoPoint": "shar",
+    "MIME_Type": "application/x-shar",
+    "MIME_Details": "Wikipedia: Shell Archie",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 508,
+    "MIME_Name": "S Hexdump Format",
+    "MIME_FileExtension": ".shf",
+    "MIME_FileExtensionNoPoint": "shf",
+    "MIME_Type": "application/shf+xml",
+    "MIME_Details": "RFC 4194",
+    "MIME_IsTextFile": true,
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 509,
+    "MIME_Name": "Symbian Install Package",
+    "MIME_FileExtension": ".sis",
+    "MIME_FileExtensionNoPoint": "sis",
+    "MIME_Type": "application/vnd.symbian.install",
+    "MIME_Details": "IANA: Symbian Install",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 510,
+    "MIME_Name": "Stuffit Archive",
+    "MIME_FileExtension": ".sit",
+    "MIME_FileExtensionNoPoint": "sit",
+    "MIME_Type": "application/x-stuffit",
+    "MIME_Details": "Wikipedia: Stuffit",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 511,
+    "MIME_Name": "Stuffit Archive",
+    "MIME_FileExtension": ".sitx",
+    "MIME_FileExtensionNoPoint": "sitx",
+    "MIME_Type": "application/x-stuffitx",
+    "MIME_Details": "Wikipedia: Stuffit",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 512,
+    "MIME_Name": "SSEYO Koan Play File",
+    "MIME_FileExtension": ".skp",
+    "MIME_FileExtensionNoPoint": "skp",
+    "MIME_Type": "application/vnd.koan",
+    "MIME_Details": "IANA: SSEYO Koan Play File",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 513,
+    "MIME_Name": "Microsoft PowerPoint - Macro-Enabled Open XML Slide",
+    "MIME_FileExtension": ".sldm",
+    "MIME_FileExtensionNoPoint": "sldm",
+    "MIME_Type": "application/vnd.ms-powerpoint.slide.macroenabled.12",
+    "MIME_Details": "IANA: MS PowerPoint",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 514,
+    "MIME_Name": "Microsoft Office - OOXML - Presentation (Slide)",
+    "MIME_FileExtension": ".sldx",
+    "MIME_FileExtensionNoPoint": "sldx",
+    "MIME_Type": "application/vnd.openxmlformats-officedocument.presentationml.slide",
+    "MIME_Details": "IANA: OOXML - Presentation",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 515,
+    "MIME_Name": "SimpleAnimeLite Player",
+    "MIME_FileExtension": ".slt",
+    "MIME_FileExtensionNoPoint": "slt",
+    "MIME_Type": "application/vnd.epson.salt",
+    "MIME_Details": "IANA: SimpleAnimeLite Player",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 516,
+    "MIME_Name": "StepMania",
+    "MIME_FileExtension": ".sm",
+    "MIME_FileExtensionNoPoint": "sm",
+    "MIME_Type": "application/vnd.stepmania.stepchart",
+    "MIME_Details": "IANA: StepMania",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 517,
+    "MIME_Name": "StarOffice - Math",
+    "MIME_FileExtension": ".smf",
+    "MIME_FileExtensionNoPoint": "smf",
+    "MIME_Type": "application/vnd.stardivision.math",
+    "MIME_Details": "",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 518,
+    "MIME_Name": "Synchronized Multimedia Integration Language",
+    "MIME_FileExtension": ".smi",
+    "MIME_FileExtensionNoPoint": "smi",
+    "MIME_Type": "application/smil+xml",
+    "MIME_Details": "RFC 4536",
+    "MIME_IsTextFile": true,
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 519,
+    "MIME_Name": "Server Normal Format",
+    "MIME_FileExtension": ".snf",
+    "MIME_FileExtensionNoPoint": "snf",
+    "MIME_Type": "application/x-font-snf",
+    "MIME_Details": "Wikipedia: Server Normal Format",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 520,
+    "MIME_Name": "SMAF Phrase",
+    "MIME_FileExtension": ".spf",
+    "MIME_FileExtensionNoPoint": "spf",
+    "MIME_Type": "application/vnd.yamaha.smaf-phrase",
+    "MIME_Details": "IANA: SMAF Phrase",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 521,
+    "MIME_Name": "FutureSplash Animator",
+    "MIME_FileExtension": ".spl",
+    "MIME_FileExtensionNoPoint": "spl",
+    "MIME_Type": "application/x-futuresplash",
+    "MIME_Details": "Wikipedia: FutureSplash Animator",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 522,
+    "MIME_Name": "In3D - 3DML",
+    "MIME_FileExtension": ".spot",
+    "MIME_FileExtensionNoPoint": "spot",
+    "MIME_Type": "text/vnd.in3d.spot",
+    "MIME_Details": "IANA: In3D",
+    "MIME_IsTextFile": true,
+    "Mime_Category": "text"
+  },
+  {
+    "Mime_ID": 523,
+    "MIME_Name": "Server-Based Certificate Validation Protocol - Validation Policies - Response",
+    "MIME_FileExtension": ".spp",
+    "MIME_FileExtensionNoPoint": "spp",
+    "MIME_Type": "application/scvp-vp-response",
+    "MIME_Details": "RFC 5055",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 524,
+    "MIME_Name": "Server-Based Certificate Validation Protocol - Validation Policies - Request",
+    "MIME_FileExtension": ".spq",
+    "MIME_FileExtensionNoPoint": "spq",
+    "MIME_Type": "application/scvp-vp-request",
+    "MIME_Details": "RFC 5055",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 525,
+    "MIME_Name": "WAIS Source",
+    "MIME_FileExtension": ".src",
+    "MIME_FileExtensionNoPoint": "src",
+    "MIME_Type": "application/x-wais-source",
+    "MIME_Details": "YoLinux",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 526,
+    "MIME_Name": "Search/Retrieve via URL Response Format",
+    "MIME_FileExtension": ".sru",
+    "MIME_FileExtensionNoPoint": "sru",
+    "MIME_Type": "application/sru+xml",
+    "MIME_Details": "RFC 6207",
+    "MIME_IsTextFile": true,
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 527,
+    "MIME_Name": "SPARQL - Results",
+    "MIME_FileExtension": ".srx",
+    "MIME_FileExtensionNoPoint": "srx",
+    "MIME_Type": "application/sparql-results+xml",
+    "MIME_Details": "W3C SPARQL",
+    "MIME_IsTextFile": true,
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 528,
+    "MIME_Name": "Kodak Storyshare",
+    "MIME_FileExtension": ".sse",
+    "MIME_FileExtensionNoPoint": "sse",
+    "MIME_Type": "application/vnd.kodak-descriptor",
+    "MIME_Details": "IANA: Kodak Storyshare",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 529,
+    "MIME_Name": "QUASS Stream Player",
+    "MIME_FileExtension": ".ssf",
+    "MIME_FileExtensionNoPoint": "ssf",
+    "MIME_Type": "application/vnd.epson.ssf",
+    "MIME_Details": "IANA: QUASS Stream Player",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 530,
+    "MIME_Name": "Speech Synthesis Markup Language",
+    "MIME_FileExtension": ".ssml",
+    "MIME_FileExtensionNoPoint": "ssml",
+    "MIME_Type": "application/ssml+xml",
+    "MIME_Details": "W3C Speech Synthesis",
+    "MIME_IsTextFile": true,
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 531,
+    "MIME_Name": "SailingTracker",
+    "MIME_FileExtension": ".st",
+    "MIME_FileExtensionNoPoint": "st",
+    "MIME_Type": "application/vnd.sailingtracker.track",
+    "MIME_Details": "IANA: SailingTracker",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 532,
+    "MIME_Name": "OpenOffice - Calc Template (Spreadsheet)",
+    "MIME_FileExtension": ".stc",
+    "MIME_FileExtensionNoPoint": "stc",
+    "MIME_Type": "application/vnd.sun.xml.calc.template",
+    "MIME_Details": "Wikipedia: OpenOffice",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 533,
+    "MIME_Name": "OpenOffice - Draw Template (Graphics)",
+    "MIME_FileExtension": ".std",
+    "MIME_FileExtensionNoPoint": "std",
+    "MIME_Type": "application/vnd.sun.xml.draw.template",
+    "MIME_Details": "Wikipedia: OpenOffice",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 534,
+    "MIME_Name": "Worldtalk",
+    "MIME_FileExtension": ".stf",
+    "MIME_FileExtensionNoPoint": "stf",
+    "MIME_Type": "application/vnd.wt.stf",
+    "MIME_Details": "IANA: Worldtalk",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 535,
+    "MIME_Name": "OpenOffice - Impress Template (Presentation)",
+    "MIME_FileExtension": ".sti",
+    "MIME_FileExtensionNoPoint": "sti",
+    "MIME_Type": "application/vnd.sun.xml.impress.template",
+    "MIME_Details": "Wikipedia: OpenOffice",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 536,
+    "MIME_Name": "Hyperstudio",
+    "MIME_FileExtension": ".stk",
+    "MIME_FileExtensionNoPoint": "stk",
+    "MIME_Type": "application/hyperstudio",
+    "MIME_Details": "IANA - Hyperstudio",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 537,
+    "MIME_Name": "Microsoft Trust UI Provider - Certificate Trust Link",
+    "MIME_FileExtension": ".stl",
+    "MIME_FileExtensionNoPoint": "stl",
+    "MIME_Type": "application/vnd.ms-pki.stl",
+    "MIME_Details": "IANA: MS Trust UI Provider",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 538,
+    "MIME_Name": "Proprietary P&G Standard Reporting System",
+    "MIME_FileExtension": ".str",
+    "MIME_FileExtensionNoPoint": "str",
+    "MIME_Type": "application/vnd.pg.format",
+    "MIME_Details": "IANA: Proprietary P&G Standard Reporting System",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 539,
+    "MIME_Name": "OpenOffice - Writer Template (Text - HTML)",
+    "MIME_FileExtension": ".stw",
+    "MIME_FileExtensionNoPoint": "stw",
+    "MIME_Type": "application/vnd.sun.xml.writer.template",
+    "MIME_Details": "Wikipedia: OpenOffice",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 540,
+    "MIME_Name": "Close Captioning - Subtitle",
+    "MIME_FileExtension": ".sub",
+    "MIME_FileExtensionNoPoint": "sub",
+    "MIME_Type": "image/vnd.dvb.subtitle",
+    "MIME_Details": "Wikipedia: Closed Captioning",
+    "Mime_IsImage": true,
+    "Mime_Category": "image"
+  },
+  {
+    "Mime_ID": 541,
+    "MIME_Name": "ScheduleUs",
+    "MIME_FileExtension": ".sus",
+    "MIME_FileExtensionNoPoint": "sus",
+    "MIME_Type": "application/vnd.sus-calendar",
+    "MIME_Details": "IANA: ScheduleUs",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 542,
+    "MIME_Name": "System V Release 4 CPIO Archive",
+    "MIME_FileExtension": ".sv4cpio",
+    "MIME_FileExtensionNoPoint": "sv4cpio",
+    "MIME_Type": "application/x-sv4cpio",
+    "MIME_Details": "Wikipedia: pax",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 543,
+    "MIME_Name": "System V Release 4 CPIO Checksum Data",
+    "MIME_FileExtension": ".sv4crc",
+    "MIME_FileExtensionNoPoint": "sv4crc",
+    "MIME_Type": "application/x-sv4crc",
+    "MIME_Details": "Wikipedia: pax",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 544,
+    "MIME_Name": "Digital Video Broadcasting",
+    "MIME_FileExtension": ".svc",
+    "MIME_FileExtensionNoPoint": "svc",
+    "MIME_Type": "application/vnd.dvb.service",
+    "MIME_Details": "IANA: Digital Video Broadcasting",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 545,
+    "MIME_Name": "SourceView Document",
+    "MIME_FileExtension": ".svd",
+    "MIME_FileExtensionNoPoint": "svd",
+    "MIME_Type": "application/vnd.svd",
+    "MIME_Details": "IANA: SourceView Document",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 546,
+    "MIME_Name": "Scalable Vector Graphics (SVG)",
+    "MIME_FileExtension": ".svg",
+    "MIME_FileExtensionNoPoint": "svg",
+    "MIME_Type": "image/svg+xml",
+    "MIME_Details": "Wikipedia: SVG",
+    "MIME_IsAllowed": true,
+    "MIME_IsTextFile": true,
+    "Mime_IsImage": true,
+    "Mime_Category": "image"
+  },
+  {
+    "Mime_ID": 547,
+    "MIME_Name": "Adobe Flash",
+    "MIME_FileExtension": ".swf",
+    "MIME_FileExtensionNoPoint": "swf",
+    "MIME_Type": "application/x-shockwave-flash",
+    "MIME_Details": "Wikipedia: Adobe Flash",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 548,
+    "MIME_Name": "Arista Networks Software Image",
+    "MIME_FileExtension": ".swi",
+    "MIME_FileExtensionNoPoint": "swi",
+    "MIME_Type": "application/vnd.aristanetworks.swi",
+    "MIME_Details": "IANA: Arista Networks Software Image",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 549,
+    "MIME_Name": "OpenOffice - Calc (Spreadsheet)",
+    "MIME_FileExtension": ".sxc",
+    "MIME_FileExtensionNoPoint": "sxc",
+    "MIME_Type": "application/vnd.sun.xml.calc",
+    "MIME_Details": "Wikipedia: OpenOffice",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 550,
+    "MIME_Name": "OpenOffice - Draw (Graphics)",
+    "MIME_FileExtension": ".sxd",
+    "MIME_FileExtensionNoPoint": "sxd",
+    "MIME_Type": "application/vnd.sun.xml.draw",
+    "MIME_Details": "Wikipedia: OpenOffice",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 551,
+    "MIME_Name": "OpenOffice - Writer (Text - HTML)",
+    "MIME_FileExtension": ".sxg",
+    "MIME_FileExtensionNoPoint": "sxg",
+    "MIME_Type": "application/vnd.sun.xml.writer.global",
+    "MIME_Details": "Wikipedia: OpenOffice",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 552,
+    "MIME_Name": "OpenOffice - Impress (Presentation)",
+    "MIME_FileExtension": ".sxi",
+    "MIME_FileExtensionNoPoint": "sxi",
+    "MIME_Type": "application/vnd.sun.xml.impress",
+    "MIME_Details": "Wikipedia: OpenOffice",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 553,
+    "MIME_Name": "OpenOffice - Math (Formula)",
+    "MIME_FileExtension": ".sxm",
+    "MIME_FileExtensionNoPoint": "sxm",
+    "MIME_Type": "application/vnd.sun.xml.math",
+    "MIME_Details": "Wikipedia: OpenOffice",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 554,
+    "MIME_Name": "OpenOffice - Writer (Text - HTML)",
+    "MIME_FileExtension": ".sxw",
+    "MIME_FileExtensionNoPoint": "sxw",
+    "MIME_Type": "application/vnd.sun.xml.writer",
+    "MIME_Details": "Wikipedia: OpenOffice",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 555,
+    "MIME_Name": "troff",
+    "MIME_FileExtension": ".t",
+    "MIME_FileExtensionNoPoint": "t",
+    "MIME_Type": "text/troff",
+    "MIME_Details": "Wikipedia: troff",
+    "MIME_IsTextFile": true,
+    "Mime_Category": "text"
+  },
+  {
+    "Mime_ID": 556,
+    "MIME_Name": "Tao Intent",
+    "MIME_FileExtension": ".tao",
+    "MIME_FileExtensionNoPoint": "tao",
+    "MIME_Type": "application/vnd.tao.intent-module-archive",
+    "MIME_Details": "IANA: Tao Intent",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 557,
+    "MIME_Name": "Tar File (Tape Archive)",
+    "MIME_FileExtension": ".tar",
+    "MIME_FileExtensionNoPoint": "tar",
+    "MIME_Type": "application/x-tar",
+    "MIME_Details": "Wikipedia: Tar",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 558,
+    "MIME_Name": "3rd Generation Partnership Project - Transaction Capabilities Application Part",
+    "MIME_FileExtension": ".tcap",
+    "MIME_FileExtensionNoPoint": "tcap",
+    "MIME_Type": "application/vnd.3gpp2.tcap",
+    "MIME_Details": "3GPP",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 559,
+    "MIME_Name": "Tcl Script",
+    "MIME_FileExtension": ".tcl",
+    "MIME_FileExtensionNoPoint": "tcl",
+    "MIME_Type": "application/x-tcl",
+    "MIME_Details": "Wikipedia: Tcl",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 560,
+    "MIME_Name": "SMART Technologies Apps",
+    "MIME_FileExtension": ".teacher",
+    "MIME_FileExtensionNoPoint": "teacher",
+    "MIME_Type": "application/vnd.smart.teacher",
+    "MIME_Details": "IANA: SMART Technologies Apps",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 561,
+    "MIME_Name": "Text Encoding and Interchange",
+    "MIME_FileExtension": ".tei",
+    "MIME_FileExtensionNoPoint": "tei",
+    "MIME_Type": "application/tei+xml",
+    "MIME_Details": "RFC 6129",
+    "MIME_IsTextFile": true,
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 562,
+    "MIME_Name": "TeX",
+    "MIME_FileExtension": ".tex",
+    "MIME_FileExtensionNoPoint": "tex",
+    "MIME_Type": "application/x-tex",
+    "MIME_Details": "Wikipedia: TeX",
+    "MIME_IsTextFile": true,
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 563,
+    "MIME_Name": "GNU Texinfo Document",
+    "MIME_FileExtension": ".texinfo",
+    "MIME_FileExtensionNoPoint": "texinfo",
+    "MIME_Type": "application/x-texinfo",
+    "MIME_Details": "Wikipedia: Texinfo",
+    "MIME_IsTextFile": true,
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 564,
+    "MIME_Name": "Sharing Transaction Fraud Data",
+    "MIME_FileExtension": ".tfi",
+    "MIME_FileExtensionNoPoint": "tfi",
+    "MIME_Type": "application/thraud+xml",
+    "MIME_Details": "RFC 5941",
+    "MIME_IsTextFile": true,
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 565,
+    "MIME_Name": "TeX Font Metric",
+    "MIME_FileExtension": ".tfm",
+    "MIME_FileExtensionNoPoint": "tfm",
+    "MIME_Type": "application/x-tex-tfm",
+    "MIME_Details": "Wikipedia: TeX Font Metric",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 566,
+    "MIME_Name": "Microsoft Office System Release Theme",
+    "MIME_FileExtension": ".thmx",
+    "MIME_FileExtensionNoPoint": "thmx",
+    "MIME_Type": "application/vnd.ms-officetheme",
+    "MIME_Details": "IANA: MS Office System Release Theme",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 567,
+    "MIME_Name": "Tagged Image File Format",
+    "MIME_FileExtension": ".tif",
+    "MIME_FileExtensionNoPoint": "tif",
+    "MIME_Type": "image/tiff",
+    "MIME_Details": "Wikipedia: TIFF",
+    "MIME_IsAllowed": true,
+    "Mime_IsImage": true,
+    "Mime_Category": "image"
+  },
+  {
+    "Mime_ID": 568,
+    "MIME_Name": "Tagged Image File Format",
+    "MIME_FileExtension": ".tiff",
+    "MIME_FileExtensionNoPoint": "tiff",
+    "MIME_Type": "image/tiff",
+    "MIME_Details": "Wikipedia: TIFF",
+    "MIME_IsAllowed": true,
+    "Mime_IsImage": true,
+    "Mime_Category": "image"
+  },
+  {
+    "Mime_ID": 569,
+    "MIME_Name": "MobileTV",
+    "MIME_FileExtension": ".tmo",
+    "MIME_FileExtensionNoPoint": "tmo",
+    "MIME_Type": "application/vnd.tmobile-livetv",
+    "MIME_Details": "IANA: MobileTV",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 570,
+    "MIME_Name": "BitTorrent",
+    "MIME_FileExtension": ".torrent",
+    "MIME_FileExtensionNoPoint": "torrent",
+    "MIME_Type": "application/x-bittorrent",
+    "MIME_Details": "Wikipedia: BitTorrent",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 571,
+    "MIME_Name": "Groove - Tool Template",
+    "MIME_FileExtension": ".tpl",
+    "MIME_FileExtensionNoPoint": "tpl",
+    "MIME_Type": "application/vnd.groove-tool-template",
+    "MIME_Details": "IANA: Groove",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 572,
+    "MIME_Name": "TRI Systems Config",
+    "MIME_FileExtension": ".tpt",
+    "MIME_FileExtensionNoPoint": "tpt",
+    "MIME_Type": "application/vnd.trid.tpt",
+    "MIME_Details": "IANA: TRI Systems",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 573,
+    "MIME_Name": "True BASIC",
+    "MIME_FileExtension": ".tra",
+    "MIME_FileExtensionNoPoint": "tra",
+    "MIME_Type": "application/vnd.trueapp",
+    "MIME_Details": "IANA: True BASIC",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 574,
+    "MIME_Name": "Microsoft Windows Terminal Services",
+    "MIME_FileExtension": ".trm",
+    "MIME_FileExtensionNoPoint": "trm",
+    "MIME_Type": "application/x-msterminal",
+    "MIME_Details": "Wikipedia: Terminal Server",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 575,
+    "MIME_Name": "Time Stamped Data Envelope",
+    "MIME_FileExtension": ".tsd",
+    "MIME_FileExtensionNoPoint": "tsd",
+    "MIME_Type": "application/timestamped-data",
+    "MIME_Details": "RFC 5955",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 576,
+    "MIME_Name": "Tab Seperated Values",
+    "MIME_FileExtension": ".tsv",
+    "MIME_FileExtensionNoPoint": "tsv",
+    "MIME_Type": "text/tab-separated-values",
+    "MIME_Details": "Wikipedia: TSV",
+    "MIME_IsTextFile": true,
+    "Mime_Category": "text"
+  },
+  {
+    "Mime_ID": 577,
+    "MIME_Name": "TrueType Font",
+    "MIME_FileExtension": ".ttf",
+    "MIME_FileExtensionNoPoint": "ttf",
+    "MIME_Type": "application/x-font-ttf",
+    "MIME_Details": "Wikipedia: TrueType",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 578,
+    "MIME_Name": "Turtle (Terse RDF Triple Language)",
+    "MIME_FileExtension": ".ttl",
+    "MIME_FileExtensionNoPoint": "ttl",
+    "MIME_Type": "text/turtle",
+    "MIME_Details": "Wikipedia: Turtle",
+    "MIME_IsTextFile": true,
+    "Mime_Category": "text"
+  },
+  {
+    "Mime_ID": 579,
+    "MIME_Name": "SimTech MindMapper",
+    "MIME_FileExtension": ".twd",
+    "MIME_FileExtensionNoPoint": "twd",
+    "MIME_Type": "application/vnd.simtech-mindmapper",
+    "MIME_Details": "IANA: SimTech MindMapper",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 580,
+    "MIME_Name": "Genomatix Tuxedo Framework",
+    "MIME_FileExtension": ".txd",
+    "MIME_FileExtensionNoPoint": "txd",
+    "MIME_Type": "application/vnd.genomatix.tuxedo",
+    "MIME_Details": "IANA: Genomatix Tuxedo Framework",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 581,
+    "MIME_Name": "Mobius Management Systems - Topic Index File",
+    "MIME_FileExtension": ".txf",
+    "MIME_FileExtensionNoPoint": "txf",
+    "MIME_Type": "application/vnd.mobius.txf",
+    "MIME_Details": "IANA: Mobius Management Systems",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 582,
+    "MIME_Name": "Text File",
+    "MIME_FileExtension": ".txt",
+    "MIME_FileExtensionNoPoint": "txt",
+    "MIME_Type": "text/plain",
+    "MIME_Details": "Wikipedia: Text File",
+    "MIME_IsAllowed": true,
+    "MIME_IsTextFile": true,
+    "Mime_Category": "text"
+  },
+  {
+    "Mime_ID": 583,
+    "MIME_Name": "Universal Forms Description Language",
+    "MIME_FileExtension": ".ufd",
+    "MIME_FileExtensionNoPoint": "ufd",
+    "MIME_Type": "application/vnd.ufdl",
+    "MIME_Details": "IANA: Universal Forms Description Language",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 584,
+    "MIME_Name": "UMAJIN",
+    "MIME_FileExtension": ".umj",
+    "MIME_FileExtensionNoPoint": "umj",
+    "MIME_Type": "application/vnd.umajin",
+    "MIME_Details": "IANA: UMAJIN",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 585,
+    "MIME_Name": "Unity 3d",
+    "MIME_FileExtension": ".unityweb",
+    "MIME_FileExtensionNoPoint": "unityweb",
+    "MIME_Type": "application/vnd.unity",
+    "MIME_Details": "IANA: Unity 3d",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 586,
+    "MIME_Name": "Unique Object Markup Language",
+    "MIME_FileExtension": ".uoml",
+    "MIME_FileExtensionNoPoint": "uoml",
+    "MIME_Type": "application/vnd.uoml+xml",
+    "MIME_Details": "IANA: UOML",
+    "MIME_IsTextFile": true,
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 587,
+    "MIME_Name": "URI Resolution Services",
+    "MIME_FileExtension": ".uri",
+    "MIME_FileExtensionNoPoint": "uri",
+    "MIME_Type": "text/uri-list",
+    "MIME_Details": "RFC 2483",
+    "MIME_IsTextFile": true,
+    "Mime_Category": "text"
+  },
+  {
+    "Mime_ID": 588,
+    "MIME_Name": "Ustar (Uniform Standard Tape Archive)",
+    "MIME_FileExtension": ".ustar",
+    "MIME_FileExtensionNoPoint": "ustar",
+    "MIME_Type": "application/x-ustar",
+    "MIME_Details": "Wikipedia: Ustar",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 589,
+    "MIME_Name": "User Interface Quartz - Theme (Symbian)",
+    "MIME_FileExtension": ".utz",
+    "MIME_FileExtensionNoPoint": "utz",
+    "MIME_Type": "application/vnd.uiq.theme",
+    "MIME_Details": "IANA: User Interface Quartz",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 590,
+    "MIME_Name": "UUEncode",
+    "MIME_FileExtension": ".uu",
+    "MIME_FileExtensionNoPoint": "uu",
+    "MIME_Type": "text/x-uuencode",
+    "MIME_Details": "Wikipedia: UUEncode",
+    "MIME_IsTextFile": true,
+    "Mime_Category": "text"
+  },
+  {
+    "Mime_ID": 591,
+    "MIME_Name": "DECE Audio",
+    "MIME_FileExtension": ".uva",
+    "MIME_FileExtensionNoPoint": "uva",
+    "MIME_Type": "audio/vnd.dece.audio",
+    "MIME_Details": "IANA: Dece Audio",
+    "Mime_Category": "audio"
+  },
+  {
+    "Mime_ID": 592,
+    "MIME_Name": "DECE High Definition Video",
+    "MIME_FileExtension": ".uvh",
+    "MIME_FileExtensionNoPoint": "uvh",
+    "MIME_Type": "video/vnd.dece.hd",
+    "MIME_Details": "IANA: DECE HD Video",
+    "Mime_Category": "video"
+  },
+  {
+    "Mime_ID": 593,
+    "MIME_Name": "DECE Graphic",
+    "MIME_FileExtension": ".uvi",
+    "MIME_FileExtensionNoPoint": "uvi",
+    "MIME_Type": "image/vnd.dece.graphic",
+    "MIME_Details": "IANA: DECE Graphic",
+    "Mime_IsImage": true,
+    "Mime_Category": "image"
+  },
+  {
+    "Mime_ID": 594,
+    "MIME_Name": "DECE Mobile Video",
+    "MIME_FileExtension": ".uvm",
+    "MIME_FileExtensionNoPoint": "uvm",
+    "MIME_Type": "video/vnd.dece.mobile",
+    "MIME_Details": "IANA: DECE Mobile Video",
+    "Mime_Category": "video"
+  },
+  {
+    "Mime_ID": 595,
+    "MIME_Name": "DECE PD Video",
+    "MIME_FileExtension": ".uvp",
+    "MIME_FileExtensionNoPoint": "uvp",
+    "MIME_Type": "video/vnd.dece.pd",
+    "MIME_Details": "IANA: DECE PD Video",
+    "Mime_Category": "video"
+  },
+  {
+    "Mime_ID": 596,
+    "MIME_Name": "DECE SD Video",
+    "MIME_FileExtension": ".uvs",
+    "MIME_FileExtensionNoPoint": "uvs",
+    "MIME_Type": "video/vnd.dece.sd",
+    "MIME_Details": "IANA: DECE SD Video",
+    "Mime_Category": "video"
+  },
+  {
+    "Mime_ID": 597,
+    "MIME_Name": "DECE MP4",
+    "MIME_FileExtension": ".uvu",
+    "MIME_FileExtensionNoPoint": "uvu",
+    "MIME_Type": "video/vnd.uvvu.mp4",
+    "MIME_Details": "IANA: DECE MP4",
+    "Mime_Category": "video"
+  },
+  {
+    "Mime_ID": 598,
+    "MIME_Name": "DECE Video",
+    "MIME_FileExtension": ".uvv",
+    "MIME_FileExtensionNoPoint": "uvv",
+    "MIME_Type": "video/vnd.dece.video",
+    "MIME_Details": "IANA: DECE Video",
+    "Mime_Category": "video"
+  },
+  {
+    "Mime_ID": 599,
+    "MIME_Name": "Video CD",
+    "MIME_FileExtension": ".vcd",
+    "MIME_FileExtensionNoPoint": "vcd",
+    "MIME_Type": "application/x-cdlink",
+    "MIME_Details": "Wikipedia: Video CD",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 600,
+    "MIME_Name": "vCard",
+    "MIME_FileExtension": ".vcf",
+    "MIME_FileExtensionNoPoint": "vcf",
+    "MIME_Type": "text/x-vcard",
+    "MIME_Details": "Wikipedia: vCard",
+    "MIME_IsTextFile": true,
+    "Mime_Category": "text"
+  },
+  {
+    "Mime_ID": 601,
+    "MIME_Name": "Groove - Vcard",
+    "MIME_FileExtension": ".vcg",
+    "MIME_FileExtensionNoPoint": "vcg",
+    "MIME_Type": "application/vnd.groove-vcard",
+    "MIME_Details": "IANA: Groove",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 602,
+    "MIME_Name": "vCalendar",
+    "MIME_FileExtension": ".vcs",
+    "MIME_FileExtensionNoPoint": "vcs",
+    "MIME_Type": "text/x-vcalendar",
+    "MIME_Details": "Wikipedia: vCalendar",
+    "MIME_IsTextFile": true,
+    "Mime_Category": "text"
+  },
+  {
+    "Mime_ID": 603,
+    "MIME_Name": "VirtualCatalog",
+    "MIME_FileExtension": ".vcx",
+    "MIME_FileExtensionNoPoint": "vcx",
+    "MIME_Type": "application/vnd.vcx",
+    "MIME_Details": "IANA: VirtualCatalog",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 604,
+    "MIME_Name": "Visionary",
+    "MIME_FileExtension": ".vis",
+    "MIME_FileExtensionNoPoint": "vis",
+    "MIME_Type": "application/vnd.visionary",
+    "MIME_Details": "IANA: Visionary",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 605,
+    "MIME_Name": "Vivo",
+    "MIME_FileExtension": ".viv",
+    "MIME_FileExtensionNoPoint": "viv",
+    "MIME_Type": "video/vnd.vivo",
+    "MIME_Details": "IANA: Vivo",
+    "Mime_Category": "video"
+  },
+  {
+    "Mime_ID": 606,
+    "MIME_Name": "Microsoft Visio",
+    "MIME_FileExtension": ".vsd",
+    "MIME_FileExtensionNoPoint": "vsd",
+    "MIME_Type": "application/vnd.visio",
+    "MIME_Details": "IANA: Visio",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 607,
+    "MIME_Name": "Viewport+",
+    "MIME_FileExtension": ".vsf",
+    "MIME_FileExtensionNoPoint": "vsf",
+    "MIME_Type": "application/vnd.vsf",
+    "MIME_Details": "IANA: Viewport+",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 608,
+    "MIME_Name": "Virtue VTU",
+    "MIME_FileExtension": ".vtu",
+    "MIME_FileExtensionNoPoint": "vtu",
+    "MIME_Type": "model/vnd.vtu",
+    "MIME_Details": "IANA: VTU",
+    "Mime_Category": "model"
+  },
+  {
+    "Mime_ID": 609,
+    "MIME_Name": "VoiceXML",
+    "MIME_FileExtension": ".vxml",
+    "MIME_FileExtensionNoPoint": "vxml",
+    "MIME_Type": "application/voicexml+xml",
+    "MIME_Details": "RFC 4267",
+    "MIME_IsTextFile": true,
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 610,
+    "MIME_Name": "Doom Video Game",
+    "MIME_FileExtension": ".wad",
+    "MIME_FileExtensionNoPoint": "wad",
+    "MIME_Type": "application/x-doom",
+    "MIME_Details": "Wikipedia: Doom WAD",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 611,
+    "MIME_Name": "Waveform Audio File Format (WAV)",
+    "MIME_FileExtension": ".wav",
+    "MIME_FileExtensionNoPoint": "wav",
+    "MIME_Type": "audio/x-wav",
+    "MIME_Details": "Wikipedia: WAV",
+    "Mime_Category": "audio"
+  },
+  {
+    "Mime_ID": 612,
+    "MIME_Name": "Microsoft Windows Media Audio Redirector",
+    "MIME_FileExtension": ".wax",
+    "MIME_FileExtensionNoPoint": "wax",
+    "MIME_Type": "audio/x-ms-wax",
+    "MIME_Details": "Windows Media Metafiles",
+    "Mime_Category": "audio"
+  },
+  {
+    "Mime_ID": 613,
+    "MIME_Name": "WAP Bitamp (WBMP)",
+    "MIME_FileExtension": ".wbmp",
+    "MIME_FileExtensionNoPoint": "wbmp",
+    "MIME_Type": "image/vnd.wap.wbmp",
+    "MIME_Details": "IANA: WBMP",
+    "Mime_IsImage": true,
+    "Mime_Category": "image"
+  },
+  {
+    "Mime_ID": 614,
+    "MIME_Name": "Critical Tools - PERT Chart EXPERT",
+    "MIME_FileExtension": ".wbs",
+    "MIME_FileExtensionNoPoint": "wbs",
+    "MIME_Type": "application/vnd.criticaltools.wbs+xml",
+    "MIME_Details": "IANA: Critical Tools",
+    "MIME_IsTextFile": true,
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 615,
+    "MIME_Name": "WAP Binary XML (WBXML)",
+    "MIME_FileExtension": ".wbxml",
+    "MIME_FileExtensionNoPoint": "wbxml",
+    "MIME_Type": "application/vnd.wap.wbxml",
+    "MIME_Details": "IANA: WBXML",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 616,
+    "MIME_Name": "Open Web Media Project - Audio",
+    "MIME_FileExtension": ".weba",
+    "MIME_FileExtensionNoPoint": "weba",
+    "MIME_Type": "audio/webm",
+    "MIME_Details": "WebM Project",
+    "Mime_Category": "audio"
+  },
+  {
+    "Mime_ID": 617,
+    "MIME_Name": "Open Web Media Project - Video",
+    "MIME_FileExtension": ".webm",
+    "MIME_FileExtensionNoPoint": "webm",
+    "MIME_Type": "video/webm",
+    "MIME_Details": "WebM Project",
+    "Mime_Category": "video"
+  },
+  {
+    "Mime_ID": 618,
+    "MIME_Name": "WebP Image",
+    "MIME_FileExtension": ".webp",
+    "MIME_FileExtensionNoPoint": "webp",
+    "MIME_Type": "image/webp",
+    "MIME_Details": "Wikipedia: WebP",
+    "Mime_IsImage": true,
+    "Mime_Category": "image"
+  },
+  {
+    "Mime_ID": 619,
+    "MIME_Name": "Qualcomm's Plaza Mobile Internet",
+    "MIME_FileExtension": ".wg",
+    "MIME_FileExtensionNoPoint": "wg",
+    "MIME_Type": "application/vnd.pmi.widget",
+    "MIME_Details": "IANA: Qualcomm's Plaza Mobile Internet",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 620,
+    "MIME_Name": "Widget Packaging and XML Configuration",
+    "MIME_FileExtension": ".wgt",
+    "MIME_FileExtensionNoPoint": "wgt",
+    "MIME_Type": "application/widget",
+    "MIME_Details": "W3C Widget Packaging and XML Configuration",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 621,
+    "MIME_Name": "Microsoft Windows Media",
+    "MIME_FileExtension": ".wm",
+    "MIME_FileExtensionNoPoint": "wm",
+    "MIME_Type": "video/x-ms-wm",
+    "MIME_Details": "Wikipedia: Advanced Systems Format (ASF)",
+    "Mime_Category": "video"
+  },
+  {
+    "Mime_ID": 622,
+    "MIME_Name": "Microsoft Windows Media Audio",
+    "MIME_FileExtension": ".wma",
+    "MIME_FileExtensionNoPoint": "wma",
+    "MIME_Type": "audio/x-ms-wma",
+    "MIME_Details": "Wikipedia: Windows Media Audio",
+    "Mime_Category": "audio"
+  },
+  {
+    "Mime_ID": 623,
+    "MIME_Name": "Microsoft Windows Media Player Download Package",
+    "MIME_FileExtension": ".wmd",
+    "MIME_FileExtensionNoPoint": "wmd",
+    "MIME_Type": "application/x-ms-wmd",
+    "MIME_Details": "Wikipedia: Windows Media Player",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 624,
+    "MIME_Name": "Microsoft Windows Metafile",
+    "MIME_FileExtension": ".wmf",
+    "MIME_FileExtensionNoPoint": "wmf",
+    "MIME_Type": "application/x-msmetafile",
+    "MIME_Details": "Wikipedia: Windows Metafile",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 625,
+    "MIME_Name": "Wireless Markup Language (WML)",
+    "MIME_FileExtension": ".wml",
+    "MIME_FileExtensionNoPoint": "wml",
+    "MIME_Type": "text/vnd.wap.wml",
+    "MIME_Details": "Wikipedia: WML",
+    "MIME_IsTextFile": true,
+    "Mime_Category": "text"
+  },
+  {
+    "Mime_ID": 626,
+    "MIME_Name": "Compiled Wireless Markup Language (WMLC)",
+    "MIME_FileExtension": ".wmlc",
+    "MIME_FileExtensionNoPoint": "wmlc",
+    "MIME_Type": "application/vnd.wap.wmlc",
+    "MIME_Details": "IANA: WMLC",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 627,
+    "MIME_Name": "Wireless Markup Language Script (WMLScript)",
+    "MIME_FileExtension": ".wmls",
+    "MIME_FileExtensionNoPoint": "wmls",
+    "MIME_Type": "text/vnd.wap.wmlscript",
+    "MIME_Details": "Wikipedia: WMLScript",
+    "MIME_IsTextFile": true,
+    "Mime_Category": "text"
+  },
+  {
+    "Mime_ID": 628,
+    "MIME_Name": "WMLScript",
+    "MIME_FileExtension": ".wmlsc",
+    "MIME_FileExtensionNoPoint": "wmlsc",
+    "MIME_Type": "application/vnd.wap.wmlscriptc",
+    "MIME_Details": "IANA: WMLScript",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 629,
+    "MIME_Name": "Microsoft Windows Media Video",
+    "MIME_FileExtension": ".wmv",
+    "MIME_FileExtensionNoPoint": "wmv",
+    "MIME_Type": "video/x-ms-wmv",
+    "MIME_Details": "Wikipedia: Advanced Systems Format (ASF)",
+    "Mime_Category": "video"
+  },
+  {
+    "Mime_ID": 630,
+    "MIME_Name": "Microsoft Windows Media Audio/Video Playlist",
+    "MIME_FileExtension": ".wmx",
+    "MIME_FileExtensionNoPoint": "wmx",
+    "MIME_Type": "video/x-ms-wmx",
+    "MIME_Details": "Wikipedia: Advanced Systems Format (ASF)",
+    "Mime_Category": "video"
+  },
+  {
+    "Mime_ID": 631,
+    "MIME_Name": "Microsoft Windows Media Player Skin Package",
+    "MIME_FileExtension": ".wmz",
+    "MIME_FileExtensionNoPoint": "wmz",
+    "MIME_Type": "application/x-ms-wmz",
+    "MIME_Details": "Wikipedia: Windows Media Player",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 632,
+    "MIME_Name": "Web Open Font Format",
+    "MIME_FileExtension": ".woff",
+    "MIME_FileExtensionNoPoint": "woff",
+    "MIME_Type": "application/x-font-woff",
+    "MIME_Details": "Wikipedia: Web Open Font Format",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 633,
+    "MIME_Name": "Wordperfect",
+    "MIME_FileExtension": ".wpd",
+    "MIME_FileExtensionNoPoint": "wpd",
+    "MIME_Type": "application/vnd.wordperfect",
+    "MIME_Details": "IANA: Wordperfect",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 634,
+    "MIME_Name": "Microsoft Windows Media Player Playlist",
+    "MIME_FileExtension": ".wpl",
+    "MIME_FileExtensionNoPoint": "wpl",
+    "MIME_Type": "application/vnd.ms-wpl",
+    "MIME_Details": "IANA: MS Windows Media Player Playlist",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 635,
+    "MIME_Name": "Microsoft Works",
+    "MIME_FileExtension": ".wps",
+    "MIME_FileExtensionNoPoint": "wps",
+    "MIME_Type": "application/vnd.ms-works",
+    "MIME_Details": "IANA: MS Works",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 636,
+    "MIME_Name": "SundaHus WQ",
+    "MIME_FileExtension": ".wqd",
+    "MIME_FileExtensionNoPoint": "wqd",
+    "MIME_Type": "application/vnd.wqd",
+    "MIME_Details": "IANA: SundaHus WQ",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 637,
+    "MIME_Name": "Microsoft Wordpad",
+    "MIME_FileExtension": ".wri",
+    "MIME_FileExtensionNoPoint": "wri",
+    "MIME_Type": "application/x-mswrite",
+    "MIME_Details": "Wikipedia: Wordpad",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 638,
+    "MIME_Name": "Virtual Reality Modeling Language",
+    "MIME_FileExtension": ".wrl",
+    "MIME_FileExtensionNoPoint": "wrl",
+    "MIME_Type": "model/vrml",
+    "MIME_Details": "Wikipedia: VRML",
+    "Mime_Category": "model"
+  },
+  {
+    "Mime_ID": 639,
+    "MIME_Name": "WSDL - Web Services Description Language",
+    "MIME_FileExtension": ".wsdl",
+    "MIME_FileExtensionNoPoint": "wsdl",
+    "MIME_Type": "application/wsdl+xml",
+    "MIME_Details": "W3C Web Service Description Language",
+    "MIME_IsTextFile": true,
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 640,
+    "MIME_Name": "Web Services Policy",
+    "MIME_FileExtension": ".wspolicy",
+    "MIME_FileExtensionNoPoint": "wspolicy",
+    "MIME_Type": "application/wspolicy+xml",
+    "MIME_Details": "W3C Web Services Policy",
+    "MIME_IsTextFile": true,
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 641,
+    "MIME_Name": "WebTurbo",
+    "MIME_FileExtension": ".wtb",
+    "MIME_FileExtensionNoPoint": "wtb",
+    "MIME_Type": "application/vnd.webturbo",
+    "MIME_Details": "IANA: WebTurbo",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 642,
+    "MIME_Name": "Microsoft Windows Media Video Playlist",
+    "MIME_FileExtension": ".wvx",
+    "MIME_FileExtensionNoPoint": "wvx",
+    "MIME_Type": "video/x-ms-wvx",
+    "MIME_Details": "Wikipedia: Advanced Systems Format (ASF)",
+    "Mime_Category": "video"
+  },
+  {
+    "Mime_ID": 643,
+    "MIME_Name": "3D Crossword Plugin",
+    "MIME_FileExtension": ".x3d",
+    "MIME_FileExtensionNoPoint": "x3d",
+    "MIME_Type": "application/vnd.hzn-3d-crossword",
+    "MIME_Details": "IANA: 3D Crossword Plugin",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 644,
+    "MIME_Name": "Microsoft Silverlight",
+    "MIME_FileExtension": ".xap",
+    "MIME_FileExtensionNoPoint": "xap",
+    "MIME_Type": "application/x-silverlight-app",
+    "MIME_Details": "Wikipedia: Silverlight",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 645,
+    "MIME_Name": "CorelXARA",
+    "MIME_FileExtension": ".xar",
+    "MIME_FileExtensionNoPoint": "xar",
+    "MIME_Type": "application/vnd.xara",
+    "MIME_Details": "IANA: CorelXARA",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 646,
+    "MIME_Name": "Microsoft XAML Browser Application",
+    "MIME_FileExtension": ".xbap",
+    "MIME_FileExtensionNoPoint": "xbap",
+    "MIME_Type": "application/x-ms-xbap",
+    "MIME_Details": "Wikipedia: XAML Browser",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 647,
+    "MIME_Name": "Fujitsu - Xerox DocuWorks Binder",
+    "MIME_FileExtension": ".xbd",
+    "MIME_FileExtensionNoPoint": "xbd",
+    "MIME_Type": "application/vnd.fujixerox.docuworks.binder",
+    "MIME_Details": "IANA: Docuworks Binder",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 648,
+    "MIME_Name": "X BitMap",
+    "MIME_FileExtension": ".xbm",
+    "MIME_FileExtensionNoPoint": "xbm",
+    "MIME_Type": "image/x-xbitmap",
+    "MIME_Details": "Wikipedia: X BitMap",
+    "Mime_IsImage": true,
+    "Mime_Category": "image"
+  },
+  {
+    "Mime_ID": 649,
+    "MIME_Name": "XML Configuration Access Protocol - XCAP Diff",
+    "MIME_FileExtension": ".xdf",
+    "MIME_FileExtensionNoPoint": "xdf",
+    "MIME_Type": "application/xcap-diff+xml",
+    "MIME_Details": "Wikipedia: XCAP",
+    "MIME_IsTextFile": true,
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 650,
+    "MIME_Name": "SyncML - Device Management",
+    "MIME_FileExtension": ".xdm",
+    "MIME_FileExtensionNoPoint": "xdm",
+    "MIME_Type": "application/vnd.syncml.dm+xml",
+    "MIME_Details": "IANA: SyncML",
+    "MIME_IsTextFile": true,
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 651,
+    "MIME_Name": "Adobe XML Data Package",
+    "MIME_FileExtension": ".xdp",
+    "MIME_FileExtensionNoPoint": "xdp",
+    "MIME_Type": "application/vnd.adobe.xdp+xml",
+    "MIME_Details": "Wikipedia: XML Data Package",
+    "MIME_IsTextFile": true,
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 652,
+    "MIME_Name": "Data Structure for the Security Suitability of Cryptographic Algorithms",
+    "MIME_FileExtension": ".xdssc",
+    "MIME_FileExtensionNoPoint": "xdssc",
+    "MIME_Type": "application/dssc+xml",
+    "MIME_Details": "RFC 5698",
+    "MIME_IsTextFile": true,
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 653,
+    "MIME_Name": "Fujitsu - Xerox DocuWorks",
+    "MIME_FileExtension": ".xdw",
+    "MIME_FileExtensionNoPoint": "xdw",
+    "MIME_Type": "application/vnd.fujixerox.docuworks",
+    "MIME_Details": "IANA: Docuworks",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 654,
+    "MIME_Name": "XML Encryption Syntax and Processing",
+    "MIME_FileExtension": ".xenc",
+    "MIME_FileExtensionNoPoint": "xenc",
+    "MIME_Type": "application/xenc+xml",
+    "MIME_Details": "W3C XML Encryption Syntax and Processing",
+    "MIME_IsTextFile": true,
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 655,
+    "MIME_Name": "XML Patch Framework",
+    "MIME_FileExtension": ".xer",
+    "MIME_FileExtensionNoPoint": "xer",
+    "MIME_Type": "application/patch-ops-error+xml",
+    "MIME_Details": "RFC 5261",
+    "MIME_IsTextFile": true,
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 656,
+    "MIME_Name": "Adobe XML Forms Data Format",
+    "MIME_FileExtension": ".xfdf",
+    "MIME_FileExtensionNoPoint": "xfdf",
+    "MIME_Type": "application/vnd.adobe.xfdf",
+    "MIME_Details": "Wikipedia: XML Portable Document Format",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 657,
+    "MIME_Name": "Extensible Forms Description Language",
+    "MIME_FileExtension": ".xfdl",
+    "MIME_FileExtensionNoPoint": "xfdl",
+    "MIME_Type": "application/vnd.xfdl",
+    "MIME_Details": "IANA: Extensible Forms Description Language",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 658,
+    "MIME_Name": "XHTML - The Extensible HyperText Markup Language",
+    "MIME_FileExtension": ".xhtml",
+    "MIME_FileExtensionNoPoint": "xhtml",
+    "MIME_Type": "application/xhtml+xml",
+    "MIME_Details": "W3C XHTML",
+    "MIME_IsTextFile": true,
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 659,
+    "MIME_Name": "eXtended Image File Format (XIFF)",
+    "MIME_FileExtension": ".xif",
+    "MIME_FileExtensionNoPoint": "xif",
+    "MIME_Type": "image/vnd.xiff",
+    "MIME_Details": "IANA: XIFF",
+    "Mime_IsImage": true,
+    "Mime_Category": "image"
+  },
+  {
+    "Mime_ID": 660,
+    "MIME_Name": "Microsoft Excel - Add-In File",
+    "MIME_FileExtension": ".xlam",
+    "MIME_FileExtensionNoPoint": "xlam",
+    "MIME_Type": "application/vnd.ms-excel.addin.macroenabled.12",
+    "MIME_Details": "IANA: MS Excel",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 661,
+    "MIME_Name": "Microsoft Excel",
+    "MIME_FileExtension": ".xls",
+    "MIME_FileExtensionNoPoint": "xls",
+    "MIME_Type": "application/vnd.ms-excel",
+    "MIME_Details": "IANA: MS Excel",
+    "MIME_IsAllowed": true,
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 662,
+    "MIME_Name": "Microsoft Excel - Binary Workbook",
+    "MIME_FileExtension": ".xlsb",
+    "MIME_FileExtensionNoPoint": "xlsb",
+    "MIME_Type": "application/vnd.ms-excel.sheet.binary.macroenabled.12",
+    "MIME_Details": "IANA: MS Excel",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 663,
+    "MIME_Name": "Microsoft Excel - Macro-Enabled Workbook",
+    "MIME_FileExtension": ".xlsm",
+    "MIME_FileExtensionNoPoint": "xlsm",
+    "MIME_Type": "application/vnd.ms-excel.sheet.macroenabled.12",
+    "MIME_Details": "IANA: MS Excel",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 664,
+    "MIME_Name": "Microsoft Office - OOXML - Spreadsheet",
+    "MIME_FileExtension": ".xlsx",
+    "MIME_FileExtensionNoPoint": "xlsx",
+    "MIME_Type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "MIME_Details": "IANA: OOXML - Spreadsheet",
+    "MIME_IsAllowed": true,
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 665,
+    "MIME_Name": "Microsoft Excel - Macro-Enabled Template File",
+    "MIME_FileExtension": ".xltm",
+    "MIME_FileExtensionNoPoint": "xltm",
+    "MIME_Type": "application/vnd.ms-excel.template.macroenabled.12",
+    "MIME_Details": "IANA: MS Excel",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 666,
+    "MIME_Name": "Microsoft Office - OOXML - Spreadsheet Teplate",
+    "MIME_FileExtension": ".xltx",
+    "MIME_FileExtensionNoPoint": "xltx",
+    "MIME_Type": "application/vnd.openxmlformats-officedocument.spreadsheetml.template",
+    "MIME_Details": "IANA: OOXML - Spreadsheet Template",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 667,
+    "MIME_Name": "XML - Extensible Markup Language",
+    "MIME_FileExtension": ".xml",
+    "MIME_FileExtensionNoPoint": "xml",
+    "MIME_Type": "application/xml",
+    "MIME_Details": "W3C XML",
+    "MIME_IsAllowed": true,
+    "MIME_IsTextFile": true,
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 668,
+    "MIME_Name": "Sugar Linux Application Bundle",
+    "MIME_FileExtension": ".xo",
+    "MIME_FileExtensionNoPoint": "xo",
+    "MIME_Type": "application/vnd.olpc-sugar",
+    "MIME_Details": "IANA: Sugar Linux App Bundle",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 669,
+    "MIME_Name": "XML-Binary Optimized Packaging",
+    "MIME_FileExtension": ".xop",
+    "MIME_FileExtensionNoPoint": "xop",
+    "MIME_Type": "application/xop+xml",
+    "MIME_Details": "W3C XOP",
+    "MIME_IsTextFile": true,
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 670,
+    "MIME_Name": "XPInstall - Mozilla",
+    "MIME_FileExtension": ".xpi",
+    "MIME_FileExtensionNoPoint": "xpi",
+    "MIME_Type": "application/x-xpinstall",
+    "MIME_Details": "Wikipedia: XPI",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 671,
+    "MIME_Name": "X PixMap",
+    "MIME_FileExtension": ".xpm",
+    "MIME_FileExtensionNoPoint": "xpm",
+    "MIME_Type": "image/x-xpixmap",
+    "MIME_Details": "Wikipedia: X PixMap",
+    "Mime_IsImage": true,
+    "Mime_Category": "image"
+  },
+  {
+    "Mime_ID": 672,
+    "MIME_Name": "Express by Infoseek",
+    "MIME_FileExtension": ".xpr",
+    "MIME_FileExtensionNoPoint": "xpr",
+    "MIME_Type": "application/vnd.is-xpr",
+    "MIME_Details": "IANA: Express by Infoseek",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 673,
+    "MIME_Name": "Microsoft XML Paper Specification",
+    "MIME_FileExtension": ".xps",
+    "MIME_FileExtensionNoPoint": "xps",
+    "MIME_Type": "application/vnd.ms-xpsdocument",
+    "MIME_Details": "IANA: MS XML Paper Specification",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 674,
+    "MIME_Name": "Intercon FormNet",
+    "MIME_FileExtension": ".xpw",
+    "MIME_FileExtensionNoPoint": "xpw",
+    "MIME_Type": "application/vnd.intercon.formnet",
+    "MIME_Details": "IANA: Intercon FormNet",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 675,
+    "MIME_Name": "XML Transformations",
+    "MIME_FileExtension": ".xslt",
+    "MIME_FileExtensionNoPoint": "xslt",
+    "MIME_Type": "application/xslt+xml",
+    "MIME_Details": "W3C XSLT",
+    "MIME_IsTextFile": true,
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 676,
+    "MIME_Name": "SyncML",
+    "MIME_FileExtension": ".xsm",
+    "MIME_FileExtensionNoPoint": "xsm",
+    "MIME_Type": "application/vnd.syncml+xml",
+    "MIME_Details": "IANA: SyncML",
+    "MIME_IsTextFile": true,
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 677,
+    "MIME_Name": "XSPF - XML Shareable Playlist Format",
+    "MIME_FileExtension": ".xspf",
+    "MIME_FileExtensionNoPoint": "xspf",
+    "MIME_Type": "application/xspf+xml",
+    "MIME_Details": "XML Shareable Playlist Format",
+    "MIME_IsTextFile": true,
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 678,
+    "MIME_Name": "XUL - XML User Interface Language",
+    "MIME_FileExtension": ".xul",
+    "MIME_FileExtensionNoPoint": "xul",
+    "MIME_Type": "application/vnd.mozilla.xul+xml",
+    "MIME_Details": "IANA: XUL",
+    "MIME_IsTextFile": true,
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 679,
+    "MIME_Name": "X Window Dump",
+    "MIME_FileExtension": ".xwd",
+    "MIME_FileExtensionNoPoint": "xwd",
+    "MIME_Type": "image/x-xwindowdump",
+    "MIME_Details": "Wikipedia: X Window Dump",
+    "Mime_IsImage": true,
+    "Mime_Category": "image"
+  },
+  {
+    "Mime_ID": 680,
+    "MIME_Name": "XYZ File Format",
+    "MIME_FileExtension": ".xyz",
+    "MIME_FileExtensionNoPoint": "xyz",
+    "MIME_Type": "chemical/x-xyz",
+    "MIME_Details": "Wikipedia: XYZ File Format",
+    "Mime_Category": "chemical"
+  },
+  {
+    "Mime_ID": 681,
+    "MIME_Name": "YAML Ain't Markup Language / Yet Another Markup Language",
+    "MIME_FileExtension": ".yaml",
+    "MIME_FileExtensionNoPoint": "yaml",
+    "MIME_Type": "text/yaml",
+    "MIME_Details": "YAML: YAML Ain't Markup Language",
+    "MIME_IsTextFile": true,
+    "Mime_Category": "text"
+  },
+  {
+    "Mime_ID": 682,
+    "MIME_Name": "YANG Data Modeling Language",
+    "MIME_FileExtension": ".yang",
+    "MIME_FileExtensionNoPoint": "yang",
+    "MIME_Type": "application/yang",
+    "MIME_Details": "Wikipedia: YANG",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 683,
+    "MIME_Name": "YIN (YANG - XML)",
+    "MIME_FileExtension": ".yin",
+    "MIME_FileExtensionNoPoint": "yin",
+    "MIME_Type": "application/yin+xml",
+    "MIME_Details": "Wikipedia: YANG",
+    "MIME_IsTextFile": true,
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 684,
+    "MIME_Name": "Zzazz Deck",
+    "MIME_FileExtension": ".zaz",
+    "MIME_FileExtensionNoPoint": "zaz",
+    "MIME_Type": "application/vnd.zzazz.deck+xml",
+    "MIME_Details": "IANA: Zzazz",
+    "MIME_IsTextFile": true,
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 685,
+    "MIME_Name": "Zip Archive",
+    "MIME_FileExtension": ".zip",
+    "MIME_FileExtensionNoPoint": "zip",
+    "MIME_Type": "application/zip",
+    "MIME_Details": "Wikipedia: Zip",
+    "MIME_IsAllowed": true,
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 686,
+    "MIME_Name": "Z.U.L. Geometry",
+    "MIME_FileExtension": ".zir",
+    "MIME_FileExtensionNoPoint": "zir",
+    "MIME_Type": "application/vnd.zul",
+    "MIME_Details": "IANA: Z.U.L.",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 687,
+    "MIME_Name": "ZVUE Media Manager",
+    "MIME_FileExtension": ".zmm",
+    "MIME_FileExtensionNoPoint": "zmm",
+    "MIME_Type": "application/vnd.handheld-entertainment+xml",
+    "MIME_Details": "IANA: ZVUE Media Manager",
+    "MIME_IsTextFile": true,
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 688,
+    "MIME_Name": "Lotus 1-2-3",
+    "MIME_FileExtension": "0.123",
+    "MIME_FileExtensionNoPoint": "0.123",
+    "MIME_Type": "application/vnd.lotus-1-2-3",
+    "MIME_Details": "IANA: Lotus 1-2-3",
+    "Mime_Category": "application"
+  },
+  {
+    "Mime_ID": 689,
+    "MIME_Name": "Andrew Toolkit",
+    "MIME_FileExtension": "N/A",
+    "MIME_FileExtensionNoPoint": "N/A",
+    "MIME_Type": "application/andrew-inset",
+    "MIME_Details": "IANA - Andrew Inset",
+    "Mime_Category": "application"
+  }
+]
