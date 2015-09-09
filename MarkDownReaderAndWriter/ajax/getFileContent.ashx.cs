@@ -15,43 +15,53 @@ namespace MarkDownReaderAndWriter.ajax
 
         public void ProcessRequest(HttpContext context)
         {
-            string file=context.Request.Params["file"];
+            string file = context.Request.Params["file"];
             if (string.IsNullOrEmpty(file))
             {
-                context.Response.ContentType="text/plain";
+                context.Response.ContentType = "text/plain";
                 context.Response.Output.WriteLine("File parameter not provided");
                 return;
             }
 
-            
+
             if (!System.IO.File.Exists(file))
             {
-                context.Response.ContentType="text/plain";
-                context.Response.Output.WriteLine("File doesn't exist...");
+                context.Response.ContentType = "text/plain";
+                context.Response.Output.WriteLine("File doesn't exist or is inaccessible ...");
                 return;
             }
 
 
-            string ext=System.IO.Path.GetExtension(file);
+            string ext = System.IO.Path.GetExtension(file);
             if (ext != null)
-                ext=ext.ToLower();
+                ext = ext.ToLower();
 
-            if (System.StringComparer.InvariantCultureIgnoreCase.Equals(ext, ".htm") || System.StringComparer.InvariantCultureIgnoreCase.Equals(ext, ".html"))
-            {
-                context.Response.ContentType="text/html";
-                context.Response.WriteFile(file);
-                return;
-            }
-
-            if (System.StringComparer.InvariantCultureIgnoreCase.Equals(ext, ".md") || System.StringComparer.InvariantCultureIgnoreCase.Equals(ext, ".gmd"))
+            if (System.StringComparer.InvariantCultureIgnoreCase.Equals(ext, ".md"))
             {
                 MarkDownWriter.Write(context, file);
                 return;
             }
 
-            context.Response.ContentType="text/plain";
+            if (System.StringComparer.InvariantCultureIgnoreCase.Equals(ext, ".gfm"))
+            {
+                MarkDownWriter.Write(context, file, true);
+                return;
+            }
+
+            System.Data.DataRow[] mimeInfos = MimeHandling.GetMimeInfos(ext);
+
+            if (mimeInfos == null || mimeInfos.Length == 0)
+            {
+                context.Response.ContentType = "application/octet-stream";
+                context.Response.WriteFile(file);
+                return;
+            }
+
+            string contType = System.Convert.ToString(mimeInfos[0]["MIME_Type"]);
+            context.Response.ContentType = contType;
             context.Response.WriteFile(file);
         }
+
 
         public bool IsReusable
         {
@@ -60,5 +70,9 @@ namespace MarkDownReaderAndWriter.ajax
                 return false;
             }
         }
+
+
     }
+
+
 }

@@ -56,78 +56,38 @@ namespace MarkDownReaderAndWriter.ajax
 
             if (System.IO.File.Exists(path))
             {
-                if (System.StringComparer.InvariantCultureIgnoreCase.Equals(ext, ".css"))
-                {
-                    context.Response.ContentType = "text/css";
-                    context.Response.WriteFile(path);
-                    return;
-                }
-
-                if (System.StringComparer.InvariantCultureIgnoreCase.Equals(ext, ".js"))
-                {
-                    context.Response.ContentType = "application/javascriptr";
-                    context.Response.WriteFile(path);
-                    return;
-                }
-
-                if (System.StringComparer.InvariantCultureIgnoreCase.Equals(ext, ".svg"))
-                {
-                    context.Response.ContentType = "image/svg+xml";
-                    context.Response.WriteFile(path);
-                    return;
-                }
-
-
-                if (System.StringComparer.InvariantCultureIgnoreCase.Equals(ext, ".jpg") || System.StringComparer.InvariantCultureIgnoreCase.Equals(ext, ".jpeg"))
-                {
-                    context.Response.ContentType = "image/jpeg";
-                    context.Response.WriteFile(path);
-                    return;
-                }
-
-
-                if (System.StringComparer.InvariantCultureIgnoreCase.Equals(ext, ".png"))
-                {
-                    context.Response.ContentType = "image/png";
-                    context.Response.WriteFile(path);
-                    return;
-                }
-
-
-                if (System.StringComparer.InvariantCultureIgnoreCase.Equals(ext, ".gif"))
-                {
-                    context.Response.ContentType = "image/gif";
-                    context.Response.WriteFile(path);
-                    return;
-                }
-
-                if (System.StringComparer.InvariantCultureIgnoreCase.Equals(ext, ".json"))
-                {
-                    context.Response.ContentType = "application/json";
-                    context.Response.WriteFile(path);
-                    return;
-                }
-
-                if (System.StringComparer.InvariantCultureIgnoreCase.Equals(ext, ".htm") || System.StringComparer.InvariantCultureIgnoreCase.Equals(ext, ".html"))
-                {
-                    context.Response.ContentType = "text/html";
-                    context.Response.WriteFile(path);
-                    return;
-                }
-
-                if (System.StringComparer.InvariantCultureIgnoreCase.Equals(ext, ".md") || System.StringComparer.InvariantCultureIgnoreCase.Equals(ext, ".gmd"))
+                // fsck, can be link to other .md file in content...
+                if (System.StringComparer.InvariantCultureIgnoreCase.Equals(ext, ".md"))
                 {
                     MarkDownWriter.Write(context, path);
                     return;
                 }
 
-                context.Response.ContentType = "application/octet-stream";
-                context.Response.WriteFile(path);
-            }
+                if (System.StringComparer.InvariantCultureIgnoreCase.Equals(ext, ".gfm"))
+                {
+                    MarkDownWriter.Write(context, path, true);
+                    return;
+                }
 
+
+                System.Data.DataRow[] mimeInfos = MimeHandling.GetMimeInfos(ext);
+
+                if (mimeInfos == null)
+                {
+                    context.Response.ContentType = "application/octet-stream";
+                    context.Response.WriteFile(path);
+                }
+
+                string contType = System.Convert.ToString(mimeInfos[0]["MIME_Type"]);
+                context.Response.ContentType = contType;
+                context.Response.WriteFile(path);
+                return;
+            }
 
             if (System.StringComparer.InvariantCultureIgnoreCase.Equals(ext, ".css"))
                 context.Response.ContentType = "text/css";
+            else if (System.StringComparer.InvariantCultureIgnoreCase.Equals(ext, ".js"))
+                context.Response.ContentType = "application/javascript";
             else
                 context.Response.ContentType = "text/plain";
 

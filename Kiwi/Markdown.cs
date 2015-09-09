@@ -140,7 +140,8 @@ namespace MarkdownSharp
         /// <summary>
         /// Create a new Markdown instance using default options
         /// </summary>
-        public Markdown() : this(false)
+        public Markdown()
+            : this(false)
         {
         }
 
@@ -297,7 +298,7 @@ namespace MarkdownSharp
 
         private static readonly Dictionary<string, string> _escapeTable;
         private static readonly Dictionary<string, string> _invertedEscapeTable;
-        private static readonly Dictionary<string, string> _backslashEscapeTable;        
+        private static readonly Dictionary<string, string> _backslashEscapeTable;
 
         private readonly Dictionary<string, string> _urls = new Dictionary<string, string>();
         private readonly Dictionary<string, string> _titles = new Dictionary<string, string>();
@@ -357,7 +358,7 @@ namespace MarkdownSharp
             Setup();
 
             text = Normalize(text);
-           
+
             text = HashHTMLBlocks(text);
             text = StripLinkDefinitions(text);
             text = RunBlockGamut(text);
@@ -428,7 +429,7 @@ namespace MarkdownSharp
         {
             // split on two or more newlines
             string[] grafs = _newlinesMultiple.Split(_newlinesLeadingTrailing.Replace(text, ""));
-            
+
             for (int i = 0; i < grafs.Length; i++)
             {
                 if (grafs[i].StartsWith("\x1A"))
@@ -842,7 +843,7 @@ namespace MarkdownSharp
                 string url = _urls[linkID];
 
                 url = EncodeProblemUrlChars(url);
-                url = EscapeBoldItalic(url);                
+                url = EscapeBoldItalic(url);
                 result = "<a href=\"" + url + "\"";
 
                 if (_titles.ContainsKey(linkID))
@@ -873,7 +874,7 @@ namespace MarkdownSharp
                 string url = _urls[linkID];
 
                 url = EncodeProblemUrlChars(url);
-                url = EscapeBoldItalic(url);                
+                url = EscapeBoldItalic(url);
                 result = "<a href=\"" + url + "\"";
 
                 if (_titles.ContainsKey(linkID))
@@ -988,7 +989,7 @@ namespace MarkdownSharp
             {
                 string url = _urls[linkID];
                 url = EncodeProblemUrlChars(url);
-                url = EscapeBoldItalic(url);                
+                url = EscapeBoldItalic(url);
                 result = string.Format("<img src=\"{0}\" alt=\"{1}\"", url, altText);
 
                 if (_titles.ContainsKey(linkID))
@@ -1019,7 +1020,7 @@ namespace MarkdownSharp
 
             alt = alt.Replace("\"", "&quot;");
             title = title.Replace("\"", "&quot;");
-            
+
             if (url.StartsWith("<") && url.EndsWith(">"))
                 url = url.Substring(1, url.Length - 2);    // Remove <>'s surrounding URL, if present
             url = EncodeProblemUrlChars(url);
@@ -1558,7 +1559,7 @@ namespace MarkdownSharp
             return s;
         }
 
-        private static Regex _backslashEscapes; 
+        private static Regex _backslashEscapes;
 
         /// <summary>
         /// Encodes any escaped characters such as \`, \*, \[ etc
@@ -1571,7 +1572,7 @@ namespace MarkdownSharp
         {
             return _backslashEscapeTable[match.Value];
         }
-       
+
         private static Regex _unescapes = new Regex("\x1A\\d+\x1A", RegexOptions.Compiled);
 
         /// <summary>
@@ -1620,7 +1621,7 @@ namespace MarkdownSharp
                 if (encode)
                     sb.Append("%" + String.Format("{0:x}", (byte)c));
                 else
-                    sb.Append(c);                
+                    sb.Append(c);
             }
 
             return sb.ToString();
@@ -1665,7 +1666,7 @@ namespace MarkdownSharp
         /// removes any blank lines (only spaces) in the text
         /// </summary>
         private string Normalize(string text)
-        {            
+        {
             var output = new StringBuilder(text.Length);
             var line = new StringBuilder();
             bool valid = false;

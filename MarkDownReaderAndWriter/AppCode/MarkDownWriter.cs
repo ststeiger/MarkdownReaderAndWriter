@@ -17,7 +17,13 @@ namespace MarkDownReaderAndWriter
 
         public static void Write(HttpContext context, string file)
         {
-            var md = new MarkdownSharp.Markdown();
+            Write(context, file, false);
+        }
+
+
+        public static void Write(HttpContext context, string file, bool gitHubFlavour)
+        {
+
             context.Response.ContentType = "text/html";
 
             // < html xmlns = ""http://www.w3.org/1999/xhtml"">
@@ -73,7 +79,17 @@ namespace MarkDownReaderAndWriter
 
 
 
-            context.Response.Output.Write(md.Transform(System.IO.File.ReadAllText(file)));
+
+            if (gitHubFlavour)
+            {
+                context.Response.Output.Write(Kiwi.GfmMarkdownConverter.ToHtml(file));
+            }
+            else
+            {
+                MarkdownSharp.Markdown md = new MarkdownSharp.Markdown();
+                context.Response.Output.Write(md.Transform(System.IO.File.ReadAllText(file)));
+            }
+            
             context.Response.Output.Write(@"</body></html>");
         }
 

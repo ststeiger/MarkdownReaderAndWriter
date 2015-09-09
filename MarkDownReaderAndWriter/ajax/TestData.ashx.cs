@@ -1,8 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
+﻿
 using System.Web;
-
-
 
 // using Community.CsharpSqlite;
 // using Community.CsharpSqlite.SQLiteClient;
@@ -10,6 +7,8 @@ using System.Web;
 
 namespace MarkDownReaderAndWriter.ajax
 {
+
+
     /// <summary>
     /// Summary description for TestData
     /// </summary>
@@ -17,65 +16,24 @@ namespace MarkDownReaderAndWriter.ajax
     {
 
 
-
-        public static string GetInsertCommand(System.Data.DataTable dt)
-        {
-            string retVal = null; ;
-
-            System.Text.StringBuilder sb = new System.Text.StringBuilder();
-
-            sb.Append("INSERT INTO ");
-            sb.Append(dt.TableName);
-            sb.Append(" \r\n( \r\n     ");
-
-            foreach (System.Data.DataColumn dc in dt.Columns)
-            {
-                sb.Append(dc.ColumnName);
-                sb.Append(" ");
-                sb.Append(System.Environment.NewLine);
-                sb.Append("    ,");
-            }
-            sb.Remove(sb.Length - 8, 8);
-            sb.Append(" ");
-            sb.Append(System.Environment.NewLine);
-            sb.Append(") \r\n");
-
-
-            sb.Append("VALUES \r\n( \r\n     ");
-            foreach (System.Data.DataColumn dc in dt.Columns)
-            {
-                sb.Append("@");
-                sb.Append(dc.ColumnName);
-                sb.Append(" ");
-                sb.Append(System.Environment.NewLine);
-                sb.Append("    ,");
-            }
-
-
-            sb.Remove(sb.Length - 8, 8);
-            sb.Append(" ");
-            sb.Append(System.Environment.NewLine);
-            sb.Append(");");
-
-            retVal = sb.ToString();
-            // System.Console.WriteLine(retVal);
-            sb.Length = 0;
-            sb = null;
-
-            return retVal;
-        }
-
-
-
         public void ProcessRequest(HttpContext context)
         {
+            context.Response.ContentType = "text/html";
+            context.Response.Output.Write(
+                Kiwi.GfmMarkdownConverter.ToHtml(context.Server.MapPath("~/Test.gfm"))
+            );
+            return;
+
+
             context.Response.ContentType = "text/plain";
             context.Response.Write("Hello World");
 
             
             System.Data.SqlClient.SqlConnectionStringBuilder csb = new System.Data.SqlClient.SqlConnectionStringBuilder();
             csb.InitialCatalog = "SqLite";
-            csb.DataSource = Environment.MachineName;
+            csb.InitialCatalog = "COR_Basic_Demo";
+            
+            csb.DataSource = System.Environment.MachineName;
             csb.IntegratedSecurity = true;
 
             string cmd = "SELECT * FROM T_SYS_Ref_MimeTypes";
@@ -83,7 +41,12 @@ namespace MarkDownReaderAndWriter.ajax
             System.Data.DataTable dt = new System.Data.DataTable();
             da.Fill(dt);
             dt.TableName = "T_SYS_Ref_MimeTypes";
+            dt.Columns.Remove("MIME_IsAllowed");
+            
             System.Console.WriteLine(dt.Rows.Count);
+
+            
+
 
             string JSON = Tools.Serialization.JSON.SerializePretty(dt);
             System.IO.File.WriteAllText(@"D:\MimeTypes.json", JSON, System.Text.Encoding.UTF8);
@@ -133,7 +96,7 @@ namespace MarkDownReaderAndWriter.ajax
 
             //SqliteCommand command = new SqliteCommand("PRAGMA table_info('TEST_TABLE')", con);
             /*
-            string ins = GetInsertCommand(dt);
+            string ins = SqliteInsertGenerator.GetInsertCommand(dt);
 
 
             SqliteCommand command = new SqliteCommand(ins, con);
