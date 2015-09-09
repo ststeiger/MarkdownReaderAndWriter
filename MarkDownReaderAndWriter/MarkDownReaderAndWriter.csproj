@@ -39,10 +39,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Mono.Posix, Version=2.0.0.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>Libs\Mono.Posix.dll</HintPath>
-    </Reference>
     <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>Libs\Newtonsoft.Json.dll</HintPath>
@@ -490,6 +486,10 @@
     <Folder Include="assets\" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\EmbeddedWebServer\EmbeddedWebServer.csproj">
+      <Project>{02342998-8696-439c-87b0-dfb3abc43f6e}</Project>
+      <Name>EmbeddedWebServer</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Kiwi\Kiwi.csproj">
       <Project>{48636d62-3ee4-451a-9f61-107b286ecd85}</Project>
       <Name>Kiwi</Name>

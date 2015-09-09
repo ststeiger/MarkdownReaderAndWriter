@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarkDownReaderAndWriter", "MarkDownReaderAndWriter\MarkDownReaderAndWriter.csproj", "{9556C149-5975-4A63-8178-C5BA2D1B550A}"
 EndProject
@@ -10,6 +10,10 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AD1BAD69-851E-4E95-B6C2-01A8C4A705F8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColorCode", "ColorCode\ColorCode.csproj", "{D1E56E36-1DF8-45B4-B9E3-0D1CDA1C1303}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmbeddedWebServer", "EmbeddedWebServer\EmbeddedWebServer.csproj", "{02342998-8696-439C-87B0-DFB3ABC43F6E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarkDownReader", "MarkDownReader\MarkDownReader.csproj", "{5048A841-F806-4EB9-B18C-9B01147DA3A2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +43,22 @@ Global
 		{D1E56E36-1DF8-45B4-B9E3-0D1CDA1C1303}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D1E56E36-1DF8-45B4-B9E3-0D1CDA1C1303}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D1E56E36-1DF8-45B4-B9E3-0D1CDA1C1303}.Release|x86.ActiveCfg = Release|Any CPU
+		{02342998-8696-439C-87B0-DFB3ABC43F6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02342998-8696-439C-87B0-DFB3ABC43F6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02342998-8696-439C-87B0-DFB3ABC43F6E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{02342998-8696-439C-87B0-DFB3ABC43F6E}.Debug|x86.Build.0 = Debug|Any CPU
+		{02342998-8696-439C-87B0-DFB3ABC43F6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02342998-8696-439C-87B0-DFB3ABC43F6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02342998-8696-439C-87B0-DFB3ABC43F6E}.Release|x86.ActiveCfg = Release|Any CPU
+		{02342998-8696-439C-87B0-DFB3ABC43F6E}.Release|x86.Build.0 = Release|Any CPU
+		{5048A841-F806-4EB9-B18C-9B01147DA3A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5048A841-F806-4EB9-B18C-9B01147DA3A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5048A841-F806-4EB9-B18C-9B01147DA3A2}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5048A841-F806-4EB9-B18C-9B01147DA3A2}.Debug|x86.Build.0 = Debug|Any CPU
+		{5048A841-F806-4EB9-B18C-9B01147DA3A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5048A841-F806-4EB9-B18C-9B01147DA3A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5048A841-F806-4EB9-B18C-9B01147DA3A2}.Release|x86.ActiveCfg = Release|Any CPU
+		{5048A841-F806-4EB9-B18C-9B01147DA3A2}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

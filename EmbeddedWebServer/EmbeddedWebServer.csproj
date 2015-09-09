@@ -1,0 +1,330 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{02342998-8696-439C-87B0-DFB3ABC43F6E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>EmbeddedWebServer</RootNamespace>
+    <AssemblyName>EmbeddedWebServer</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="EmbeddedServer.cs" />
+    <Compile Include="cLocale.cs" />
+    <Compile Include="Framework2\ExtensionAttribute.cs" />
+    <Compile Include="Framework2\Funcs.cs" />
+    <Compile Include="Framework2\ReaderWriterLock\AtomicBooleanValue.cs" />
+    <Compile Include="Framework2\ReaderWriterLock\DirtyTinkering\MyCancellationToken.cs" />
+    <Compile Include="Framework2\ReaderWriterLock\DirtyTinkering\MySpinWait.cs" />
+    <Compile Include="Framework2\ReaderWriterLock\DirtyTinkering\StackoEnumContains.cs" />
+    <Compile Include="Framework2\ReaderWriterLock\LockState.cs" />
+    <Compile Include="Framework2\ReaderWriterLock\ManualResetEventSlim.cs" />
+    <Compile Include="Framework2\ReaderWriterLock\ReaderWriterLockSlim.cs" />
+    <Compile Include="Mono.Posix\Mono.Posix\Catalog.cs" />
+    <Compile Include="Mono.Posix\Mono.Posix\PeerCred.cs" />
+    <Compile Include="Mono.Posix\Mono.Posix\Syscall.cs" />
+    <Compile Include="Mono.Posix\Mono.Posix\UnixEndPoint.cs" />
+    <Compile Include="Mono.Posix\Mono.Remoting.Channels.Unix\UnixBinaryClientFormatterSink.cs" />
+    <Compile Include="Mono.Posix\Mono.Remoting.Channels.Unix\UnixBinaryClientFormatterSinkProvider.cs" />
+    <Compile Include="Mono.Posix\Mono.Remoting.Channels.Unix\UnixBinaryCore.cs" />
+    <Compile Include="Mono.Posix\Mono.Remoting.Channels.Unix\UnixBinaryServerFormatterSink.cs" />
+    <Compile Include="Mono.Posix\Mono.Remoting.Channels.Unix\UnixBinaryServerFormatterSinkProvider.cs" />
+    <Compile Include="Mono.Posix\Mono.Remoting.Channels.Unix\UnixChannel.cs" />
+    <Compile Include="Mono.Posix\Mono.Remoting.Channels.Unix\UnixClientChannel.cs" />
+    <Compile Include="Mono.Posix\Mono.Remoting.Channels.Unix\UnixClientTransportSink.cs" />
+    <Compile Include="Mono.Posix\Mono.Remoting.Channels.Unix\UnixClientTransportSinkProvider.cs" />
+    <Compile Include="Mono.Posix\Mono.Remoting.Channels.Unix\UnixConnectionPool.cs" />
+    <Compile Include="Mono.Posix\Mono.Remoting.Channels.Unix\UnixMessageIO.cs" />
+    <Compile Include="Mono.Posix\Mono.Remoting.Channels.Unix\UnixServerChannel.cs" />
+    <Compile Include="Mono.Posix\Mono.Remoting.Channels.Unix\UnixServerTransportSink.cs" />
+    <Compile Include="Mono.Posix\Mono.Unix.Native\CdeclFunction.cs" />
+    <Compile Include="Mono.Posix\Mono.Unix.Native\FileNameMarshaler.cs" />
+    <Compile Include="Mono.Posix\Mono.Unix.Native\MapAttribute.cs" />
+    <Compile Include="Mono.Posix\Mono.Unix.Native\NativeConvert.cs" />
+    <Compile Include="Mono.Posix\Mono.Unix.Native\NativeConvert.generated.cs" />
+    <Compile Include="Mono.Posix\Mono.Unix.Native\RealTimeSignum.cs" />
+    <Compile Include="Mono.Posix\Mono.Unix.Native\Stdlib.cs" />
+    <Compile Include="Mono.Posix\Mono.Unix.Native\Syscall.cs" />
+    <Compile Include="Mono.Posix\Mono.Unix.Native\TypeAttributes.cs" />
+    <Compile Include="Mono.Posix\Mono.Unix\AbstractUnixEndPoint.cs" />
+    <Compile Include="Mono.Posix\Mono.Unix\Catalog.cs" />
+    <Compile Include="Mono.Posix\Mono.Unix\FileAccessPattern.cs" />
+    <Compile Include="Mono.Posix\Mono.Unix\FileAccessPermissions.cs" />
+    <Compile Include="Mono.Posix\Mono.Unix\FileHandleOperations.cs" />
+    <Compile Include="Mono.Posix\Mono.Unix\FileSpecialAttributes.cs" />
+    <Compile Include="Mono.Posix\Mono.Unix\FileTypes.cs" />
+    <Compile Include="Mono.Posix\Mono.Unix\PeerCred.cs" />
+    <Compile Include="Mono.Posix\Mono.Unix\StdioFileStream.cs" />
+    <Compile Include="Mono.Posix\Mono.Unix\UnixClient.cs" />
+    <Compile Include="Mono.Posix\Mono.Unix\UnixDirectoryInfo.cs" />
+    <Compile Include="Mono.Posix\Mono.Unix\UnixDriveInfo.cs" />
+    <Compile Include="Mono.Posix\Mono.Unix\UnixEncoding.cs" />
+    <Compile Include="Mono.Posix\Mono.Unix\UnixEndPoint.cs" />
+    <Compile Include="Mono.Posix\Mono.Unix\UnixEnvironment.cs" />
+    <Compile Include="Mono.Posix\Mono.Unix\UnixFileInfo.cs" />
+    <Compile Include="Mono.Posix\Mono.Unix\UnixFileSystemInfo.cs" />
+    <Compile Include="Mono.Posix\Mono.Unix\UnixGroupInfo.cs" />
+    <Compile Include="Mono.Posix\Mono.Unix\UnixIOException.cs" />
+    <Compile Include="Mono.Posix\Mono.Unix\UnixListener.cs" />
+    <Compile Include="Mono.Posix\Mono.Unix\UnixMarshal.cs" />
+    <Compile Include="Mono.Posix\Mono.Unix\UnixPath.cs" />
+    <Compile Include="Mono.Posix\Mono.Unix\UnixPipes.cs" />
+    <Compile Include="Mono.Posix\Mono.Unix\UnixProcess.cs" />
+    <Compile Include="Mono.Posix\Mono.Unix\UnixSignal.cs" />
+    <Compile Include="Mono.Posix\Mono.Unix\UnixStream.cs" />
+    <Compile Include="Mono.Posix\Mono.Unix\UnixSymbolicLinkInfo.cs" />
+    <Compile Include="Mono.Posix\Mono.Unix\UnixUserInfo.cs" />
+    <Compile Include="Mono.Security\Mono.Math.Prime.Generator\NextPrimeFinder.cs" />
+    <Compile Include="Mono.Security\Mono.Math.Prime.Generator\PrimeGeneratorBase.cs" />
+    <Compile Include="Mono.Security\Mono.Math.Prime.Generator\SequentialSearchPrimeGeneratorBase.cs" />
+    <Compile Include="Mono.Security\Mono.Math.Prime\ConfidenceFactor.cs" />
+    <Compile Include="Mono.Security\Mono.Math.Prime\PrimalityTests.cs" />
+    <Compile Include="Mono.Security\Mono.Math\BigInteger.cs" />
+    <Compile Include="Mono.Security\Mono.Security.Authenticode\AuthenticodeBase.cs" />
+    <Compile Include="Mono.Security\Mono.Security.Authenticode\AuthenticodeDeformatter.cs" />
+    <Compile Include="Mono.Security\Mono.Security.Authenticode\AuthenticodeFormatter.cs" />
+    <Compile Include="Mono.Security\Mono.Security.Authenticode\PrivateKey.cs" />
+    <Compile Include="Mono.Security\Mono.Security.Authenticode\SoftwarePublisherCertificate.cs" />
+    <Compile Include="Mono.Security\Mono.Security.Cryptography\ARC4Managed.cs" />
+    <Compile Include="Mono.Security\Mono.Security.Cryptography\CryptoConvert.cs" />
+    <Compile Include="Mono.Security\Mono.Security.Cryptography\CryptoTools.cs" />
+    <Compile Include="Mono.Security\Mono.Security.Cryptography\DHKeyGeneration.cs" />
+    <Compile Include="Mono.Security\Mono.Security.Cryptography\DHParameters.cs" />
+    <Compile Include="Mono.Security\Mono.Security.Cryptography\DiffieHellman.cs" />
+    <Compile Include="Mono.Security\Mono.Security.Cryptography\DiffieHellmanManaged.cs" />
+    <Compile Include="Mono.Security\Mono.Security.Cryptography\KeyPairPersistence.cs" />
+    <Compile Include="Mono.Security\Mono.Security.Cryptography\MD2.cs" />
+    <Compile Include="Mono.Security\Mono.Security.Cryptography\MD2Managed.cs" />
+    <Compile Include="Mono.Security\Mono.Security.Cryptography\MD4.cs" />
+    <Compile Include="Mono.Security\Mono.Security.Cryptography\MD4Managed.cs" />
+    <Compile Include="Mono.Security\Mono.Security.Cryptography\MD5SHA1.cs" />
+    <Compile Include="Mono.Security\Mono.Security.Cryptography\PKCS1.cs" />
+    <Compile Include="Mono.Security\Mono.Security.Cryptography\PKCS8.cs" />
+    <Compile Include="Mono.Security\Mono.Security.Cryptography\RC4.cs" />
+    <Compile Include="Mono.Security\Mono.Security.Cryptography\RSAManaged.cs" />
+    <Compile Include="Mono.Security\Mono.Security.Cryptography\SHA224.cs" />
+    <Compile Include="Mono.Security\Mono.Security.Cryptography\SHA224Managed.cs" />
+    <Compile Include="Mono.Security\Mono.Security.Cryptography\SymmetricTransform.cs" />
+    <Compile Include="Mono.Security\Mono.Security.Cryptography\TlsHMAC.cs" />
+    <Compile Include="Mono.Security\Mono.Security.Protocol.Ntlm\ChallengeResponse.cs" />
+    <Compile Include="Mono.Security\Mono.Security.Protocol.Ntlm\MessageBase.cs" />
+    <Compile Include="Mono.Security\Mono.Security.Protocol.Ntlm\NtlmFlags.cs" />
+    <Compile Include="Mono.Security\Mono.Security.Protocol.Ntlm\Type1Message.cs" />
+    <Compile Include="Mono.Security\Mono.Security.Protocol.Ntlm\Type2Message.cs" />
+    <Compile Include="Mono.Security\Mono.Security.Protocol.Ntlm\Type3Message.cs" />
+    <Compile Include="Mono.Security\Mono.Security.Protocol.Tls.Handshake.Client\TlsClientCertificate.cs" />
+    <Compile Include="Mono.Security\Mono.Security.Protocol.Tls.Handshake.Client\TlsClientCertificateVerify.cs" />
+    <Compile Include="Mono.Security\Mono.Security.Protocol.Tls.Handshake.Client\TlsClientFinished.cs" />
+    <Compile Include="Mono.Security\Mono.Security.Protocol.Tls.Handshake.Client\TlsClientHello.cs" />
+    <Compile Include="Mono.Security\Mono.Security.Protocol.Tls.Handshake.Client\TlsClientKeyExchange.cs" />
+    <Compile Include="Mono.Security\Mono.Security.Protocol.Tls.Handshake.Client\TlsServerCertificate.cs" />
+    <Compile Include="Mono.Security\Mono.Security.Protocol.Tls.Handshake.Client\TlsServerCertificateRequest.cs" />
+    <Compile Include="Mono.Security\Mono.Security.Protocol.Tls.Handshake.Client\TlsServerFinished.cs" />
+    <Compile Include="Mono.Security\Mono.Security.Protocol.Tls.Handshake.Client\TlsServerHello.cs" />
+    <Compile Include="Mono.Security\Mono.Security.Protocol.Tls.Handshake.Client\TlsServerHelloDone.cs" />
+    <Compile Include="Mono.Security\Mono.Security.Protocol.Tls.Handshake.Client\TlsServerKeyExchange.cs" />
+    <Compile Include="Mono.Security\Mono.Security.Protocol.Tls.Handshake.Server\TlsClientCertificate.cs" />
+    <Compile Include="Mono.Security\Mono.Security.Protocol.Tls.Handshake.Server\TlsClientCertificateVerify.cs" />
+    <Compile Include="Mono.Security\Mono.Security.Protocol.Tls.Handshake.Server\TlsClientFinished.cs" />
+    <Compile Include="Mono.Security\Mono.Security.Protocol.Tls.Handshake.Server\TlsClientHello.cs" />
+    <Compile Include="Mono.Security\Mono.Security.Protocol.Tls.Handshake.Server\TlsClientKeyExchange.cs" />
+    <Compile Include="Mono.Security\Mono.Security.Protocol.Tls.Handshake.Server\TlsServerCertificate.cs" />
+    <Compile Include="Mono.Security\Mono.Security.Protocol.Tls.Handshake.Server\TlsServerCertificateRequest.cs" />
+    <Compile Include="Mono.Security\Mono.Security.Protocol.Tls.Handshake.Server\TlsServerFinished.cs" />
+    <Compile Include="Mono.Security\Mono.Security.Protocol.Tls.Handshake.Server\TlsServerHello.cs" />
+    <Compile Include="Mono.Security\Mono.Security.Protocol.Tls.Handshake.Server\TlsServerHelloDone.cs" />
+    <Compile Include="Mono.Security\Mono.Security.Protocol.Tls.Handshake.Server\TlsServerKeyExchange.cs" />
+    <Compile Include="Mono.Security\Mono.Security.Protocol.Tls.Handshake\ClientCertificateType.cs" />
+    <Compile Include="Mono.Security\Mono.Security.Protocol.Tls.Handshake\HandshakeMessage.cs" />
+    <Compile Include="Mono.Security\Mono.Security.Protocol.Tls.Handshake\HandshakeType.cs" />
+    <Compile Include="Mono.Security\Mono.Security.Protocol.Tls\Alert.cs" />
+    <Compile Include="Mono.Security\Mono.Security.Protocol.Tls\CipherAlgorithmType.cs" />
+    <Compile Include="Mono.Security\Mono.Security.Protocol.Tls\CipherSuite.cs" />
+    <Compile Include="Mono.Security\Mono.Security.Protocol.Tls\CipherSuiteCollection.cs" />
+    <Compile Include="Mono.Security\Mono.Security.Protocol.Tls\CipherSuiteFactory.cs" />
+    <Compile Include="Mono.Security\Mono.Security.Protocol.Tls\ClientContext.cs" />
+    <Compile Include="Mono.Security\Mono.Security.Protocol.Tls\ClientRecordProtocol.cs" />
+    <Compile Include="Mono.Security\Mono.Security.Protocol.Tls\ClientSessionCache.cs" />
+    <Compile Include="Mono.Security\Mono.Security.Protocol.Tls\ContentType.cs" />
+    <Compile Include="Mono.Security\Mono.Security.Protocol.Tls\Context.cs" />
+    <Compile Include="Mono.Security\Mono.Security.Protocol.Tls\DebugHelper.cs" />
+    <Compile Include="Mono.Security\Mono.Security.Protocol.Tls\ExchangeAlgorithmType.cs" />
+    <Compile Include="Mono.Security\Mono.Security.Protocol.Tls\HandshakeState.cs" />
+    <Compile Include="Mono.Security\Mono.Security.Protocol.Tls\HashAlgorithmType.cs" />
+    <Compile Include="Mono.Security\Mono.Security.Protocol.Tls\HttpsClientStream.cs" />
+    <Compile Include="Mono.Security\Mono.Security.Protocol.Tls\RecordProtocol.cs" />
+    <Compile Include="Mono.Security\Mono.Security.Protocol.Tls\RSASslSignatureDeformatter.cs" />
+    <Compile Include="Mono.Security\Mono.Security.Protocol.Tls\RSASslSignatureFormatter.cs" />
+    <Compile Include="Mono.Security\Mono.Security.Protocol.Tls\SecurityCompressionType.cs" />
+    <Compile Include="Mono.Security\Mono.Security.Protocol.Tls\SecurityParameters.cs" />
+    <Compile Include="Mono.Security\Mono.Security.Protocol.Tls\SecurityProtocolType.cs" />
+    <Compile Include="Mono.Security\Mono.Security.Protocol.Tls\ServerContext.cs" />
+    <Compile Include="Mono.Security\Mono.Security.Protocol.Tls\ServerRecordProtocol.cs" />
+    <Compile Include="Mono.Security\Mono.Security.Protocol.Tls\SslCipherSuite.cs" />
+    <Compile Include="Mono.Security\Mono.Security.Protocol.Tls\SslClientStream.cs" />
+    <Compile Include="Mono.Security\Mono.Security.Protocol.Tls\SslHandshakeHash.cs" />
+    <Compile Include="Mono.Security\Mono.Security.Protocol.Tls\SslServerStream.cs" />
+    <Compile Include="Mono.Security\Mono.Security.Protocol.Tls\SslStreamBase.cs" />
+    <Compile Include="Mono.Security\Mono.Security.Protocol.Tls\TlsCipherSuite.cs" />
+    <Compile Include="Mono.Security\Mono.Security.Protocol.Tls\TlsClientSettings.cs" />
+    <Compile Include="Mono.Security\Mono.Security.Protocol.Tls\TlsException.cs" />
+    <Compile Include="Mono.Security\Mono.Security.Protocol.Tls\TlsServerSettings.cs" />
+    <Compile Include="Mono.Security\Mono.Security.Protocol.Tls\TlsStream.cs" />
+    <Compile Include="Mono.Security\Mono.Security.X509.Extensions\AuthorityKeyIdentifierExtension.cs" />
+    <Compile Include="Mono.Security\Mono.Security.X509.Extensions\BasicConstraintsExtension.cs" />
+    <Compile Include="Mono.Security\Mono.Security.X509.Extensions\CertificatePoliciesExtension.cs" />
+    <Compile Include="Mono.Security\Mono.Security.X509.Extensions\CRLDistributionPointsExtension.cs" />
+    <Compile Include="Mono.Security\Mono.Security.X509.Extensions\ExtendedKeyUsageExtension.cs" />
+    <Compile Include="Mono.Security\Mono.Security.X509.Extensions\GeneralNames.cs" />
+    <Compile Include="Mono.Security\Mono.Security.X509.Extensions\KeyAttributesExtension.cs" />
+    <Compile Include="Mono.Security\Mono.Security.X509.Extensions\KeyUsageExtension.cs" />
+    <Compile Include="Mono.Security\Mono.Security.X509.Extensions\NetscapeCertTypeExtension.cs" />
+    <Compile Include="Mono.Security\Mono.Security.X509.Extensions\PrivateKeyUsagePeriodExtension.cs" />
+    <Compile Include="Mono.Security\Mono.Security.X509.Extensions\SubjectAltNameExtension.cs" />
+    <Compile Include="Mono.Security\Mono.Security.X509.Extensions\SubjectKeyIdentifierExtension.cs" />
+    <Compile Include="Mono.Security\Mono.Security.X509\PKCS12.cs" />
+    <Compile Include="Mono.Security\Mono.Security.X509\X501Name.cs" />
+    <Compile Include="Mono.Security\Mono.Security.X509\X509Builder.cs" />
+    <Compile Include="Mono.Security\Mono.Security.X509\X509Certificate.cs" />
+    <Compile Include="Mono.Security\Mono.Security.X509\X509CertificateBuilder.cs" />
+    <Compile Include="Mono.Security\Mono.Security.X509\X509CertificateCollection.cs" />
+    <Compile Include="Mono.Security\Mono.Security.X509\X509Chain.cs" />
+    <Compile Include="Mono.Security\Mono.Security.X509\X509ChainStatusFlags.cs" />
+    <Compile Include="Mono.Security\Mono.Security.X509\X509CRL.cs" />
+    <Compile Include="Mono.Security\Mono.Security.X509\X509Extension.cs" />
+    <Compile Include="Mono.Security\Mono.Security.X509\X509Extensions.cs" />
+    <Compile Include="Mono.Security\Mono.Security.X509\X509Store.cs" />
+    <Compile Include="Mono.Security\Mono.Security.X509\X509StoreManager.cs" />
+    <Compile Include="Mono.Security\Mono.Security.X509\X509Stores.cs" />
+    <Compile Include="Mono.Security\Mono.Security.X509\X520Attributes.cs" />
+    <Compile Include="Mono.Security\Mono.Security\ASN1.cs" />
+    <Compile Include="Mono.Security\Mono.Security\ASN1Convert.cs" />
+    <Compile Include="Mono.Security\Mono.Security\BitConverterLE.cs" />
+    <Compile Include="Mono.Security\Mono.Security\PKCS7.cs" />
+    <Compile Include="Mono.Security\Mono.Security\StrongName.cs" />
+    <Compile Include="Mono.Security\Mono.Xml\MiniParser.cs" />
+    <Compile Include="Mono.Security\Mono.Xml\SecurityParser.cs" />
+    <Compile Include="Mono.WebServer.XSP\CompatTuple.cs" />
+    <Compile Include="Mono.WebServer.XSP\ConfigurationManager.cs" />
+    <Compile Include="Mono.WebServer.XSP\main.cs" />
+    <Compile Include="Mono.WebServer.XSP\SecurityConfiguration.cs" />
+    <Compile Include="Mono.WebServer.XSP\SslInformation.cs" />
+    <Compile Include="Mono.WebServer.XSP\XSPApplicationHost.cs" />
+    <Compile Include="Mono.WebServer.XSP\XSPRequestBroker.cs" />
+    <Compile Include="Mono.WebServer.XSP\XSPWebSource.cs" />
+    <Compile Include="Mono.WebServer.XSP\XSPWorker.cs" />
+    <Compile Include="Mono.WebServer.XSP\XSPWorkerRequest.cs" />
+    <Compile Include="Mono.WebServer\ApplicationServer.cs" />
+    <Compile Include="Mono.WebServer\BaseApplicationHost.cs" />
+    <Compile Include="Mono.WebServer\BaseRequestBroker.cs" />
+    <Compile Include="Mono.WebServer\EndOfRequestHandler.cs" />
+    <Compile Include="Mono.WebServer\FinePlatformID.cs" />
+    <Compile Include="Mono.WebServer\HttpErrors.cs" />
+    <Compile Include="Mono.WebServer\IApplicationHost.cs" />
+    <Compile Include="Mono.WebServer\IdentityToken.cs" />
+    <Compile Include="Mono.WebServer\InitialWorkerRequest.cs" />
+    <Compile Include="Mono.WebServer\IRequestBroker.cs" />
+    <Compile Include="Mono.WebServer\LingeringNetworkStream.cs" />
+    <Compile Include="Mono.WebServer\LockRecursionException.cs" />
+    <Compile Include="Mono.WebServer\LockRecursionPolicy.cs" />
+    <Compile Include="Mono.WebServer\Log\FileLogger.cs" />
+    <Compile Include="Mono.WebServer\Log\ILogger.cs" />
+    <Compile Include="Mono.WebServer\Log\Logger.cs" />
+    <Compile Include="Mono.WebServer\Log\LogLevel.cs" />
+    <Compile Include="Mono.WebServer\MapPathEventArgs.cs" />
+    <Compile Include="Mono.WebServer\MapPathEventHandler.cs" />
+    <Compile Include="Mono.WebServer\MonoWorkerRequest.cs" />
+    <Compile Include="Mono.WebServer\Options\ConfigurationManager.cs" />
+    <Compile Include="Mono.WebServer\Options\ConfigurationManager.Fields.cs" />
+    <Compile Include="Mono.WebServer\Options\ConfigurationManagerExtensions.cs" />
+    <Compile Include="Mono.WebServer\Options\Descriptions.cs" />
+    <Compile Include="Mono.WebServer\Options\IHelpConfigurationManager.cs" />
+    <Compile Include="Mono.WebServer\Options\Options.cs" />
+    <Compile Include="Mono.WebServer\Options\ServerConfigurationManager.cs" />
+    <Compile Include="Mono.WebServer\Options\Settings\BoolSetting.cs" />
+    <Compile Include="Mono.WebServer\Options\Settings\EnumSetting.cs" />
+    <Compile Include="Mono.WebServer\Options\Settings\Int32Setting.cs" />
+    <Compile Include="Mono.WebServer\Options\Settings\ISetting.cs" />
+    <Compile Include="Mono.WebServer\Options\Settings\NullableInt32Setting.cs" />
+    <Compile Include="Mono.WebServer\Options\Settings\NullableSetting.cs" />
+    <Compile Include="Mono.WebServer\Options\Settings\NullableUInt16Setting.cs" />
+    <Compile Include="Mono.WebServer\Options\Settings\Parser.cs" />
+    <Compile Include="Mono.WebServer\Options\Settings\Setting.cs" />
+    <Compile Include="Mono.WebServer\Options\Settings\SettingsCollection.cs" />
+    <Compile Include="Mono.WebServer\Options\Settings\SettingSource.cs" />
+    <Compile Include="Mono.WebServer\Options\Settings\StringSetting.cs" />
+    <Compile Include="Mono.WebServer\Options\Settings\UInt16Setting.cs" />
+    <Compile Include="Mono.WebServer\Options\Settings\UInt32Setting.cs" />
+    <Compile Include="Mono.WebServer\Paths.cs" />
+    <Compile Include="Mono.WebServer\Platform.cs" />
+    <Compile Include="Mono.WebServer\RequestData.cs" />
+    <Compile Include="Mono.WebServer\RequestLineException.cs" />
+    <Compile Include="Mono.WebServer\SearchPattern.cs" />
+    <Compile Include="Mono.WebServer\UnregisterRequestEventArgs.cs" />
+    <Compile Include="Mono.WebServer\UnregisterRequestEventHandler.cs" />
+    <Compile Include="Mono.WebServer\Version.cs" />
+    <Compile Include="Mono.WebServer\VPathToHost.cs" />
+    <Compile Include="Mono.WebServer\WebSource.cs" />
+    <Compile Include="Mono.WebServer\WebTrace.cs" />
+    <Compile Include="Mono.WebServer\Worker.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Mono.Posix\Mono.Posix\ChangeLog" />
+    <None Include="Mono.Posix\Mono.Remoting.Channels.Unix\ChangeLog" />
+    <None Include="Mono.Posix\Mono.Unix.Native\ChangeLog" />
+    <None Include="Mono.Posix\Mono.Unix\ChangeLog" />
+    <None Include="Mono.Security\Mono.Math.Prime.Generator\ChangeLog" />
+    <None Include="Mono.Security\Mono.Math.Prime\ChangeLog" />
+    <None Include="Mono.Security\Mono.Math\ChangeLog" />
+    <None Include="Mono.Security\Mono.Security.Authenticode\ChangeLog" />
+    <None Include="Mono.Security\Mono.Security.Cryptography\ChangeLog" />
+    <None Include="Mono.Security\Mono.Security.Protocol.Ntlm\ChangeLog" />
+    <None Include="Mono.Security\Mono.Security.Protocol.Tls.Handshake.Client\ChangeLog" />
+    <None Include="Mono.Security\Mono.Security.Protocol.Tls.Handshake.Server\ChangeLog" />
+    <None Include="Mono.Security\Mono.Security.Protocol.Tls.Handshake\ChangeLog" />
+    <None Include="Mono.Security\Mono.Security.Protocol.Tls\ChangeLog" />
+    <None Include="Mono.Security\Mono.Security.X509.Extensions\ChangeLog" />
+    <None Include="Mono.Security\Mono.Security.X509\ChangeLog" />
+    <None Include="Mono.Security\Mono.Security\ChangeLog" />
+    <None Include="Mono.Security\Mono.Xml\ChangeLog" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
