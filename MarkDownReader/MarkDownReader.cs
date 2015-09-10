@@ -84,8 +84,17 @@ namespace MarkDownReader
 
             InitializeComponent();
 
+
+            string curDir = System.IO.Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location);
+            curDir = System.IO.Path.Combine(curDir, "..");
+            curDir = System.IO.Path.Combine(curDir, "..");
+            curDir = System.IO.Path.Combine(curDir, "..");
+            curDir = System.IO.Path.Combine(curDir, "MarkDownReaderAndWriter");
+
+            curDir = System.IO.Path.GetFullPath(curDir);
+
             this.m_ews = new EmbeddedWebServer.EmbeddedServer();
-            this.m_ews.AddApplication(@"C:\Users\Administrator\Documents\Visual Studio 2015\Projects\MarkDownReaderAndWriter\MarkDownReaderAndWriter");
+            this.m_ews.AddApplication(curDir);
         } // End Constructor 
 
 
