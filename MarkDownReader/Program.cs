@@ -1,8 +1,7 @@
-﻿using System;
+﻿
+using System;
 using System.Collections.Generic;
 using System.Windows.Forms;
-
-using System.Diagnostics;
 
 
 namespace MarkDownReader
@@ -19,13 +18,13 @@ namespace MarkDownReader
         [STAThread]
         static void Main()
         {
-            // isPackageInstalled();
-            List<Linux.dpkg.BrowserInfo> ls = Linux.dpkg.getInstalledBrowsers();
-            System.Console.WriteLine(ls);
-
-            //Application.EnableVisualStyles();
-            //Application.SetCompatibleTextRenderingDefault(false);
-            //Application.Run(new MarkDownReader());
+            Application.EnableVisualStyles();
+            Application.SetCompatibleTextRenderingDefault(false);
+            Application.Run(new MarkDownReader());
         }
+
+
     }
+
+
 }

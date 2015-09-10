@@ -299,6 +299,7 @@
     <Compile Include="Mono.WebServer\Worker.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="dpkg.cs" />
+    <Compile Include="StringHelpers.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Mono.Posix\Mono.Posix\ChangeLog" />
