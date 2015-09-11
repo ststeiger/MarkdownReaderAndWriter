@@ -63,8 +63,7 @@ namespace EmbeddedWebServer
 
         public void OpenBrowser()
         {
-
-            System.Collections.Generic.List<PlatformInfo.BrowserInfo> bi = PlatformInfo.DistroInfo.GetPreferableBrowser(); 
+            System.Collections.Generic.List<PlatformInfo.BrowserInfo> bi = PlatformInfo.BrowserInfo.GetPreferableBrowser(); 
             string url = "\"" + "http://127.0.0.1:" + this.m_Port.ToString() + "/Index.htm\"";
 
             if (bi.Count > 0)

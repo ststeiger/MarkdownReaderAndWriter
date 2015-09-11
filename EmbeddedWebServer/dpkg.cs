@@ -44,6 +44,25 @@ namespace PlatformInfo
         }
 
 
+        public static System.Collections.Generic.List<BrowserInfo> GetPreferableBrowser()
+        {
+            return GetPreferableBrowser(BrowserInfo.DefaultBrowserRating);
+        }
+
+
+        public static System.Collections.Generic.List<BrowserInfo> GetPreferableBrowser(BrowserRatingCallback_t browserRatingCallback)
+        {
+            if (System.Environment.OSVersion.Platform != System.PlatformID.Unix)
+                return Win.GetPreferableBrowser(browserRatingCallback);
+            // ELSE: Linux / Unix / MacOS
+
+            if (DistroInfo.PackageManager == DistroInfo.PackageManager_t.dpkg)
+                return dpkg.GetInstalledBrowsers(browserRatingCallback);
+
+            return new System.Collections.Generic.List<BrowserInfo>();
+        }
+
+
     } // End Class BrowserInfo : System.IComparable<BrowserInfo> 
 
 
@@ -258,26 +277,6 @@ namespace PlatformInfo
             } // End Get 
         } // End Property Distro
 
-
-        
-        public static System.Collections.Generic.List<BrowserInfo> GetPreferableBrowser()
-        {
-            return GetPreferableBrowser(BrowserInfo.DefaultBrowserRating);
-        }
-
-
-        public static System.Collections.Generic.List<BrowserInfo> GetPreferableBrowser(BrowserRatingCallback_t browserRatingCallback)
-        {
-            if(System.Environment.OSVersion.Platform != System.PlatformID.Unix)
-                return Win.GetPreferableBrowser(browserRatingCallback);
-            // ELSE: Linux / Unix / MacOS
-
-            if (PackageManager == PackageManager_t.dpkg)
-                return dpkg.GetInstalledBrowsers(browserRatingCallback);
-
-            return new System.Collections.Generic.List<BrowserInfo>();
-        }
-        
 
     } // End Class DistroInfo 
 
