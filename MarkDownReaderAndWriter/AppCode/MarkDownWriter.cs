@@ -4,11 +4,26 @@ using System.Web;
 
 namespace MarkDownReaderAndWriter
 {
+
+
     public class MarkDownWriter
     {
 
+        public static void WriteHtml(HttpContext context, string file)
+        {
+            string cont = System.IO.File.ReadAllText(file, System.Text.Encoding.UTF8);
 
-        private static string Base64Encode(string plainText)
+            cont = cont.Replace("</head>", "<base href =\"/ajax/Resource.ashx/\"" 
+                + System.Web.HttpUtility.UrlPathEncode( 
+                    Base64Encode(System.IO.Path.GetDirectoryName(file))
+                )
+                +"\" /></head>");
+            context.Response.Output.Write(cont);
+        }
+
+
+
+        public static string Base64Encode(string plainText)
         {
             var plainTextBytes = System.Text.Encoding.UTF8.GetBytes(plainText);
             return System.Convert.ToBase64String(plainTextBytes);

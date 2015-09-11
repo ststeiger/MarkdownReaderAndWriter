@@ -69,6 +69,13 @@ namespace MarkDownReaderAndWriter.ajax
                     return;
                 }
 
+                if (System.StringComparer.InvariantCultureIgnoreCase.Equals(ext, ".htm") || System.StringComparer.InvariantCultureIgnoreCase.Equals(ext, ".html"))
+                {
+                    context.Response.ContentType = "text/html";
+                    MarkDownWriter.WriteHtml(context, path);
+                    return;
+                }
+
 
                 System.Data.DataRow[] mimeInfos = MimeHandling.GetMimeInfos(ext);
 

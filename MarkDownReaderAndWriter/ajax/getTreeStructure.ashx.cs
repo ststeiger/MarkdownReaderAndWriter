@@ -15,8 +15,7 @@ namespace MarkDownReaderAndWriter.ajax
     /// </summary>
     public class getTreeStructure : IHttpHandler
     {
-
-        
+           
 
         public static List<TreeItem> GetNonRootData(string dir)
         {
@@ -46,7 +45,7 @@ namespace MarkDownReaderAndWriter.ajax
                     if ((di.Attributes & System.IO.FileAttributes.Hidden) == System.IO.FileAttributes.Hidden)
                         continue;
 
-                        if (di.GetFiles().Length > 0 || di.GetDirectories().Length > 0)
+                    if (di.GetFiles().Length > 0 || di.GetDirectories().Length > 0)
                     {
                         root.children = true;
                         root.state = TreeItem.NodeState.closed;
@@ -173,6 +172,169 @@ namespace MarkDownReaderAndWriter.ajax
 
 
         public static List<TreeItem> GetRootData()
+        {
+            if (System.Environment.OSVersion.Platform == PlatformID.Unix)
+                return GetRootData_Linux(); 
+            
+            return GetRootData_Windows();
+        }
+
+
+
+        public static List<TreeItem> GetRootData_Linux()
+        {
+            List<TreeItem> ls = new List<TreeItem>();
+            {
+                TreeItem root = new TreeItem();
+                root.id = System.Guid.NewGuid().ToString();
+                root.text = "Home";
+                //root.children = System.Convert.ToBoolean(dr["HasChildren"]);
+                root.children = true;
+                root.state = TreeItem.NodeState.closed;
+                root.data = getHomePath();
+
+                // root.type = 123;
+                // root.type = type_t.SO;
+                // root.type = (type_t)Enum.Parse(typeof(type_t), System.Convert.ToString(dr["objtype"]));
+                root.type = "SpecialFolder";
+
+
+                System.IO.DirectoryInfo di = new System.IO.DirectoryInfo(root.data);
+
+                if (di.Exists)
+                {
+                    if (di.GetFiles().Length == 0 && di.GetDirectories().Length == 0)
+                    {
+                        root.children = false;
+                        root.state = TreeItem.NodeState.leaf;
+                    }
+
+                    if(System.IO.Directory.Exists(root.data))
+                        ls.Add(root);
+                }
+            }
+
+            {
+                TreeItem root = new TreeItem();
+                root.id = System.Guid.NewGuid().ToString();
+                root.text = "Desktop";
+                //root.children = System.Convert.ToBoolean(dr["HasChildren"]);
+                root.children = true;
+                root.state = TreeItem.NodeState.closed;
+                root.data = System.Environment.GetFolderPath(Environment.SpecialFolder.DesktopDirectory);
+
+                // root.type = 123;
+                // root.type = type_t.SO;
+                // root.type = (type_t)Enum.Parse(typeof(type_t), System.Convert.ToString(dr["objtype"]));
+                root.type = "SpecialFolder";
+                System.IO.DirectoryInfo di = new System.IO.DirectoryInfo(root.data);
+
+                if (di.Exists)
+                {
+                    if (di.GetFiles().Length == 0 && di.GetDirectories().Length == 0)
+                    {
+                        root.children = false;
+                        root.state = TreeItem.NodeState.leaf;
+                    }
+
+                    if(System.IO.Directory.Exists(root.data))
+                        ls.Add(root);
+                }
+            }
+
+            {
+                TreeItem root = new TreeItem();
+                root.id = System.Guid.NewGuid().ToString();
+                root.text = "Documents";
+                //root.children = System.Convert.ToBoolean(dr["HasChildren"]);
+                root.children = true;
+                root.state = TreeItem.NodeState.closed;
+                root.data = System.IO.Path.Combine(getHomePath(), "Documents");
+
+                // root.type = 123;
+                // root.type = type_t.SO;
+                // root.type = (type_t)Enum.Parse(typeof(type_t), System.Convert.ToString(dr["objtype"]));
+                root.type = "SpecialFolder";
+
+                System.IO.DirectoryInfo di = new System.IO.DirectoryInfo(root.data);
+
+                if (di.Exists)
+                {
+                    if (di.GetFiles().Length == 0 && di.GetDirectories().Length == 0)
+                    {
+                        root.children = false;
+                        root.state = TreeItem.NodeState.leaf;
+                    }
+
+                    if(System.IO.Directory.Exists(root.data))
+                        ls.Add(root);
+                }
+            }
+
+            {
+                TreeItem root = new TreeItem();
+                root.id = System.Guid.NewGuid().ToString();
+                root.text = "Downloads";
+                //root.children = System.Convert.ToBoolean(dr["HasChildren"]);
+                root.children = true;
+                root.state = TreeItem.NodeState.closed;
+                root.data = getDownloadFolderPath();
+
+                // root.type = 123;
+                // root.type = type_t.SO;
+                // root.type = (type_t)Enum.Parse(typeof(type_t), System.Convert.ToString(dr["objtype"]));
+                root.type = "SpecialFolder";
+
+                System.IO.DirectoryInfo di = new System.IO.DirectoryInfo(root.data);
+
+                if (di.Exists)
+                {
+                    if (di.GetFiles().Length == 0 && di.GetDirectories().Length == 0)
+                    {
+                        root.children = false;
+                        root.state = TreeItem.NodeState.leaf;
+                    }
+
+                    if(System.IO.Directory.Exists(root.data))
+                        ls.Add(root);
+                }
+            }
+
+
+            {
+                TreeItem root = new TreeItem();
+                root.id = System.Guid.NewGuid().ToString();
+                root.text = "/";
+                //root.children = System.Convert.ToBoolean(dr["HasChildren"]);
+                root.children = true;
+                root.state = TreeItem.NodeState.closed;
+                root.data = "/";
+
+                // root.type = 123;
+                // root.type = type_t.SO;
+                // root.type = (type_t)Enum.Parse(typeof(type_t), System.Convert.ToString(dr["objtype"]));
+                root.type = "folder";
+
+                System.IO.DirectoryInfo di = new System.IO.DirectoryInfo(root.data);
+
+                if (di.Exists)
+                {
+                    if (di.GetFiles().Length == 0 && di.GetDirectories().Length == 0)
+                    {
+                        root.children = false;
+                        root.state = TreeItem.NodeState.leaf;
+                    }
+
+                    if(System.IO.Directory.Exists(root.data))
+                        ls.Add(root);
+                }
+            }
+
+            return ls;
+        }
+
+
+        public static List<TreeItem> GetRootData_Windows()
         {
             List<TreeItem> ls = new List<TreeItem>();
 

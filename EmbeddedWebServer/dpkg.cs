@@ -57,9 +57,14 @@ namespace PlatformInfo
             ,Ubuntu 
             ,Mint 
 
+            ,Arch
+            ,Gentoo
+
+            ,CentOS
+            ,Fedora
             ,RedHat 
-            ,CentOS 
-            ,Fedora 
+             
+             
             ,Mageia
             ,Suse 
 
@@ -70,8 +75,8 @@ namespace PlatformInfo
             
             ,SunJDS
             ,Solaris 
-            ,Gentoo 
-            ,Arch 
+            ,UnitedLinux
+             
 
             ,Unknown
         } // End Enum Distro_t 
@@ -193,60 +198,63 @@ namespace PlatformInfo
             get{
                 string issue = null;
 
-            if (System.IO.File.Exists("/etc/issue"))
-                issue = System.IO.File.ReadAllText("/etc/issue", System.Text.Encoding.UTF8);
+                if (System.IO.File.Exists("/etc/issue"))
+                    issue = System.IO.File.ReadAllText("/etc/issue", System.Text.Encoding.UTF8);
 
-            if (EmbeddedWebServer.StringHelpers.Contains(issue, "Ubuntu"))
-                return Distro_t.Ubuntu;
+                if (EmbeddedWebServer.StringHelpers.Contains(issue, "Ubuntu"))
+                    return Distro_t.Ubuntu;
 
-            if (System.IO.File.Exists("/etc/os-release"))
-                return Distro_t.Debian; // New Debian
+                if (System.IO.File.Exists("/etc/os-release"))
+                    return Distro_t.Debian; // New Debian
 
-            if (System.IO.File.Exists("/etc/debian_release"))
-                return Distro_t.Debian; // Old Debian
-
-
-
-
-            if (System.IO.File.Exists("/etc/gentoo-release"))
-                return Distro_t.Gentoo; // Not yet supported
-
-            if (System.IO.File.Exists("/etc/SuSE-release"))
-                return Distro_t.Suse;
+                if (System.IO.File.Exists("/etc/debian_release"))
+                    return Distro_t.Debian; // Old Debian
 
 
 
-            if (EmbeddedWebServer.StringHelpers.Contains(issue, "CentOS"))
-                return Distro_t.CentOS;
 
-            if (System.IO.File.Exists("/etc/fedora-release"))
-                return Distro_t.Fedora;
+                if (System.IO.File.Exists("/etc/gentoo-release"))
+                    return Distro_t.Gentoo; // Not yet supported
 
-            if (System.IO.File.Exists("/etc/redhat_version"))
-                return Distro_t.Fedora;
+                if (System.IO.File.Exists("/etc/SuSE-release"))
+                    return Distro_t.Suse;
+
+
+
+                if (EmbeddedWebServer.StringHelpers.Contains(issue, "CentOS"))
+                    return Distro_t.CentOS;
+
+                if (System.IO.File.Exists("/etc/fedora-release"))
+                    return Distro_t.Fedora;
+
+                if (System.IO.File.Exists("/etc/redhat_version"))
+                    return Distro_t.Fedora;
 
             
 
-            // Unsupported 
-            if (System.IO.File.Exists("/etc/mandrake-release"))
-                return Distro_t.Mandrake;
+                // Unsupported 
+                if (System.IO.File.Exists("/etc/mandrake-release"))
+                    return Distro_t.Mandrake;
             
-            if (System.IO.File.Exists("/etc/slackware-release"))
-                return Distro_t.Slackware;
+                if (System.IO.File.Exists("/etc/slackware-release"))
+                    return Distro_t.Slackware;
 
-            if (System.IO.File.Exists("/etc/yellowdog-release"))
-                return Distro_t.YellowDog;
+                if (System.IO.File.Exists("/etc/yellowdog-release"))
+                    return Distro_t.YellowDog;
 
-            if (System.IO.File.Exists("/etc/yellowdog-release"))
-                return Distro_t.YellowDog;
+                if (System.IO.File.Exists("/etc/yellowdog-release"))
+                    return Distro_t.YellowDog;
 
-            if (System.IO.File.Exists("/etc/sun-release"))
-                return Distro_t.SunJDS;
+                if (System.IO.File.Exists("/etc/sun-release"))
+                    return Distro_t.SunJDS;
 
-            if (System.IO.File.Exists("/etc/release"))
-                return Distro_t.Solaris;
+                if (System.IO.File.Exists("/etc/release"))
+                    return Distro_t.Solaris;
 
-            return Distro_t.Unknown;
+                if (System.IO.File.Exists("/etc/UnitedLinux-release"))
+                    return Distro_t.Solaris;
+                
+                return Distro_t.Unknown;
             } // End Get 
         } // End Property Distro
 
